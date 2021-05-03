@@ -1,0 +1,9 @@
+/letters
+/letters/**/*
+
+/resume
+/resume/**/*
+!/resume/index.html
+
+/src
+/src/**/*

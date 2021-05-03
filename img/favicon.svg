@@ -1,0 +1,19 @@
+<svg width="300" height="237" viewBox="0 0 300 237" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M282.422 0.00221729L45.9961 236.423H81.0039L299.993 17.4338V0.00221729H282.422Z" class="favicon"/>
+<path d="M109.998 236.425H144.985L299.995 81.4203V46.4332L109.998 236.425Z" class="favicon"/>
+<path d="M173.993 236.425H208.99L299.995 145.426L300 110.418L173.993 236.425Z" class="favicon"/>
+<path d="M90.4161 0.00159619L0.00516055 90.4125L0 125.415L125.419 0.00159619H90.4161Z" class="favicon"/>
+<path d="M0.00516339 154.411L154.416 0.00510357L189.439 -5.69824e-05L0 189.439L0.00516339 154.411Z" class="favicon"/>
+<path d="M218.425 0.0025835L0.00317383 218.424V236.424H16.9959L253.417 0.0025835H218.425Z" class="favicon"/>
+<style>
+.favicon {
+  fill: #31CB31;
+}
+
+@media (prefers-color-scheme: light) {
+  .favicon {
+    fill: #1E7C1E;
+  }
+}
+</style>
+</svg>
