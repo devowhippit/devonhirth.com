@@ -1,0 +1,61 @@
+footer(class='py-8')
+  div(class='px-3 max-w-desktop mx-auto')
+    nav(class='text-center pb-2')
+      a(href='/' class='') Home
+      | &nbsp;
+      a(href='/portfolio' class='') Portfolio
+      | &nbsp;
+      a(href='/resume' class='') Resume
+
+    nav(class='text-center')
+      a(href='https://expdesign.io' title='exp. design' class='inline-block mx-1')
+        svg(class='w-4 h-4' aria-hidden='true')
+          use(xlink:href='#exp-design')
+
+        span(class="sr-only") exp. design
+
+      | &nbsp;
+
+      a(href='https://linkedin.com/in/devonhirth/' title='LinkedIn' class='inline-block mx-1')
+        svg(class='w-4 h-4' aria-hidden='true')
+          use(xlink:href='#linkedin')
+
+        span(class="sr-only") LinkedIn
+
+      | &nbsp;
+
+      a(href='https://github.com/devowhippit' title='GitHub' class='inline-block mx-1')
+        svg(class='w-4 h-4' aria-hidden='true')
+          use(xlink:href='#github')
+
+        span(class="sr-only") GitHub
+
+script(src='https://documentcloud.adobe.com/view-sdk/main.js')
+
+script.
+  document.addEventListener('adobe_dc_view_sdk.ready', function() {
+    //- let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
+  });
+
+  const previewFile = (pdf, title) => {
+    let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
+
+    adobeDCView.previewFile({
+      content: {
+        location: {
+          url: pdf
+        }
+      },
+      metaData: {
+        fileName: title
+      }
+    }, {embedMode: 'LIGHT_BOX'});
+  };
+
+  document.querySelector('body').addEventListener('click', (event) => {
+    if (!event.target.matches('[data-js="pdf-view"]'))
+      return;
+
+    previewFile(event.target.dataset.pdfView, event.target.dataset.pdfTitle);
+  })
+</script>

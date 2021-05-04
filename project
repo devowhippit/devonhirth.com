@@ -1,0 +1,17 @@
+#!/bin/sh
+
+function imgs() {
+  for file in 'src/img'*
+
+  do
+    [[ $file = dist ]] && continue
+
+    cp -r "$file" 'dist/'
+  done
+}
+
+alias start='flume -s'
+
+alias tw='npx tailwindcss-cli@latest build ./src/utilities.css -o ./dist/utilities.css'
+
+alias publish='npx gh-pages@3.0.0 -d dist'
