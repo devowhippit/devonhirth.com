@@ -1,0 +1,39 @@
+---
+title: 'Devon Hirth'
+layout: './../../../pm/_includes/layouts/full.pug'
+---
+
+section(id='introduction' class='px-3 tablet:px-8 max-w-xlarge mx-auto pb-8 mb-8')
+  blockquote
+    p Hello! 👋
+
+    p I'm a designer from Saint Louis living in Brooklyn. My personal practice is named <a href='https://expdesign.io'>exp. design</a>. Currently, I'm working for <a href='https://codeforamerica.org' target='_blank' rel='nofollow noopener'>Code for America</a>.
+
+section(id='professional-references' class='px-3 grid tablet:grid-cols-2 gap-3 tablet:px-8 max-w-xlarge mx-auto pb-8 mb-8')
+  a(class='btn w-full m-0 py-8 justify-center border-4 flex-col tablet:flex-row' href='/resume')
+    svg(class='icon w-5 h-5 mie-1' aria-hidden='true')
+      use(xlink:href='#tabler-file-text')
+
+    span(class='h3 primary font-normal m-0 my-1')
+      | View my resume
+
+  a(class='btn w-full m-0 py-8 justify-center border-4 flex-col tablet:flex-row' href='/portfolio')
+    svg(class='icon w-5 h-5 mie-1' aria-hidden='true')
+      use(xlink:href='#tabler-folders')
+
+    span(class='h3 primary font-normal m-0 my-1')
+      | Browse my portfolio
+
+  a(class='btn w-full py-8 justify-center border-4 flex-col col-span-full' href='https://expdesign.io')
+    span(class='h3 primary font-normal m-0 justify-center') Go to
+
+    br
+
+    span(class='sr-only')
+      | exp. design
+
+    svg(aria-hidden='true' class='block' style="width: 220px; height: 41px;")
+      use(xlink:href='#logo-exp-design')
+
+block footer
+  include ./_includes/partials/footer.pug

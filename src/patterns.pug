@@ -1,0 +1,212 @@
+---
+title: 'Patterns'
+layout: './../../../pm/_includes/layouts/full.pug'
+---
+
+section(id='typography')
+  header(class='px-3')
+    div(class='max-w-desktop mx-auto')
+      h2(class='py-4 m-0')
+        a(href='#typography' class='flex mie-1 no-underline')
+          svg(class='icon w-4 h-4' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Typography
+
+  div(class='py-8 px-3 bg-t1')
+    div(class='max-w-desktop mx-auto')
+      h3(class='border-b border-t0 pb-2')
+        a(id='headings' href='#headings' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Headings
+
+      h1 The quick brown fox jumps over the lazy dog
+
+      h2 The quick brown fox jumps over the lazy dog
+
+      h3 The quick brown fox jumps over the lazy dog
+
+      h4 The quick brown fox jumps over the lazy dog
+
+      h5 The quick brown fox jumps over the lazy dog
+
+      h6 The quick brown fox jumps over the lazy dog
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='blockquote' href='#blockquote' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
+
+        | Blockquote
+
+      blockquote As a product designer on the product and technology team I work with other members to support our portfolio of products using user experience (UX) research/design and user interface (UI) design/engineering. This is done through direct input as well as mentorship of full-time staff and fellows.
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='small' href='#small' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
+
+        | Small
+
+      small exp. design helps move social impact forward
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='paragraphs' href='#paragraphs' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
+
+        | Paragraphs
+
+      p My digital product experience ranges from the front-end of research all the way to engineering and delivery. Currently, I'm working with The Mayor's Office for Economic Opportunity (NYC Opportunity), part of the Mayor's Office of Operations, which works to reduce poverty and broaden opportunity for New York City residents. As a designer and engineer I have come up against many challenges, both creative and technical, and I derive a great deal of satisfaction overcoming them. One of the ways of doing that I value the most is listening to people and using their insight to solve complex problems.
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='links' href='#links' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
+
+        | Links
+
+      a(href='#links') Links
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='highlight' href='#highlight' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Highlight
+
+      mark Mayor's Office for Economic Opportunity
+
+section(id='forms')
+  header(class='px-3')
+    div(class='max-w-desktop mx-auto')
+      h2(class='py-4 m-0')
+        a(href='#forms' class='flex mie-1 no-underline')
+          svg(class='icon w-4 h-4' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Forms
+
+  div(class='py-8 px-3 bg-t1')
+    div(class='max-w-desktop mx-auto')
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='questions' href='#questions' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Questions
+
+      div(class='question')
+        label(class='label' for="answer") Question label
+
+        div
+          div(class='input')
+            input(type='text' id="answer" placeholder='Answer')
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='buttons' href='#buttons' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Buttons
+
+      button(class='btn') Button
+      | &nbsp;
+      a(href='#' class='btn') Link
+      | &nbsp;
+      button(class='btn btn-primary') Button
+      | &nbsp;
+      a(href='#' class='btn btn-primary') Link
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='select' href='#select' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Select
+
+      div(class='question')
+        label(class='label' for='select-an-option') Question label
+
+        div
+          div(class="select")
+            select(id='select-an-option')
+              option Select an Option
+              option(disabled) ---
+              option Option
+
+            svg(aria-hidden="true" class="select__graphic")
+              use(xlink:href="#select-graphic")
+
+      h3(class='border-b border-t0 pb-2 mt-6')
+        a(id='options' href='#options' class='flex mie-1 no-underline')
+          svg(class='icon' role='img')
+            title Anchor Link
+            use(xlink:href='#tabler-hash')
+
+        | Options
+
+      div(class='question')
+        label(class='label') Question label
+
+        div
+          fieldset
+            legend Radio
+
+            label(class='opt' for='opt-a')
+              input(id='opt-a' name='opt["radio"]' type='radio' value='opt-a' class='sr-only')
+
+              span(class='opt__base')
+                svg(aria-hidden='true' class='opt__graphic')
+                  use(xlink:href='#radio-graphic')
+
+                span(class='opt__label') Radio Option A
+            | &nbsp;
+            label(class='opt' for='opt-b')
+              input(id='opt-b' name='opt["radio"]' type='radio' value='opt-b' class='sr-only')
+
+              span(class='opt__base')
+                svg(aria-hidden='true' class='opt__graphic')
+                  use(xlink:href='#radio-graphic')
+
+                span(class='opt__label') Radio Option B
+
+      div(class='question')
+        label(class='label') Question label
+
+        div
+          fieldset
+            legend Checkbox
+
+            label(class='opt' for='opt-check')
+              input(id='opt-check' name='opt["checkbox"]' type='checkbox' value='opt-check' class='sr-only')
+              span(class='opt__base')
+                svg(aria-hidden='true' class='opt__graphic')
+                  use(xlink:href='#checkbox-graphic')
+
+                span(class="opt__label") Option Check
+
+block footer
+  include ./_includes/partials/footer.pug
