@@ -73,12 +73,11 @@
 <h3 class="h5 primary">Joe Toohey, Principal of 2e Creative</h3>
 <h4 class="h6 primary">Managed Devon at 2e Creative</h4>
 <p>Devon embodies the individual who is constantly pushing himself to new heights yet has his feet firmly planted in the realities of life and the business of doing intelligent creative. His willingness to tackle any challenge with commitment and dedication to excellence functions as a catalyst to propel any initiative he undertakes to a heightened level. I am confident that one day he will be viewed as a trend leader within the creative industry.</p>
-</article></main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><script src="https://documentcloud.adobe.com/view-sdk/main.js"></script><script>document.addEventListener('adobe_dc_view_sdk.ready', function() {
-  //- let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
-});
-
-const previewFile = (pdf, title) => {
-  let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
+</article></main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><script src="https://documentcloud.adobe.com/view-sdk/main.js"></script><script>const previewFile = (pdf, title) => {
+  let adobeDCView = new AdobeDC.View({
+    clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
+      '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+  });
 
   adobeDCView.previewFile({
     content: {

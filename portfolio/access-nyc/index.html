@@ -146,12 +146,11 @@
 <p>ACCESS NYC has been an open-source project since it's launch. The GitHub repository for ACCESS NYC can be browsed following the link below.</p>
 <nav>
   <a class="btn btn-primary m-0 justify-center" href="https://github.com/cityOfNewYork/access-nyc" target="_blank"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> ACCESS NYC Repository</a>
-</nav></main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><script src="https://documentcloud.adobe.com/view-sdk/main.js"></script><script>document.addEventListener('adobe_dc_view_sdk.ready', function() {
-  //- let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
-});
-
-const previewFile = (pdf, title) => {
-  let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
+</nav></main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><script src="https://documentcloud.adobe.com/view-sdk/main.js"></script><script>const previewFile = (pdf, title) => {
+  let adobeDCView = new AdobeDC.View({
+    clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
+      '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+  });
 
   adobeDCView.previewFile({
     content: {

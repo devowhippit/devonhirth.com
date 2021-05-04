@@ -1,11 +1,10 @@
 <!DOCTYPE html><html dir="ltr" lang="en"><head><meta charset="utf-8"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Devon Hirth</title><link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/utilities.css"></head><body><header class="py-8"><div class="px-3 max-w-desktop mx-auto"><h1 class="h2"><a class="no-underline" href="/">Devon Hirth</a></h1></div></header><main class="py-8 px-3 max-w-desktop mx-auto"><nav class="grid grid-cols-2 gap-3">
   <a class="btn py-8 m-0 justify-center" href="/resume"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-file-text"></use></svg> Resume</a> <a class="btn py-8 m-0 justify-center" href="/portfolio"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> Portfolio</a>
-</nav></main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><script src="https://documentcloud.adobe.com/view-sdk/main.js"></script><script>document.addEventListener('adobe_dc_view_sdk.ready', function() {
-  //- let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
-});
-
-const previewFile = (pdf, title) => {
-  let adobeDCView = new AdobeDC.View({clientId: '0ae2aed590c0475cb8dde8ebf2d2a290'});
+</nav></main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><script src="https://documentcloud.adobe.com/view-sdk/main.js"></script><script>const previewFile = (pdf, title) => {
+  let adobeDCView = new AdobeDC.View({
+    clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
+      '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+  });
 
   adobeDCView.previewFile({
     content: {
