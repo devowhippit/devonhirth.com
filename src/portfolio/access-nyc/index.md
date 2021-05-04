@@ -1,21 +1,20 @@
 ---
-title: 'ACCESS NYC / Portfolio'
-layout: 'layouts/default.pug'
+title: 'DACCESS NYC / Portfolio / Devon Hirth'
+layout: './../../../_includes/layouts/default.pug'
 ---
 
 ## ACCESS NYC
 
-<a href="https://access.nyc.gov" class="h5 flex items-center" target="_blank">
-  View Site <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg>
+* <a href="https://access.nyc.gov" class="flex items-center" target="_blank">View site <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg>
 </a>
 
-### Role: Digital Product Designer and Lead Developer {.h5}
+* **Role**: Digital Product Designer and Lead Developer
 
 <!-- <figure class="figure-full">
   ACCESS NYC
 </figure> -->
 
-ACCESS NYC has been my primary product assignment at the Mayor's Office for Economic Opportunity, and it offers the following features:
+ACCESS NYC has been my primary product assignment at the Mayor's Office for Economic Opportunity. The site is a public benefits platform offering the following features:
 
 * Program guides for over 60 local, state, and federal benefit programs in 11 languages.
 * An eligibility screener for over 30 benefit programs.
@@ -33,12 +32,18 @@ ACCESS NYC has won several Government Design and Techonology awards since it's l
 * 2018 Adobe Government Creativity Awards
 * 2017 Best Application Serving the Public: Center for Digital Government, Best of New York
 
+&nbsp;
+
 ### <a class="flex mie-1 no-underline" id="access-nyc-featured-projects" href="#access-nyc-featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Projects {#access-nyc-featured-projects}
+
+---
 
 * [COVID Response](#covid-response)
 * [UI Pattern Library](#ui-pattern-library)
 * [Field Screener](#field-screener)
 * [Development Contributions](#development-contributions)
+
+&nbsp;
 
 #### <a class="flex mie-1 no-underline" id="covid-response" href="#covid-response"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> COVID Response {#covid-response}
 

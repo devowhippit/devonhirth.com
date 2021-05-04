@@ -1,15 +1,14 @@
 ---
-title: 'Working NYC / Portfolio'
-layout: 'layouts/default.pug'
+title: 'Working NYC / Portfolio / Devon Hirth'
+layout: './../../../_includes/layouts/default.pug'
 ---
 
 ## Working NYC
 
-<a href="https://working.nyc.gov" class="h5 flex items-center" target="_blank">
-  View site <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg>
+* <a href="https://working.nyc.gov" class="flex items-center" target="_blank">View site <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg>
 </a>
 
-### Role: Lead Digital Product Designer {.h5}
+* **Role**: Lead Digital Product Designer
 
 During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create a site that helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product is to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. Since the initial launch, I have established a UX process that combines qualitative and quantitative feedback mechanisms to lead design research and feature development on the site.
 
@@ -17,11 +16,17 @@ During the summer of 2020, the Mayor's Office of Workforce Development partnered
   <img src="img/wnyc-banner.png">
 </figure> -->
 
-<!-- ##### <a class="flex mie-1 no-underline" id="working-nyc-featured-projects" href="#working-nyc-featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Projects {#working-nyc-featured-projects} -->
+&nbsp;
 
-<!-- * [Product Development and Launch](#product-development-and-launch) -->
+##### <a class="flex mie-1 no-underline" id="working-nyc-featured-projects" href="#working-nyc-featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Projects {#working-nyc-featured-projects}
+
+---
+
+* [Product Development and Launch](#product-development-and-launch)
 <!-- * [UX Process](#ux-process) -->
 <!-- * [Feedback Mechanisms](#feedback-mechanisms) -->
+
+&nbsp;
 
 ### <a class="flex mie-1 no-underline" id="product-development-and-launch" href="#product-development-and-launch"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Product Development and Launch {#product-development-and-launch}
 
@@ -122,11 +127,11 @@ Our strategy for the site was to have the content to lead the user experience. T
 **Static HTML design**. I used the program page content priority guide to build out the view and added UI elements such as the sticky utility navigation, breadcrumbs, recruitment badge, typography styling of the content, newsletter sign-up module, site footer, and mobile navigation and menu.
 
 <figure class="figure py-8">
-  <iframe class="iframe" width="378" height="667" src="https://cityofnewyork.github.io/workingnyc-patterns/demos/programs/red-hook-on-the-road"></iframe>
+  <iframe class="iframe mb-8" width="378" height="667" src="https://cityofnewyork.github.io/working-nyc-patterns/demos/programs/red-hook-on-the-road"></iframe>
 
   <figcaption>
     <p>This is the static HTML design I created using the Working NYC pattern library.</p>
-    <p><a class="btn btn-primary" target="_blank" href="https://cityofnewyork.github.io/workingnyc-patterns/demos/programs/red-hook-on-the-road">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
+    <p><a class="btn btn-primary" target="_blank" href="https://cityofnewyork.github.io/working-nyc-patterns/demos/programs/red-hook-on-the-road">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
 
@@ -164,11 +169,11 @@ Our strategy for the site was to have the content to lead the user experience. T
 </figure>
 
 <figure class="figure py-8">
-  <iframe class="iframe" width="378" height="667" src="https://cityofnewyork.github.io/workingnyc-patterns/demos/index"></iframe>
+  <iframe class="iframe mb-8" width="378" height="667" src="https://cityofnewyork.github.io/working-nyc-patterns/demos/index"></iframe>
 
   <figcaption>
     <p>This is the static HTML design I created using the Working NYC pattern library.</p>
-    </p><a class="btn btn-primary" target="_blank" href="https://cityofnewyork.github.io/workingnyc-patterns/demos/index">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
+    </p><a class="btn btn-primary" target="_blank" href="https://cityofnewyork.github.io/working-nyc-patterns/demos/index">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
 
@@ -183,7 +188,7 @@ We conducted remote user acceptance testing with program managers and participan
 The design of the site is a collection of open-source code and public Figma file that can be scaled up as the product evolves. I also created internal documentation for all of the historical context behind the design so that team members would be able to understand my decisions. The GitHub repository and the Figma file can be browsed following the links below.
 
 <nav class="grid grid-cols-2 gap-3">
-  <a class="btn btn-primary m-0 justify-center" href="https://cityofnewyork.github.io/workingnyc-patterns/" target="_blank"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> Pattern Library</a> <a class="btn btn-primary m-0 justify-center" href="https://www.figma.com/file/CH7ZOCW55SgsDnsTj3UrTi" target="_blank"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-figma"></use></svg> Figma Design File</a>
+  <a class="btn btn-primary m-0 justify-center" href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> Pattern Library</a> <a class="btn btn-primary m-0 justify-center" href="https://www.figma.com/file/CH7ZOCW55SgsDnsTj3UrTi" target="_blank"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-figma"></use></svg> Figma Design File</a>
 </nav>
 
 <!-- ##### UX Process -->

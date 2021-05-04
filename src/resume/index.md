@@ -1,17 +1,17 @@
 ---
-title: 'Resume'
-layout: 'layouts/resume.pug'
+title: 'Resume / Devon Hirth'
+layout: './../../../_includes/layouts/resume.pug'
 ---
 
 ## Experience
 
 ---
 
-### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary}
+### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1}
 
 **Digital Product Designer, January 2020** – **Present (1 year 4 months)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design and user interface (UI) design/engineering.
 
-##### Projects {.h6 .primary}
+##### Projects {.h6 .primary .mt-0 .mb-1}
 
 * **Working NYC Product Launch** – Designed and developed the brand identity and UI for [working.nyc.gov](https://working.nyc.gov), a workforce program guide aggregator. Conducted usability interviews and worked with other team members to launch and iterate on the product during its post-launch phase.
 
@@ -21,7 +21,7 @@ layout: 'layouts/resume.pug'
 
 **Lead Front-end Developer, May 2017** – **January 2020 (2 years 9 months)**. As a lead front-end developer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using UI design and full-stack development.
 
-##### Projects {.h6 .primary}
+##### Projects {.h6 .primary .mt-0 .mb-1}
 
 * **ACCESS NYC Development Contributions** – Contributed to the development of 60+ releases to the core product, access.nyc.gov, including new features, optimizations, and security enhancements.
 
@@ -31,27 +31,25 @@ layout: 'layouts/resume.pug'
 
 * **Additional open-source projects** – Created 13+ open-source packages used by our products. Including pattern library tooling, WordPress plugins, and Vue.js applications.
 
-&nbsp;
-
-### Owner, Digital Product Designer, exp. design {.h5 .primary}
+### Principle, Digital Product Designer, exp. design {.h5 .primary .mb-1}
 
 **May 2009 – May 2017 (8 years 1 month), Greater New York City Area**. I provide digital product design and web development services using design research, brand identity, UX design, UI design, data visualization, and full-stack engineering through my freelance practice.
 
-##### Projects {.h6 .primary}
+##### Projects {.h6 .primary .mt-0 .mb-1}
 
 * **Clark Product Launch** – Designed and engineered UI elements for the product launch, including landing pages, social media assets, sign-up forms, and product UI for Clark, a tutoring business management platform.
 
 * **Hello Smile Homepage Redesign** – Redesigned and engineered homepage for this innovative NYC-based pediatric dental provider network.
 
-### 2016 Design Fellow at the Blue Ridge Labs @ Robin Hood Foundation {.h5 .primary}
+### 2016 Design Fellow at the Blue Ridge Labs @ Robin Hood Foundation {.h5 .primary .mb-1}
 
 **June 2016 – October 2016 (5 months), Greater New York City Area**. I participated in agile-based research, prototyping, and development sprints to create technology solutions for low-income New Yorkers that address access-to-justice issues in the areas of juvenile justice, foster care, and consumer debt.
 
-##### Projects {.h6 .primary}
+##### Projects {.h6 .primary .mt-0 .mb-1}
 
 * **Daisy Debt** – Led engineering and product design of a non-profit SAAS product, [daisydebt.org](https://daisydebt.org/), that helps financial counselors assert their client’s rights against unlawful debt collection agencies.
 
-### Co-founder, Chief Design Technologist at Quadrant.io {.h5 .primary}
+### Co-founder, Chief Design Technologist at Quadrant.io {.h5 .primary .mb-1}
 
 **May 2014 - December 2015 (1 year 8 months), Greater New York City Area**. Lead front-end developer and designer of the core product and marketing site for Quadrant.io, a macro-economic data platform. I designed and developed the brand identity and UI, including macro-economic data visualizations, dashboards, and chart-building tools.
 
