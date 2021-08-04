@@ -73,6 +73,7 @@
   --dh-screen-tablet: 768px;
   --dh-screen-mobile: 480px;
   --dh-screen-small: 400px;
+  --dh-screen-xsmall: 300px;
 
   /**
    * Borders
@@ -124,6 +125,58 @@
   --dh-icon-stroke: currentColor;
   --dh-icon-stroke-width: 2;
   --dh-icon-fill: none;
+
+  /**
+   * Fonts
+   */
+
+  --dh-font-size: 12px;
+  --dh-line-height: 1.6;
+  --dh-letter-spacing: 0;
+
+  --dh-font-webkit-smoothing: auto;
+  --dh-font-moz-smoothing: auto;
+
+  --dh-font-weight-normal: 400;
+  --dh-font-weight-bold: 700;
+
+  --dh-font-size-h1: 4em;
+  --dh-font-size-h2: 3.33em;
+  --dh-font-size-h3: 2em;
+  --dh-font-size-h4: 1.66em;
+  --dh-font-size-h5: 1.33em;
+  --dh-font-size-h6: 1em;
+
+  --dh-line-height-headings: 1.2;
+
+  --dh-font-size-blockquote: 3.33em;
+  --dh-line-height-blockquote: 1.2;
+
+  --dh-font-size-small: 0.875em;
+
+  --dh-type-margin: calc(var(--dh-grid) * 4);
+}
+
+/**
+ * Responsive Font Sizing
+ */
+
+@media screen and (min-width: 480px) {
+  :root {
+    --dh-font-size: 14px
+  }
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --dh-font-size: 16px
+  }
+}
+
+@media screen and (min-width: 960px) {
+  :root {
+    --dh-font-size: 18px
+  }
 }
 
 /**
@@ -181,36 +234,13 @@
   --dh-font-features-secondary: normal;
   /* --dh-line-height-secondary: 1.2; */
 
-  --dh-font-size: 18px;
-  --dh-line-height: 1.6;
-  --dh-letter-spacing: 0;
   --dh-font-family: var(--dh-font-family-primary);
   --dh-font-features: var(--dh-font-features-primary);
 
-  --dh-font-webkit-smoothing: auto;
-  --dh-font-moz-smoothing: auto;
-
-  --dh-font-weight-normal: 400;
-  --dh-font-weight-bold: 700;
-
-  --dh-font-size-h1: 4em;
-  --dh-font-size-h2: 3.33em;
-  --dh-font-size-h3: 2em;
-  --dh-font-size-h4: 1.66em;
-  --dh-font-size-h5: 1.33em;
-  --dh-font-size-h6: 1em;
-
   --dh-font-family-headings: var(--dh-font-family-primary);
-  --dh-line-height-headings: 1.2;
   --dh-font-weight-headings: var(--dh-font-weight-bold);
 
-  --dh-font-size-blockquote: 3.33em;
   --dh-font-family-blockquote: var(--dh-font-family-secondary);
-  --dh-line-height-blockquote: 1.2;
-
-  --dh-font-size-small: 0.875em;
-
-  --dh-type-margin: 40px;
 
   /**
    * Inputs (Text, Select, Options)
