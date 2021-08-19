@@ -1,91 +1,127 @@
 ---
 title: 'Portfolio / Devon Hirth'
-layout: './../../../_includes/layouts/portfolio.pug'
+layout: 'layouts/portfolio.pug'
+classes: []
+breadcrumbs: []
 ---
 
-## The Mayor's Office for Economic Opportunity
+## The Mayor's Office for Economic Opportunity {.sr-only}
 
-&nbsp;
-
-### Featured Product Portfolio
-
----
-
-<figure class="figure relative mb-8 h-80vh" style="background-color: #031837">
-  <img class="absolute bottom-0 right-0" src="/img/wnyc-shape-1.svg" width="262" height="289" />
-  <img class="absolute bottom-0 left-0" src="/img/wnyc-shape-2.svg" width="362" height="446" />
-  <img class="absolute top-0 right-0" src="/img/wnyc-shape-3.svg" width="306" height="203" />
-  <div class="absolute flex flex-col justify-center items-center px-8" style="width: 100%; height: 100%">
-    <img class="mb-6" src="/img/wnyc-logo-standard.svg" width="506" height="45" />
-    <a class="btn btn-primary" href="/portfolio/working-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View Working NYC projects</a>
+<figure class="figure -mx-3 tablet:mx-0" style="background-color: #031553">
+  <div class="figure__matte p-3 flex items-center justify-center">
+    <svg width="500" height="96" role="img">
+      <title>Office Logo</title>
+      <use xlink:href="#logo-nyco-secondary"></use>
+    </svg>
   </div>
-  <figcaption><a href="/portfolio/working-nyc"><b>Working NYC</b></a> – During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create a site that helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product is to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. <a href="/portfolio/working-nyc">View <b>Working NYC</b> projects</a>.</figcaption>
 </figure>
 
-<!-- * [**Working NYC**](/portfolio/working-nyc) – During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create a site that helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product is to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. [View **Working NYC** projects](/portfolio/working-nyc). -->
+The Mayor's Office for Economic Opportunity works to reduce poverty and increase equity for New York City residents. As a digital product designer and lead user interface (UI) engineer on my team, I support our portfolio of products on many aspects of their lifecycles, including strategy, scoping, research, development, delivery, and management. Much of our focus is to broaden the reach of city-based programs and services that drive down poverty. We do this by engaging other agency stakeholders to collect and standardize up-to-date information on services that provide employment, housing, health, cash assistance, and more. In turn, we publish that information in formats such as marketing sites, communication materials, open APIs, datasets, and other digital products for New Yorkers. Below are a few products that I have worked on with specific project examples for each.
 
-<figure class="figure relative mb-8 h-80vh" style="background-color: #F0F6FF">
-  <img class="absolute top-0 left-0 mt-8 mis-8" src="/img/anyc-icon-enrichment.svg" width="175" height="175" />
-  <img class="absolute bottom-0 left-0 mb-8 mis-8" src="/img/anyc-icon-people-with-disabilities.svg" width="181" height="181" />
-  <img class="absolute top-0 right-0 mt-8 mie-8" src="/img/anyc-icon-health.svg" width="167" height="167" />
-  <img class="absolute bottom-0 right-0 mb-8 mie-8" src="/img/anyc-icon-food.svg" width="182" height="182" />
-  <div class="absolute flex flex-col justify-center items-center px-8" style="color: #112E51; width: 100%; height: 100%">
-    <img class="mb-3" src="/img/anyc-logo-standard.svg" width="505" height="84" />
-    <p>(portfolio sample in-progress)</p>
-    <a class="btn btn-primary" href="/portfolio/access-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View ACCESS NYC projects</a>
+### <a class="flex mie-1 no-underline" id="featured-products" href="#featured-products"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Products
+
+#### Working NYC {.small .pb-2 .m-0 .font-normal}
+
+<figure class="figure" style="background-color: #031837">
+  <div class="figure__matte">
+    <img aria-hidden="true" class="absolute hidden desktop:block" src="/img/wnyc-shape-1.svg" width="352" height="352" style="right: -90px; bottom: -63px;" />
+    <img aria-hidden="true" class="absolute hidden desktop:block" src="/img/wnyc-shape-2.svg" width="485" height="485" style="left: -123px; bottom: 0px;" />
+    <img aria-hidden="true" class="absolute hidden desktop:block" src="/img/wnyc-shape-3.svg" width="378" height="317" style="right: -71px; top: -114px;" />
+    <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full">
+      <img class="large:mb-6" src="/img/wnyc-logo-standard.svg" alt="The Working NYC Logo" width="506" height="45" />
+    </div>
   </div>
-  <figcaption><a href="/portfolio/access-nyc"><b>ACCESS NYC</b></a> (portfolio sample in-progress) – ACCESS NYC is a public benefits platform and has been my primary product assignment at the Mayor's Office for Economic Opportunity. Over the past several years, I have participated in numerous sprints using my expertise in front-end engineering, user interface/experience design, and digital product feature development. <a href="/portfolio/access-nyc">View <b>ACCESS NYC</b> projects</a>.</figcaption>
+
+  <figcaption>
+    <h4 class="h5 mb-3">Role: Lead Digital Product Designer</h4>
+    <p><a href="/portfolio/working-nyc"><b>Working NYC</b></a> – During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create Working NYC, which helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product is to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer.</p> <a class="btn btn-primary" href="/portfolio/working-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View Working NYC projects</a>
+  </figcaption>
 </figure>
 
-<!-- * [**ACCESS NYC**](/portfolio/access-nyc) (portfolio sample in-progress) – ACCESS NYC is a public benefits platform and has been my primary product assignment at the Mayor's Office for Economic Opportunity. Over the past several years, I have participated in numerous sprints using my expertise in front-end engineering, user interface/experience design, and digital product feature development. [View **ACCESS NYC** projects](/portfolio/access-nyc). -->
+#### ACCESS NYC {.small .pb-2 .m-0 .font-normal}
 
-<!-- <nav class="grid grid-cols-2 gap-3">
-  <a class="btn m-0 justify-center" href="/portfolio/working-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> Working NYC</a> <a class="btn m-0 justify-center" href="/portfolio/access-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> ACCESS NYC</a> <a class="btn py-8 m-0 justify-center" href="#"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg> NYC Benefits Platform</a>
-</nav> -->
+<figure class="figure" style="background-color: #F0F6FF">
+  <div class="figure__matte">
+    <img aria-hidden="true" class="absolute top-0 left-0 mt-8 mis-8 hidden large:block" src="/img/anyc-icon-enrichment.svg" width="175" height="175" />
+    <img aria-hidden="true" class="absolute bottom-0 left-0 mb-8 mis-8 hidden large:block" src="/img/anyc-icon-people-with-disabilities.svg" width="181" height="181" />
+    <img aria-hidden="true" class="absolute top-0 right-0 mt-8 mie-8 hidden large:block" src="/img/anyc-icon-health.svg" width="167" height="167" />
+    <img aria-hidden="true" class="absolute bottom-0 right-0 mb-8 mie-8 hidden large:block" src="/img/anyc-icon-food.svg" width="182" height="182" />
+    <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full" style="color: #112E51">
+      <img class="large:mb-6" src="/img/anyc-logo-standard.svg" alt="The ACCESS NYC logo" width="505" height="84" />
+    </div>
+  </div>
 
-&nbsp;
+  <figcaption>
+    <h4 class="h5 mb-3">Role: Lead Developer and Digital Product Designer</h4>
+    <p><a href="/portfolio/access-nyc"><b>ACCESS NYC</b></a> – ACCESS NYC is a public benefits platform and has been my primary product assignment at the Mayor's Office for Economic Opportunity. Over the past several years, I have participated in numerous sprints using my expertise in front-end engineering, user interface/experience design, and digital product feature development.</p> <a class="btn btn-primary" href="/portfolio/access-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View ACCESS NYC projects</a>
+  </figcaption>
+</figure>
 
-<!-- #### NYC Benefits Platform <a href="https://screeningapidocs.cityofnewyork.us" class="flex mis-1"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+#### NYCO User Interface (UI) Patterns Framework {.small .pb-2 .m-0 .font-normal}
 
-**Role**: Digital Product Designer
+<figure class="figure" style="background-color: #FFDBDB">
+  <div class="figure__matte h-auto grid place-items-center grid-cols-3 px-8 py-8 text-center" style="background-color: #FFDBDB; color: #112E51;">
+    <div>
+      <img src="/img/pttrn-elements.svg" alt="Icon for Patterns Framework elements" width="280" height="280" loading="lazy" decoding="async" />
+    </div>
+    <div>
+      <img src="/img/pttrn-components.svg" alt="Icon for Patterns Framework components" width="280" height="280" loading="lazy" decoding="async" />
+    </div>
+    <div>
+      <img src="/img/pttrn-objects.svg" alt="Icon for Patterns Framework objects" width="280" height="280" loading="lazy" decoding="async" />
+    </div>
+    <div class="col-span-full mb-4 large:pb-8 large:mb-8">
+      <span class="h3" style="font-family: Helvetica Neue Pro, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: bolder;">NYCO UI Patterns Framework</span>
+    </div>
+  </div>
 
-##### Projects
+  <figcaption>
+    <h4 class="h5 mb-3">Role: Lead Developer and Digital Product Designer</h4>
+    <p><a href="/portfolio/nyco-ui-patterns-framework"><b>NYCO UI Patterns Framework</b></a> – The Patterns Framework is a collection of tools and principles used to make creating pattern libraries fun for developers, transparent for teams, and sustainable beyond the lifecycle of digital products. I started the framework with support and feedback from my team and our fellows.</p>
+    <a class="btn btn-primary" href="/portfolio/nyco-ui-patterns-framework"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View the Patterns Framework project</a>
+  </figcaption>
+</figure>
 
-* Launch
+### <a class="flex mie-1 no-underline" id="other-projects" href="#other-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Other Projects
 
-&nbsp; -->
+#### NYC Benefits Platform: Screening API {.small .pb-2 .m-0 .font-normal}
 
-<!-- ### Mentorship
+<figure class="figure" style="background-color: #031553">
+  <div class="figure__matte">
+    <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full">
+      <img class="large:mb-6" src="/img/benefits-platform-api-logo.svg" alt="The NYC Benefits Platform: Screening API logo" width="552" height="86" />
+    </div>
+  </div>
 
----
+  <!-- <img class="block" src="/img/benefits-platform-api-landing-page.png" alt="The NYC Benefits Platform Screening API landing page" width="1440" height="821" loading="lazy" decoding="async" /> -->
 
-&nbsp; -->
+  <figcaption>
+    <h4 class="h5 mb-3">Role: Digital Product Designer</h4>
+    <p><a href="https://screeningapidocs.cityofnewyork.us"><b>NYC Benefits Platform: Screening API</b></a> – This open API enables community-based organizations and civic technologists to build tools to screen their clients for benefit program eligibility using the same rules that govern the screening tool featured on ACCESS NYC. My responsibilities for this product included vendor review and selection for building the API, content UX strategy of the technical documentation, and contributions to the UI design and management of documentation components.</p> <a class="btn btn-primary" href="https://screeningapidocs.cityofnewyork.us" target="_blank" rel="noopener nofollow">View the Screening API documentation<svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+  </figcaption>
+</figure>
 
-### Other Projects
+<section class="grid tablet:grid-cols-2 gap-3">
+  <figure class="figure block" id="online-applications-pilot">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553">
+      <h3 class="text-center px-4">Online Applications Pilot</h3>
+    </div>
+    <figcaption class="static">
+      <h4 class="h5 mb-3 inline-block">Role: Lead Front-end Developer and Mentor</h4>
+      <p>Architected a SAAS-based solution with Ruby middleware for digital forms for City rent stabilization programs and oversaw an engineering fellow's development of the minimum viable product.</p>
+    </figcaption>
+  </figure>
 
----
-
-#### NYC Rules Launch
-
-**Role**: Lead Developer and Project Consultant
-
-<!-- <figure class="figure">
-  NYC Rules Launch
-</figure> -->
-
-Consulted with the Mayor's Office of Operations to implement the [NYC Core Framework](https://www1.nyc.gov/assets/doitt/html/nyc-core-framework/index.html) and launch [rules.cityofnewyork.us](https://rules.cityofnewyork.us/).
-
-#### Online Applications Pilot
-
-**Role**: Lead Front-end Developer
-
-<!-- <figure class="figure">
-  Online Applications Pilot
-</figure> -->
-
-Architected a SAAS-based solution with Ruby middleware for digital forms for City rent stabilization programs and oversaw the minimum viable product development by an engineering fellow.
-
-&nbsp;
+  <figure class="figure block" id="nyc-rules">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553">
+      <h3 class="text-center px-4">NYC Rules</h3>
+    </div>
+    <figcaption class="static">
+      <h4 class="h5 mb-3 inline-block">Role: Lead Developer and Project Consultant</h4>
+      <p>Consulted with the Mayor's Office of Operations to launch <a href="https://rules.cityofnewyork.us/" target="_blank" rel="noopener nofollow">NYC Rules</a>. Designed the site using the <a href="https://www1.nyc.gov/assets/doitt/html/nyc-core-framework/index.html" target="_blank" rel="noopener nofollow">NYC Core Framework</a> and finished core functionality required for the site launch.</p>
+    </figcaption>
+  </figure>
+</section>
 
 <!-- ### Internal Open-source Projects
 
@@ -110,36 +146,43 @@ Architected a SAAS-based solution with Ruby middleware for digital forms for Cit
 
 &nbsp; -->
 
-## Projects from Previous Roles
+## Products from Previous Roles
 
-### Daisy Debt
+---
 
-___
+### Daisy Debt {.small .pb-2 .m-0 .font-normal}
 
-**Role**: Co-founder and Lead Engineer / Designer
+<figure class="figure" style="background-color: #06C7E1">
+  <div class="figure__matte">
+    <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full" style="color: #112E51">
+      <img class="desktop:mb-6" src="/img/daisy-debt-logo.svg" alt="The Daisy Debt logo" width="474" height="131" />
+    </div>
+  </div>
 
-<!-- <figure class="figure-full">
-  Daisy Debt
-</figure> -->
+  <figcaption>
+    <h4 class="h5 mb-3">Role: Researcher / Lead Engineer / Designer</h4>
+    <p>I contributed to and advised on the engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org/" target="_blank" rel="noopener nofollow">daisydebt.org</a>, which helps financial counselors assert their client's rights against unlawful debt collection agencies.</p> <a href="/portfolio/daisy-debt" class="btn btn-primary m-0 justify-center"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View Daisy Debt project</a>
+  </figcaption>
+</figure>
 
-Led engineering and product design of a non-profit SAAS product, [daisydebt.org](https://daisydebt.org/), that helps financial counselors assert their client’s rights against unlawful debt collection agencies.
+### Quadrant {.small .pb-2 .m-0 .font-normal}
 
-<nav class="grid grid-cols-2 gap-3">
-  <a href="https://daisydebt.org/" target="_blank" class="btn btn-primary m-0 justify-center">View daisydebt.org <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a> <a href="https://www.behance.net/collection/184398201/Daisy-Debt" target="_blank" class="btn btn-primary m-0 justify-center">View Daisy Debt samples on Behance <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
-</nav>
+<figure class="figure" style="background-color: #F0F6FF">
+  <div class="figure__matte">
+    <img class="absolute bottom-0 left-0 w-full mb-3 desktop:mb-8" src="/img/quadrant-line-1.svg" aria-hidden="true" width="1200" height="152" />
+    <img class="absolute bottom-0 left-0 w-full mb-3 desktop:mb-8" src="/img/quadrant-line-2.svg" aria-hidden="true" width="1200" height="326" />
+    <img class="absolute bottom-0 left-0 w-full mb-3 desktop:mb-8" src="/img/quadrant-line-3.svg" aria-hidden="true" width="1200" height="170" />
+    <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full" style="color: #112E51">
+      <img class="mb-8" src="/img/quadrant-logo.svg" alt="The Quadrant logo" width="382" height="120" />
+    </div>
+  </div>
 
-&nbsp;
+  <figcaption>
+    <h4 class="h5 mb-3">Role: Co-founder and Lead Engineer / Designer</h4>
+    <p>Lead front-end developer and designer of the core product and marketing site for Quadrant.io, a macro-economic data platform. I designed and developed the brand identity and UI, including macro-economic data visualizations, dashboards, and chart-building tools.</p> <a class="btn btn-primary" href="https://www.behance.net/collection/184398077/Quadrantio" target="_blank" rel="noopener nofollow">View Quadrant.io samples on Behance<svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+  </figcaption>
+</figure>
 
-### Quadrant.io
+--- {.mt-8}
 
-___
-
-**Role**: Co-founder and Lead Engineer / Designer
-
-<!-- <figure class="figure-full">
-  Quadrant.io
-</figure> -->
-
-Lead front-end developer and designer of the core product and marketing site for Quadrant.io, a macro-economic data platform. I designed and developed the brand identity and UI, including macro-economic data visualizations, dashboards, and chart-building tools.
-
-<a href="https://www.behance.net/collection/184398077/Quadrantio" target="_blank" class="btn btn-primary">View Quadrant.io samples on Behance <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+> View additional work on <a href="https://www.behance.net/devonhirth" target="_blank" rel="noopener nofollow"> Behance<svg class="icon mis-half w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>

@@ -8,6 +8,7 @@
 @import url('../../styles/body.css');
 @import url('../../styles/animate.css');
 @import url('../../styles/typography.css');
+@import url('../../styles/code.css');
 @import url('../../styles/hyperlinks.css');
 @import url('../../styles/highlights.css');
 @import url('../../styles/dividers.css');
@@ -22,4 +23,3 @@
 @import url('../../styles/tables.css');
 @import url('../../styles/first-last.css');
 @import url('../../styles/utilities.css');
-@import url('../../styles/print.css');

@@ -1,0 +1,27 @@
+script(src='https://documentcloud.adobe.com/view-sdk/main.js')
+
+script.
+  const previewFile = (pdf, title) => {
+    let adobeDCView = new AdobeDC.View({
+      clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
+        '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+    });
+
+    adobeDCView.previewFile({
+      content: {
+        location: {
+          url: pdf
+        }
+      },
+      metaData: {
+        fileName: title
+      }
+    }, {embedMode: 'LIGHT_BOX'});
+  };
+
+  document.querySelector('body').addEventListener('click', (event) => {
+    if (!event.target.matches('[data-js="pdf-view"]'))
+      return;
+
+    previewFile(event.target.dataset.pdfView, event.target.dataset.pdfTitle);
+  })

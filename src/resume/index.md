@@ -1,15 +1,15 @@
 ---
 title: 'Resume / Devon Hirth'
-layout: './../../../_includes/layouts/resume.pug'
+layout: 'layouts/resume.pug'
 ---
 
 ## Experience
 
 ---
 
-### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1}
+### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Digital Product Designer, January 2020** – **Present (1 year 4 months)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design and user interface (UI) design/engineering.
+**Digital Product Designer, January 2020** – **Present (1 year 10 months)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design and user interface (UI) design/engineering.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
@@ -30,6 +30,10 @@ layout: './../../../_includes/layouts/resume.pug'
 * **NYCO WordPress Boilerplate** – Engineered an open-source development environment, remote management tool, and documentation guide for our WordPress products.
 
 * **Additional open-source projects** – Created 13+ open-source packages used by our products. Including pattern library tooling, WordPress plugins, and Vue.js applications.
+
+<!-- #### Mentorship {.h6 .primary .mt-0 .mb-1} -->
+
+**Mentor**. The Mayor's Office for Economic Opportunity offers a fellowship program for emerging designers, product managers, and engineers to gain experience working in local government. I had the opportunity to mentor 4 engineering fellows and 1 user experience fellow.
 
 ### Principle, Digital Product Designer, exp. design {.h5 .primary .mb-1}
 
@@ -55,33 +59,34 @@ layout: './../../../_includes/layouts/resume.pug'
 
 ### Previous Experience {.primary}
 
-* **Design Technologist at Sideways Inc.** – *September 2012 – March 2014 (1 year 7 months), Greater New York City Area* – I programmed interactive experiences for marketing websites and web applications using front-end development.
+* **Design Technologist at Sideways Inc.** – *September 2012 – March 2014 (1 year 7 months), Greater New York City Area* – I programmed interactive experiences for marketing websites and web applications.
+<!-- using front-end development. -->
 
-* **Interactive Designer at happyMedium** – *April 2012 – August 2012 (5 months), Greater St. Louis Area* – I designed, prototyped, and developed interactive experiences for mobile and desktop applications using creative strategy, brand identity, UX design, front-end development.
+* **Interactive Designer at happyMedium** – *April 2012 – August 2012 (5 months), Greater St. Louis Area* – I designed, prototyped, and developed interactive experiences for mobile and desktop applications.
+<!-- using creative strategy, brand identity, UX design, front-end development. -->
 
-* **Interactive Designer and Front-End Web Developer at 2e Creative** – *October 2009 – March 2012 (2 years 6 months), Greater St. Louis Area* – I designed and programmed interactive experiences and produced video content. Using my skills in UX design, UI design, front-end development, video production, and animation.
+* **Interactive Designer and Front-End Web Developer at 2e Creative** – *October 2009 – March 2012 (2 years 6 months), Greater St. Louis Area* – I designed and programmed interactive experiences and produced video content.
+
+<!-- Using my skills in UX design, UI design, front-end development, video production, and animation. -->
 
 ## Recommendations {.mt-0}
 
 ---
 
-### Linda Tvrdy, 2016 Civil Justice Fellow, Blue Ridge Labs @ Robin Hood Foundation {.h5 .primary}
+### Linda Tvrdy, 2016 Civil Justice Fellow, Blue Ridge Labs @ Robin Hood Foundation {.h5 .primary .mb-2}
 
-#### Worked directly with Devon at Blue Ridge Labs @ Robin Hood Foundation {.h6 .primary}
+#### Worked directly with Devon at Blue Ridge Labs @ Robin Hood Foundation {.h6 .primary .mt-2}
 
 Devon is a deep thinker who begins from a place of compassion. He meets people where they are, whether that person is a New Yorker City resident helping with user research or a legal academic without much tech experience. He unhesitatingly embraced the complexity of trying to improve access to justice for ordinary people. Without losing sight of that complexity, he designed elegant and practical tools, not to mention beautiful. In addition to being a first-rate designer, Devon also has “mad engineering skills,” to quote one of our teammates. In addition to his professional skill, Devon is the definition of a team player. He preserved team cohesion by keeping us focused on our goals, and he facilitated ideation sessions that brought out the best each of us had to offer. I cannot recommend him highly enough.
 
-### Dane Vrabac, Founder and CEO, Quadrant.io {.h5 .primary}
+### Dane Vrabac, Founder and CEO, Quadrant.io {.h5 .primary .mb-2}
 
-#### Managed Devon at Quadrant.io {.h6 .primary}
+#### Managed Devon at Quadrant.io {.h6 .primary .mt-2}
 
 Devon is both an exceptional designer and a front-end developer. He’s easy to work with and takes pride in everything he delivers. He’s flexible enough to work with either a fixed set of requirements or a rough idea and make it great.
 
-### Joe Toohey, Principal of 2e Creative {.h5 .primary}
+### Joe Toohey, Principal of 2e Creative {.h5 .primary .mb-2}
 
-#### Managed Devon at 2e Creative {.h6 .primary}
+#### Managed Devon at 2e Creative {.h6 .primary .mt-2}
 
 Devon embodies the individual who is constantly pushing himself to new heights yet has his feet firmly planted in the realities of life and the business of doing intelligent creative. His willingness to tackle any challenge with commitment and dedication to excellence functions as a catalyst to propel any initiative he undertakes to a heightened level. I am confident that one day he will be viewed as a trend leader within the creative industry.
-
-
-

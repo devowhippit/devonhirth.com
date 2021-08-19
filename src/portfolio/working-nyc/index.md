@@ -1,40 +1,50 @@
 ---
 title: 'Working NYC / Portfolio / Devon Hirth'
-layout: './../../../_includes/layouts/default.pug'
+layout: 'layouts/portfolio.pug'
+classes: ['working-nyc']
+breadcrumbs: ['Working NYC']
 ---
 
-## Working NYC
+## Working NYC {.sr-only}
 
-* <a href="https://working.nyc.gov" class="flex items-center" target="_blank">View site <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg>
-</a>
+<figure class="figure -mx-3 tablet:mx-0" style="background-color: #031837">
+  <div class="figure__matte">
+    <img class="absolute hidden desktop:block" src="/img/wnyc-shape-1.svg" width="352" height="352" style="right: -90px; bottom: -63px;" />
+    <img class="absolute hidden desktop:block" src="/img/wnyc-shape-2.svg" width="485" height="485" style="left: -123px; bottom: 0px;" />
+    <img class="absolute hidden desktop:block" src="/img/wnyc-shape-3.svg" width="378" height="317" style="right: -71px; top: -114px;" />
+    <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full">
+      <img class="large:mb-6" src="/img/wnyc-logo-standard.svg" width="506" height="45" />
+    </div>
+  </div>
 
-* **Role**: Lead Digital Product Designer
+  <figcaption>
+    <h4 class="h5 mb-3">Role: Digital Product Designer</h4>
+    <p><a class="btn btn-primary" href="https://working.nyc.gov" target="_blank" rel="noopener nofollow">https://working.nyc.gov <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+  </figcaption>
+</figure>
 
-During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create a site that helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product is to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. Since the initial launch, I have established a UX process that combines qualitative and quantitative feedback mechanisms to lead design research and feature development on the site.
+During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create Working NYC, which helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product is to develop and manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. Since the initial launch, I have established a UX process that combines qualitative and quantitative feedback mechanisms to lead design research and feature development on the site.
 
 <!-- <figure class="figure">
   <img src="img/wnyc-banner.png">
 </figure> -->
 
-&nbsp;
+<!-- &nbsp; -->
 
-##### <a class="flex mie-1 no-underline" id="working-nyc-featured-projects" href="#working-nyc-featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Projects {#working-nyc-featured-projects}
+<!-- ##### <a class="flex mie-1 no-underline" id="working-nyc-featured-projects" href="#working-nyc-featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Projects {#working-nyc-featured-projects} -->
 
----
+<!-- --- -->
 
-* [Product Development and Launch](#product-development-and-launch)
+<!-- * [Product Development and Launch](#product-development-and-launch) -->
 <!-- * [UX Process](#ux-process) -->
+<!-- * [Newsletter](#newsletter) -->
 <!-- * [Feedback Mechanisms](#feedback-mechanisms) -->
 
 &nbsp;
 
 ### <a class="flex mie-1 no-underline" id="product-development-and-launch" href="#product-development-and-launch"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Product Development and Launch {#product-development-and-launch}
 
-<!-- <figure class="figure-full" style="background-image: url('img/wnyc-banner.png')">
-  <img src="img/wnyc-banner.png">
-</figure> -->
-
-> My primary challenge with the Working NYC launch was to create a **new brand** and **user interface** that templatizes 30+ programs from multiple providers serving a diverse population of New Yorkers across 9 industries. {.my-8}
+> My primary challenge with the Working NYC launch was to create a **new brand** and **user interface** that templatizes 30+ programs across 9 industries from multiple providers serving a diverse population of New Yorkers.
 
 **Program Taxonomies**. This table showcases 3 of the 7 finalized taxonomy collections for programs on the site that I would need to accommodate for in the product's design.
 
@@ -63,20 +73,24 @@ The direction for the brand identity was to use design tokens from a previous pr
   <figcaption>I tokenized and expanded the color scales to an equal range for each color.</figcaption>
 </figure> -->
 
-<figure class="figure p-4" style="height: 600px;">
-  <img src="/img/wnyc-colors.png" width="640" height="441">
+<figure class="figure">
+  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8 bg-t1" style="height: auto">
+    <img class="my-8 mx-auto" src="/img/wnyc-colors.png" width="640" height="441" />
+  </div>
 
-  <figcaption>I tokenized and expanded the color scales to an equal range for each color.</figcaption>
+  <figcaption class="static">I tokenized and expanded the color scales to an equal range for each color.</figcaption>
 </figure>
 
-<figure class="figure" style="height: 600px; background-color: #031837">
-  <img src="/img/wnyc-fonts.png" width="720" height="309">
+<figure class="figure">
+  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8" style="background-color: #031837; height: auto">
+    <img class="my-8 mx-auto" src="/img/wnyc-fonts.png" width="720" height="309" />
+  </div>
 
-  <figcaption>The font families extracted from the previous project included Montserrat and Lato.</figcaption>
+  <figcaption class="static">The font families extracted from the previous project included Montserrat and Lato.</figcaption>
 </figure>
 
-<figure class="figure" style="height: 600px; background-image: url('/img/wnyc-sketches-identity.jpg')">
-  <!-- <img src="img/wnyc-sketches.jpg"> -->
+<figure class="figure">
+  <div class="figure__matte bg-cover" style="background-image: url('/img/wnyc-sketches-identity.jpg')"></div>
 
   <figcaption>
     <p>The initial sketches for the brand identity logotype include considerations for the different industries and services offered by programs.</p>
@@ -84,16 +98,20 @@ The direction for the brand identity was to use design tokens from a previous pr
   </figcaption>
 </figure>
 
-<figure class="figure p-4" style="height: 600px; background-color: #031837">
-  <img src="/img/wnyc-logo.png" width="302" height="27">
+<figure class="figure">
+  <div class="figure__matte flex items-center justify-center p-2" style="background-color: #031837">
+    <img src="/img/wnyc-logo.png" width="302" height="27">
+  </div>
 
-  <figcaption>The Working NYC brand identity features a logotype set in Montserrat, an open-source and free alternative to Gotham recognized by it’s equalized geometric features. This is the same typeface used for other Workforce projects which keeps it in the same family of brands with flexibility for future iteration.</figcaption>
+  <figcaption class="static">The Working NYC brand identity features a logotype set in Montserrat, an open-source and free alternative to Gotham recognized by its equalized geometric features. The typeface used is the same for other Workforce projects, keeping it in the family of brands.</figcaption>
 </figure>
 
-<figure class="figure p-4" style="height: 600px; background-color: #031837">
-  <img src="/img/wnyc-categories.png" width="432" height="62">
+<figure class="figure">
+  <div class="figure__matte flex items-center justify-center p-2" style="background-color: #031837">
+    <img src="/img/wnyc-categories.png" width="432" height="62">
+  </div>
 
-  <figcaption>I created icons repesenting different industry sectors. The four major sector taxonomies are represented here; Technology, Healthcare, Construction, and Culinary.</figcaption>
+  <figcaption class="static">I created icons repesenting different industry sectors. The four major sector taxonomies are represented here; Technology, Healthcare, Construction, and Culinary.</figcaption>
 </figure>
 
 #### User Interface
@@ -126,12 +144,14 @@ Our strategy for the site was to have the content to lead the user experience. T
 
 **Static HTML design**. I used the program page content priority guide to build out the view and added UI elements such as the sticky utility navigation, breadcrumbs, recruitment badge, typography styling of the content, newsletter sign-up module, site footer, and mobile navigation and menu.
 
-<figure class="figure py-8">
-  <iframe class="iframe mb-8" width="378" height="667" src="https://cityofnewyork.github.io/working-nyc-patterns/demos/programs/red-hook-on-the-road"></iframe>
+<figure class="figure">
+  <div class="figure__matte flex items-center justify-center p-2 large:p-8 large:mb-8 bg-t1" style="height: auto">
+    <iframe class="iframe" width="378" height="667" src="https://cityofnewyork.github.io/working-nyc-patterns/demos/programs/red-hook-on-the-road"></iframe>
+  </div>
 
   <figcaption>
     <p>This is the static HTML design I created using the Working NYC pattern library.</p>
-    <p><a class="btn btn-primary" target="_blank" href="https://cityofnewyork.github.io/working-nyc-patterns/demos/programs/red-hook-on-the-road">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
+    <p><a class="btn btn-primary" href="https://cityofnewyork.github.io/working-nyc-patterns/demos/programs/red-hook-on-the-road" target="_blank" rel="noopener nofollow">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
 
@@ -159,8 +179,8 @@ Our strategy for the site was to have the content to lead the user experience. T
 | What do you want to gain from job services? Select one category from the services taxonomy   |
 | Submit button                                                                                |
 
-<figure class="figure" style="height: 600px; background-image: url('/img/wnyc-sketches-homepage.jpg')">
-  <!-- <img src="img/wnyc-sketches.jpg"> -->
+<figure class="figure">
+  <div class="figure__matte bg-cover" style="background-image: url('/img/wnyc-sketches-homepage.jpg')"></div>
 
   <figcaption>
     <p>The initial sketches for the homepage include considerations for the different user behavior flows and background graphics to help balance the design of the page.</p>
@@ -168,12 +188,14 @@ Our strategy for the site was to have the content to lead the user experience. T
   </figcaption>
 </figure>
 
-<figure class="figure py-8">
-  <iframe class="iframe mb-8" width="378" height="667" src="https://cityofnewyork.github.io/working-nyc-patterns/demos/index"></iframe>
+<figure class="figure">
+  <div class="figure__matte flex items-center justify-center p-2 large:p-8 large:mb-8 bg-t1" style="height: auto">
+    <iframe class="iframe" width="378" height="667" src="https://cityofnewyork.github.io/working-nyc-patterns/demos/index"></iframe>
+  </div>
 
   <figcaption>
     <p>This is the static HTML design I created using the Working NYC pattern library.</p>
-    </p><a class="btn btn-primary" target="_blank" href="https://cityofnewyork.github.io/working-nyc-patterns/demos/index">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
+    </p><a class="btn btn-primary" href="https://cityofnewyork.github.io/working-nyc-patterns/demos/index" target="_blank" rel="noopener nofollow">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
 
@@ -181,14 +203,14 @@ Our strategy for the site was to have the content to lead the user experience. T
 
 We conducted remote user acceptance testing with program managers and participants from the NYC Parks Opportunity Program to gauge interest and uncover usability issues with this product iteration. With their valuable input, we could make all of the changes needed to launch the project's first version.
 
-> A total of 5 content, design and engineering sprints began in May 2020 and ended in a launch on August 20th (13 weeks). {.my-8}
+> A total of 5 content, design and engineering sprints began in May 2020 and ended in a launch on August 20th (13 weeks).
 
 #### Final Final
 
 The design of the site is a collection of open-source code and public Figma file that can be scaled up as the product evolves. I also created internal documentation for all of the historical context behind the design so that team members would be able to understand my decisions. The GitHub repository and the Figma file can be browsed following the links below.
 
 <nav class="grid grid-cols-2 gap-3">
-  <a class="btn btn-primary m-0 justify-center" href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> Pattern Library</a> <a class="btn btn-primary m-0 justify-center" href="https://www.figma.com/file/CH7ZOCW55SgsDnsTj3UrTi" target="_blank"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-figma"></use></svg> Figma Design File</a>
+  <a class="btn btn-primary m-0 justify-center" href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> Pattern Library</a> <a class="btn btn-primary m-0 justify-center" href="https://www.figma.com/file/CH7ZOCW55SgsDnsTj3UrTi" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-figma"></use></svg> Figma Design File</a>
 </nav>
 
 <!-- ##### UX Process -->
