@@ -318,7 +318,7 @@ body {
 }
 
 img, svg {
-  display: block;
+  display: inline-block;
   max-width: 100%;
   height: auto;
 
@@ -708,22 +708,46 @@ input:focus + .opt__base {
  * Figures
  */
 
-.figure-full, .figure {
+/*.figure-full, */
+
+.figure {
+  display: block;
+  position: relative;
+
+  /* background-color: var(--dh-color-background-t1); */
+
+  margin: 0;
+  margin-bottom: calc(var(--dh-grid) * 8);
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.figure .figure__matte {
+  position: relative;
+  overflow: hidden;
+
+  height: 40vh;
+  min-height: var(--screen-xsmall);
+
+  width: 100%;
+}
+
+/* .figure-flex {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 
   background-color: var(--dh-color-background-t1);
+} */
 
-  margin: 0;
-  margin-bottom: calc(var(--dh-type-margin) * 2);
+/* .figure-flex figcaption:not(.static) {
+  position: absolute;
+  width: 75%;
+} */
 
-  background-size: cover;
-  background-position: center center;
-}
-
-.figure-full {
+/* .figure-full {
   position: relative;
   left: 50%;
   right: 50%;
@@ -732,18 +756,18 @@ input:focus + .opt__base {
   max-width: 100vw;
   width: 100vw;
   height: 86vh;
-}
+} */
 
-.figure-full img {
+/* .figure-full img {
   display: none;
-}
+} */
 
-.figure figcaption,
-.figure-full figcaption {
+.figure figcaption/*,
+.figure-full figcaption*/ {
   font-size: var(--dh-font-size-small);
 
   background: var(--dh-color-background-t1);
-  padding: var(--dh-space-2) var(--dh-space-3);
+  padding: var(--dh-space-3) var(--dh-space-3);
 }
 
 .figure figcaption {
@@ -751,25 +775,27 @@ input:focus + .opt__base {
   right: calc(-1 * var(--dh-space-3));
 }
 
-/* @media screen and (min-width: 480px) {
-  .figure figcaption {
-    position: absolute;
-    width: 75%;
-  }
-} */
-
 @media screen and (min-width: 1280px) {
-  .figure figcaption {
-    position: absolute;
-    width: 75%;
+  .figure figcaption:not(.static) {
+    position: relative;
+    -webkit-margin-before: calc(var(--dh-grid) * -16);
+            margin-block-start: calc(var(--dh-grid) * -16);
+    -webkit-margin-end: calc(var(--dh-grid) * -2);
+            margin-inline-end: calc(var(--dh-grid) * -2);
+    -webkit-margin-start: 25vw;
+            margin-inline-start: 25vw;
+  }
+
+  .figure .figure__matte {
+    height: 80vh;
   }
 }
 
-.figure-full figcaption {
+/* .figure-full figcaption {
   width: 30%;
   bottom: var(--dh-space-8);
   right: var(--dh-space-8);
-}
+} */
 
 /**
  * Tables
