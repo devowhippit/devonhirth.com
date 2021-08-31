@@ -282,6 +282,14 @@
     --dh-font-webkit-smoothing: antialiased;
     --dh-font-moz-smoothing: grayscale;
   }
+
+  /* .access-nyc {
+    --dh-color-white: var(--dh-color-white-t1);
+    --dh-color-primary: #118DF0;
+    --dh-color-background: #112E51;
+    --dh-color-background-t1: #1d3655;
+    --dh-color-text: var(--dh-color-white);
+  } */
 }
 
 /**
@@ -763,7 +771,7 @@ input:focus + .opt__base {
 
 table {
   width: 100%;
-  margin-bottom: var(--dh-type-margin);
+  margin-bottom: calc(var(--dh-grid) * 8);
   border-collapse: collapse;
 }
 
