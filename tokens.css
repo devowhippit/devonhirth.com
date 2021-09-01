@@ -149,6 +149,8 @@
 
   --dh-line-height-headings: 1.2;
 
+  --dh-line-height-mono: 1.8;
+
   --dh-font-size-blockquote: 3.33em;
   --dh-line-height-blockquote: 1.2;
 
@@ -282,12 +284,4 @@
     --dh-font-webkit-smoothing: antialiased;
     --dh-font-moz-smoothing: grayscale;
   }
-
-  /* .access-nyc {
-    --dh-color-white: var(--dh-color-white-t1);
-    --dh-color-primary: #118DF0;
-    --dh-color-background: #112E51;
-    --dh-color-background-t1: #1d3655;
-    --dh-color-text: var(--dh-color-white);
-  } */
 }
