@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,700');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -17,7 +17,6 @@
   src: url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Bold.woff2') format('woff2'),
        url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Bold.woff') format('woff');
 } */
-
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -26,7 +25,6 @@
   src: url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Regular.woff2') format('woff2'),
        url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Regular.woff') format('woff');
 }
-
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -35,7 +33,6 @@
   src: url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Bold.woff2') format('woff2'),
        url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Bold.woff') format('woff');
 }
-
 @font-face {
   font-family: 'Inter var';
   font-style: normal;
@@ -44,7 +41,6 @@
   src: url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-roman.var.woff2') format('woff2');
   font-named-instance: 'Regular';
 }
-
 :root {
   /**
    * Spacing
@@ -158,37 +154,30 @@
 
   --dh-type-margin: calc(var(--dh-grid) * 4);
 }
-
 /**
  * Responsive Font Sizing
  */
-
 @media screen and (min-width: 480px) {
   :root {
     --dh-font-size: 14px
   }
 }
-
 @media screen and (min-width: 768px) {
   :root {
     --dh-font-size: 16px
   }
 }
-
 @media screen and (min-width: 960px) {
   :root {
     --dh-font-size: 18px
   }
 }
-
 /**
  * Print
  */
-
 :root {
   --dh-print-main-width: 8.5in;
 }
-
 @media print {
   :root {
     --dh-font-size: 14px;
@@ -196,7 +185,6 @@
     --dh-type-margin: 16px;
   }
 }
-
 :root {
   /**
    * Color
@@ -236,6 +224,8 @@
   --dh-font-features-secondary: normal;
   /* --dh-line-height-secondary: 1.2; */
 
+  --dh-font-family-mono: 'JetBrains Mono', monospace;
+
   --dh-font-family: var(--dh-font-family-primary);
   --dh-font-features: var(--dh-font-features-primary);
 
@@ -267,11 +257,9 @@
   --dh-button-color-hover: var(--dh-color-background);
   --dh-button-background-hover: var(--dh-color-text);
 }
-
 /**
  * Dark Mode
  */
-
 @media (prefers-color-scheme: dark) {
   :root {
     --dh-color-white: var(--dh-color-white-t1);
