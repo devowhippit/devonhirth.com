@@ -397,6 +397,10 @@ blockquote, .blockquote {
   line-height: var(--dh-line-height-blockquote);
 
   margin-top: 0;
+  -webkit-margin-before: var(--dh-space-8);
+          margin-block-start: var(--dh-space-8);
+  -webkit-margin-after: var(--dh-space-8);
+          margin-block-end: var(--dh-space-8);
   margin-left: 0;
   margin-right: 0;
 }
