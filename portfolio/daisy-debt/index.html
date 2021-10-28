@@ -7,7 +7,7 @@ if (domains.indexOf(document.domain) > -1) {
 
   gtag('config', 'G-KQ3LZE9J74');
 }
-</script><link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/utilities.css"><script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script><script>document.addEventListener('DOMContentLoaded', function(event) {
+</script><link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/utilities.css"><link rel="stylesheet" href="/print.css"><script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script><script>document.addEventListener('DOMContentLoaded', function(event) {
   hljs.configure({
     languages: ['html', 'javascript', 'css', 'sass']
   });
@@ -83,12 +83,12 @@ if (domains.indexOf(document.domain) > -1) {
 </ul>
 <p>We learned clients could resolve their debt collection issues by requesting verification on the debt from the collector. However, they do not know what rights they have or how to assert them. Financial counselors understand this process and craft letters for their clients but rely on them to mail and keep track of the letters.</p>
 <h5>Debt verification letters</h5>
-<p>Debt collection letters do three things; 1. They make the debt collection agency prove they have the right to collect the debt. Often, collectors don't have all of the information they need to collect the debt legally. 2. It tells the agency that they can't contact the sender anymore. There are strict laws regarding harassment that collectors need to follow. 3. It tells the agency they can't collect the sender's income if it is exempt from collection.</p>
+<p>Debt collection letters do three things; 1. <strong>They make the debt collection agency prove they have the right to collect the debt</strong>. Often, collectors don't have all of the information they need to collect the debt legally. 2. <strong>It tells the agency that they can't contact the sender anymore</strong>. There are strict laws regarding harassment that collectors need to follow. 3. <strong>It tells the agency they can't collect the sender's income if it is exempt from collection</strong>.</p>
 <figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8 bg-t1" style="height: auto; background-color: #EEE">
+  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8 h-auto" style="background-color: #EEE">
     <img class="my-8 mx-auto" src="/img/dd-debt-verification-letter.svg" width="1098" height="793" loading="lazy" />
   </div>
-  <figcaption class="static">Debt verification letters are made of 3 parts that help the sender assert their rights against unlawful debt collection.</figcaption>
+  <figcaption class="static">Debt verification letters are made of 3 parts that help the sender assert their rights against unlawful debt collection; demand proof to legally collect, stop harrassment, protect exempt income.</figcaption>
 </figure>
 <blockquote>
 <p>Our team realized we could automate creating and mailing these letters well within a single client session. We could also provide additional tools to help build mutual accountability via tracking, reminders, and follow-up surveys.</p>
@@ -110,21 +110,122 @@ if (domains.indexOf(document.domain) > -1) {
 </li>
 </ul>
 <p>Nathan bootstrapped a Ruby on Rails application with a step-by-step form where users can input details about a debt collection harassment and generate a debt verification letter from templated legal language. Together, we refined the design and basic features of the user interface and, with advice from Linda, finalized the text in the letter template to ensure its legal standing. Finally, we created an API request to the direct mailing service, <a href="https://lob.com/">Lob.com</a>, to mail letters created by the form to a specified debt collection agency. It was with this prototype of Daisy Debt that we would conduct usability testing sessions moderated by Marianne.</p>
-<!-- The prototype included 10 steps.
-
-* Introduction
-* Collecting the client's personal details
-* County details
-* Exempt income
-* Creditor details
-* Dispute debt
-* Dispute identity theft
-* Employment details
-* Preview and send
-* Collecting email for follow up -->
-<p>We needed to be careful about testing this application with New Yorkers facing harassment from debt collection agencies. Debt verification letters are not a remedy for every debt collection issue. The only case where they are effective is with unlawful debt collection. We screened test participants whose situations fit the criteria for sending a debt verification letter while guiding them through the process using insights we learned from financial counselors. To ensure other application users understood the requirements for sending letters, we added questions to help them evaluate their debt collection situation. If they did not meet the criteria, they would exit the letter-writing process.</p>
+<p>The prototype included 9 steps.</p>
+<ol>
+<li>Introduction</li>
+<li>Collecting the client's personal details</li>
+<li>Exempt income</li>
+<li>Creditor details</li>
+<li>Dispute debt</li>
+<li>Dispute identity theft</li>
+<li>Employment details</li>
+<li>Preview and send</li>
+<li>Collecting email for follow up</li>
+</ol>
+<h4>Screenshots</h4>
+<p>Below are a few screenshots of steps from the letter writing flow.</p>
+<figure class="figure figure-scroll">
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Step 1: Introduction</b>. Here the client is on-boarded to the letter writing, mailing, and follow-up process.</p></div>
+    <img class="block" src="/img/dd-letter-01-new.png" loading="lazy" alt="" />
+  </div>
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Step 2: Personal Details</b>. Here the client adds the information needed for their signature and return address.</p></div>
+    <img class="block" src="/img/dd-letter-02-personal-details.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Step 3: Exempt Income</b>. Here the client selects what types of income they receive which are exempt from collection.</p></div>
+    <img class="block" src="/img/dd-letter-03-exempt-income.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Step 4: Creditor Details</b>. Here the client enters information about the debt collection agency and address where the letter will be mailed.</p></div>
+    <img class="block" src="/img/dd-letter-04-creditor-details.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Step 5: Dispute Debt</b>. Here the client can determine wether or not they should dispute the debt with the debt collection agency.</p></div>
+    <img class="block" src="/img/dd-letter-05-dispute-debt.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Step 6: Dispute Identity Theft</b>. Here the client can claim they are a victim identity theft.</p></div>
+    <img class="block" src="/img/dd-letter-06-dispute-identity-theft.png" loading="lazy" />
+  </div>
+  <!-- Step 7: Employment details -->
+  <!-- Step 8: Preview and send -->
+  <!-- Step 9: Collecting email for follow up -->
+  <div class="figure__matte h-auto" style="background: #66CAE0">
+    <div class="small p-3 bg-t1"><p><b>Final Landing Page</b>. The presentation after a client has finished writing a letter.</p></div>
+    <img class="block" src="/img/dd-finished.png" loading="lazy" />
+  </div>
+</figure>
+<p>We needed to be careful about testing this application with New Yorkers facing harassment from debt collection agencies. Debt verification letters are not a remedy for every debt collection issue. The only case where they are effective is with unlawful debt collection. We screened test participants whose situations fit the criteria for sending a debt verification letter while guiding them through the process using insights we learned from financial counselors. To ensure other application users understood the requirements for sending letters, we added a step to help them evaluate their debt collection situation. If they did not meet the criteria, they would exit the letter-writing process.</p>
+<figure class="figure" style="background: #FFF">
+  <img class="block" src="/img/dd-letter-02-debt-collection-agency-or-original-creditor.png" loading="lazy" />
+</figure>
+<p>The Creditor Details step provided tips to help clients find the information they needed in order to properly address the letter.</p>
+<figure class="figure figure-scroll">
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <img class="block" src="/img/dd-letter-04-creditor-details-popover-tip.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <img class="block" src="/img/dd-letter-04-creditor-details-address-popover-tip.png" loading="lazy" />
+  </div>
+</figure>
+<p>We provided an autocomplete feature using data from a register of national debt collection agencies. It would pre–populate our recommended address to send the letter to.</p>
+<figure class="figure figure-scroll">
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <img class="block" src="/img/dd-letter-04-creditor-details-autocomplete.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background-color: #FFF">
+    <img class="block" src="/img/dd-letter-04-creditor-details-autofill.png" loading="lazy" />
+  </div>
+  <!-- <figure class="figure" style="background: #FFF">
+  <img class="block" src="/img/dd-letter-04-creditor-details-warning.png" loading="lazy" />
+</figure> -->
+</figure>
+<h4>Homepage</h4>
+<figure class="figure" style="background: #FFF">
+  <img class="block" src="/img/dd-homepage.png" loading="lazy" alt="The site homepage." />
+</figure>
 <h4>Follow-up</h4>
-<p>The final feature I designed and engineered for the application was a notification system to email users 3, 7, and 14 days after creating and mailing a letter. Users can also provide the email address of their financial counselor assisting them in making the letter. Both addresses receive an email when the letter is finally delivered by mail. The application sends the client a survey to determine if and how the debt collection agency responded and meet with their financial counselor.</p>
+<p>The final feature I designed and engineered for the application was a notification system send an email to users 1, 14, 30, and 40 days after creating and mailing a letter. Users can also provide the email address of their financial counselor assisting them in making the letter. Both addresses receive an email when the letter is finally delivered by mail. The application sends the client a survey to determine if and how the debt collection agency responded and reminds them to meet with their financial counselor.</p>
+<figure class="figure figure-scroll">
+  <div class="figure__matte h-auto" style="background-color: #F5F5F5">
+    <div class="small p-3 bg-t1"><p><b>Confirmation Email</b>. This email is sent to the client after they send a letter.</p></div>
+    <div class="flex items-start justify-center">
+      <img width="768px" src="/img/dd-follow-up-01-day-one.png" loading="lazy" />
+    </div>
+  </div>
+  <div class="figure__matte h-auto" style="background: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Day 14 Email</b>. This email is sent to the client to see if the debt collection has responded to their letter.</p></div>
+    <div class="flex items-start justify-center">
+      <img class="block" width="768px" src="/img/dd-follow-up-02-day-fourteen.png" loading="lazy" />
+    </div>
+  </div>
+  <div class="figure__matte h-auto" style="background: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Follow Up Survey: Contact Type</b>. The emails include links to a survey that collects response details provided to the client's financial counselor.</p></div>
+    <img class="block" src="/img/dd-response-01-how.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Follow Up Survey: Response</b>. This survey step asks for what the debt collection agency may have said.</p></div>
+    <img class="block" src="/img/dd-response-03-say.png" loading="lazy" />
+  </div>
+  <div class="figure__matte h-auto" style="background: #FFF">
+    <div class="small p-3 bg-t1"><p><b>Survey Email to Financial Counselor</b>. The clients survey response is sent to the client's financial counselor.</p></div>
+    <div class="flex items-start justify-center">
+      <img class="block" width="768px" src="/img/dd-follow-up-04-response-counselor.png" loading="lazy" />
+    </div>
+  </div>
+</figure>
+<!-- <figure class="figure" style="background-color: #F0F6FF">
+  <div class="figure__matte grid place-items-center grid-cols-2 tablet:grid-cols-4 px-8 py-4">
+    <img src="/img/dd-graphic-letter.svg" width="65" height="80" loading="lazy" />
+    <img src="/img/dd-graphic-mailed.svg" width="166" height="80" loading="lazy" />
+    <img src="/img/dd-graphic-opened.svg" width="87" height="80" loading="lazy" />
+    <img src="/img/dd-graphic-response.svg" width="131" height="80" loading="lazy" />
+  </div>
+
+  <figcaption class="static">Debt verification letters are made of 3 parts that help the sender assert their rights against unlawful debt collection.</figcaption>
+</figure> -->
 <h3><a class="flex mie-1 no-underline" id="advising" href="#advising"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Advising</h3>
 <p>The end of the 2016 summer fellowship concluded my full-time contributions to the project. I continued to advise on the project overseeing and reviewing pull-requests of other engineering contributions to the application, including an authentication system and dashboard to enable financial counselors to track and manage letters they send for their clients.</p>
 <p><a href="https://www.behance.net/collection/184398201/Daisy-Debt" target="_blank" class="btn btn-primary m-0 justify-center">View Daisy Debt design samples on Behance <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
