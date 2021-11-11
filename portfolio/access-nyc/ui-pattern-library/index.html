@@ -22,7 +22,7 @@ if (domains.indexOf(document.domain) > -1) {
 <!-- <figure class="figure">
   ACCESS NYC Pattern Library
 </figure> -->
-<p>ACCESS NYC is designed to accommodate New York City residents with low digital literacy on mobile devices. It is also <strong>Web Content Accessibility Guideline (WCAG) AA compliant</strong> and accessible in <strong>11 different languages</strong> with support for <strong>right-to-left</strong> reading directions. Many of the elements and user experience of the design patterns leveraged the US Web Design System. ACCESS NYC has won 4 government design and technology awards since its launch, and the principles used to create this product are the basis for all of the other products in our portfolio.</p>
+<p>ACCESS NYC is designed to accommodate New York City residents with low digital literacy on mobile devices. It is also <strong>Web Content Accessibility Guideline (WCAG) AA compliant</strong> and accessible in <strong>11 different languages</strong> with support for <strong>right-to-left</strong> reading directions. Many of the elements and user experience of the design patterns leveraged the US Web Design System. ACCESS NYC has won <a href="/portfolio/access-nyc/#awards">4 government design and technology awards</a> since its launch, and the principles used to create this product are the basis for all of the other products in our portfolio.</p>
 <p>I felt the most compelling contribution that I could make to such a well-done and principled design would be to make it quickly replicable at scale and available as an open-source pattern library. The need for a reusable library became more apparent when we needed to develop new features and products that required design but couldn't be easily recreated for a product team with limited design resources.</p>
 <p>To do this, I took the current site and cataloged all of the reusable patterns. Using cut-outs from printed pages of the site, I hosted a workshop to allow the team to name and organize the patterns using terms of which our team would be familiar. Then, I used these common names to create individual pattern modules, refactoring and simplifying the source's stylesheets and JavaScript. Finally, I published the library to Node Package Manager (NPM) with corresponding documentation and demonstration site.</p>
 <figure class="figure">
@@ -34,76 +34,52 @@ if (domains.indexOf(document.domain) > -1) {
   <figcaption class="static">A screenshot of the ACCESS NYC Patterns documentation homepage.</figcaption>
 </figure>
 <p>The first version of the library included 35 elements, components, and utilities. Over time, the set has expanded to over 50 patterns, including some reactive component variants for Vue.js applications. Additionally, I introduced CSS utilities to the library by adding Tailwindcss, customized using design tokens from the pattern source. The accessibility of the patterns has also improved over time with manual testing by the Mayor's Office for People with Disabilities (MOPD) and automated accessibility testing using Pa11y.</p>
-<figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8 h-auto" style="background-color: #EEF3F7">
-    <img class="my-8 mx-auto" src="/img/anyc-patterns-sample.svg" width="1163" height="469" loading="lazy" decoding="async" />
-  </div>
-  <figcaption class="static">The ACCESS NYC Patterns library includes user interface (UI) elements from the site including buttons, inputs, icons and more.</figcaption>
-</figure>
-<figure class="figure">
-  <div class="figure__matte flex items-center justify-center p-8 tablet:px-8 h-auto" style="background-color: #EEF3F7">
-    <img class="my-8 mx-auto" src="/img/tailwindcss.svg" width="460" loading="lazy" decoding="async" alt="The tailwindcss logo."/>
-  </div>
-  <figcaption class="static">I introduced CSS utilities to the library by adding Tailwindcss, customized using design tokens from the pattern source.</figcaption>
-</figure>
+<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+  <figure class="figure m-0">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #EEF3F7">
+      <div class="px-4"><img class="my-6 mx-auto" src="/img/anyc-patterns-sample.svg" width="1163" height="469" loading="lazy" decoding="async" /></div>
+    </div>
+    <figcaption class="static">The ACCESS NYC Patterns library includes user interface (UI) elements from the site including buttons, inputs, icons and more.</figcaption>
+  </figure>
+  <figure class="figure m-0">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #EEF3F7">
+      <div class="px-4"><img class="my-8 mx-auto" src="/img/tailwindcss.svg" width="460" loading="lazy" decoding="async" alt="The tailwindcss logo." /></div>
+    </div>
+    <figcaption class="static">I introduced CSS utilities to the library by adding Tailwindcss, customized using design tokens from the pattern source.</figcaption>
+  </figure>
+</section>
 <figure class="figure">
   <div class="figure__matte flex items-center justify-center px-4 tablet:px-8 h-auto" style="background-color: #EEF3F7">
     <img class="my-8 mx-auto" src="/img/anyc-patterns-list.svg" width="1169" height="609" loading="lazy" decoding="async" />
   </div>
   <figcaption class="static">Over time, the set has expanded to over 50 patterns, including some reactive component variants for Vue.js applications.</figcaption>
 </figure>
-<p>In the process of building the ACCESS NYC Patterns I created the <strong>NYCO Patterns Framework</strong> which includes front-end developer tools such as the <a href="https://github.com/cityofnewyork/patterns-cli" target="_blank">Patterns Command Line Interface (CLI)</a>.</p>
+<p>In the process of building the ACCESS NYC Patterns I created the <strong>NYCO UI Patterns Framework</strong> which includes front-end developer tools such as the <a href="https://github.com/cityofnewyork/patterns-cli" target="_blank">Patterns Command Line Interface (CLI)</a>.</p>
 <figure class="figure mb-3">
-<div class="figure__matte grid grid-cols-4 h-auto">
-<pre tabindex="0" class="m-0 nohighlight">
-app/...
-config/...
-dist/...
-src/...
-README.md
-LICENSE
-package-lock.json
-package.json
-</pre>
-<pre tabindex="0" class="m-0 text-primary">
-app/
-  accessibility.js
-  alerts.js
-  build.js
-  locals.js
-  make.js
-  postcss.js
-  publish.js
-  sass.js
-  serve.js
-  variables.js
-</pre>
-<pre tabindex="0" class="m-0 nohighlight">
-config/
-  make.js
-  modules.js
-  postcss.js
-  rollup.js
-  site.js
-  tailwind.js
-  variables.js
-</pre>
-<pre tabindex="0" class="m-0 nohighlight">
-src/
-  config/...
-  components/...
-  elements/...
-  objects/...
-  utilities/...
-  content/...
-  js/...
-  scss/...
-  svg/...
-  slm/...
-  views/...
+<div class="figure__matte h-auto">
+<pre tabindex="0" class="m-0 nohighlight whitespace-normal">
+$ npm run styles<br>
+⚫ Tokens in <span style="color:#FFC0F6; text-decoration:underline">@pttrn/config/tokens.js</span> out <span style="color:#FFC0F6; text-decoration:underline">./src/config/_tokens.scss</span><br>
+🤓 Lint suggestions for <span style="color:#FFC0F6; text-decoration:underline">./src/scss/default.scss</span><br>
+💅 Sass in <span style="color:#FFC0F6; text-decoration:underline">./src/scss/default.scss</span> out <span style="color:#FFC0F6; text-decoration:underline">./dist/css/default.css</span><br>
+💅 PostCSS on <span style="color:#FFC0F6; text-decoration:underline">./dist/css/default.css</span><br>
+✨ Styles finished
 </pre>
 </div>
-<figcaption class="static">The first version of the ACCESS Patterns included a local application (app/) for distributing the source code to static JavaScript, CSS, and HTML</figcaption>
+<figcaption class="static">The first version of the ACCESS Patterns included npm scripts and a local Node.js application for distributing the source code to static JavaScript, CSS, and HTML.</figcaption>
+</figure>
+<figure class="figure mb-3">
+<div class="figure__matte h-auto">
+<pre tabindex="0" class="m-0 nohighlight whitespace-normal">
+<p>$ npm run make component accordion</p>
+<p>✨ Created <span style="color:#FFC0F6; text-decoration:underline">./src/components/accordion/accordion.slm</span><br>
+✨ Created <span style="color:#FFC0F6; text-decoration:underline">./src/components/accordion/accordion.md</span><br>
+✨ Created <span style="color:#FFC0F6; text-decoration:underline">./src/components/accordion/_accordion.scss</span></p>
+<p>💅 Include the <span style="color:#AED581">accordion</span> stylesheet in your main Sass entry point. To create an independent distribution (optional) add the <span style="color:#AED581">accordion</span> stylesheet to your Sass configuration.</p>
+<p>❓ Make a config file for <span style="color:#AED581">accordion</span>? y/n ↵</p>
+</pre>
+</div>
+<figcaption class="static">The ACCESS Patterns could also scaffold new components by creating the source files needed to style, script, and document their HTML specifications.</figcaption>
 </figure>
 <figure class="figure">
 <div class="figure__matte grid grid-cols-3 h-auto">
@@ -155,7 +131,7 @@ bin/
   tokens.js
 </pre>
 </div>
-<figcaption class="static">The local applicaton became the basis for the <a href="https://github.com/cityofnewyork/patterns-cli" target="_blank">Patterns Command Line Interface (CLI)</a> which helped my team and I to design, develop, and maintain 4 additional product pattern libraries.</figcaption>
+<figcaption class="static">The npm scripts and local Node.js applicaton became the basis for the <a href="https://github.com/cityofnewyork/patterns-cli" target="_blank">Patterns Command Line Interface (CLI)</a> which helped my team and I to design, develop, and maintain 4 additional product pattern libraries.</figcaption>
 </figure>
 <p>This font-end developer tooling helped my team and I to design, develop, and maintain 4 additional product pattern libraries, including the <strong>Working NYC Patterns</strong>, <strong>Growing Up NYC Patterns</strong>, <strong>Generation NYC Patterns</strong>, and <strong>NYC Opportunity Common Agency Patterns</strong>.</p>
 <section class="grid tablet:grid-cols-2 gap-3 mb-8">
@@ -169,7 +145,7 @@ bin/
       </div>
     </div>
     <figcaption class="static">
-      <p>The <a href="https://accesspatterns.cityofnewyork.us" target="_blank">ACCESS NYC Patterns</a> became the basis for front-end developer tools called the <b>NYCO Patterns Framework</b> that would help build and maintain other pattern libraries for our products.</p>
+      <p>The <a href="https://accesspatterns.cityofnewyork.us" target="_blank">ACCESS NYC Patterns</a> became the basis for front-end developer tools called the <b>NYCO UI Patterns Framework</b> that would help build and maintain other pattern libraries for our products.</p>
     </figcaption>
   </figure>
   <figure class="figure block m-0">
@@ -182,7 +158,7 @@ bin/
       </div>
     </div>
     <figcaption class="static">
-      <p>I used the <b>NYCO Patterns Framework</b> to design Working NYC in-code and ship <a href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank">its pattern library</a> simultaneously with the launch of the product.<br><br></p>
+      <p>I used the <b>NYCO UI Patterns Framework</b> to design Working NYC in-code and ship <a href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank">its pattern library</a> simultaneously with the launch of the product.<br><br></p>
     </figcaption>
   </figure>
   <figure class="figure block m-0">
@@ -195,7 +171,7 @@ bin/
       </div>
     </div>
     <figcaption class="static">
-      <p>The <b>NYCO Patterns Framework</b> supported the development of the <a href="https://github.com/NYCOpportunity/growingupnyc-patterns" target="_blank">Growing Up and Generation NYC Patterns</a> by other members of my team.<br><br></p>
+      <p>The <b>NYCO UI Patterns Framework</b> supported the development of the <a href="https://github.com/NYCOpportunity/growingupnyc-patterns" target="_blank">Growing Up and Generation NYC Patterns</a> by other members of my team.<br><br></p>
     </figcaption>
   </figure>
   <figure class="figure block m-0">
@@ -208,7 +184,7 @@ bin/
       </div>
     </div>
     <figcaption class="static">
-      <p>I used the <b>NYCO Patterns Framework</b> to create <a href="https://nycopatterns.cityofnewyork.us" target="_blank">common agency patterns</a> for my organization (The Mayor's Office for Economic Opportunity) with many design and development contributions from my team.</p>
+      <p>I used the <b>NYCO UI Patterns Framework</b> to create <a href="https://nycopatterns.cityofnewyork.us" target="_blank">common agency patterns</a> for my organization (The Mayor's Office for Economic Opportunity) with many design and development contributions from my team.</p>
     </figcaption>
   </figure>
 </section>
