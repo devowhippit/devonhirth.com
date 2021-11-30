@@ -25,28 +25,28 @@ if (domains.indexOf(document.domain) > -1) {
 <p>ACCESS NYC is designed to accommodate New York City residents with low digital literacy on mobile devices. It is also <strong>Web Content Accessibility Guideline (WCAG) AA compliant</strong> and accessible in <strong>11 different languages</strong> with support for <strong>right-to-left</strong> reading directions. Many of the elements and user experience of the design patterns leveraged the US Web Design System. ACCESS NYC has won <a href="/portfolio/access-nyc/#awards">4 government design and technology awards</a> since its launch, and the principles used to create this product are the basis for all of the other products in our portfolio.</p>
 <p>I felt the most compelling contribution that I could make to such a well-done and principled design would be to make it quickly replicable at scale and available as an open-source pattern library. The need for a reusable library became more apparent when we needed to develop new features and products that required design but couldn't as a product team with limited design resources.</p>
 <p>To do this, I took the current site and cataloged all of the reusable patterns. Using cut-outs from printed pages of the site, I hosted a workshop to allow the team to name and organize the patterns using terms of which our team would be familiar. Then, I used these common names to create individual pattern modules, refactoring and simplifying the source's stylesheets and JavaScript. Finally, I published the library to GitHub and Node Package Manager (NPM) with corresponding documentation and demonstration site.</p>
-<figure class="figure">
+<figure class="figure mb-3">
   <div class="figure__matte bg-cover" style="background-image: url('/img/anyc-patterns.png'); background-position: center center"></div>
   <figcaption class="static">I hosted a workshop to catalogue ACCESS NYC's reusable patterns using cut-outs printed from the site.</figcaption>
 </figure>
-<figure class="figure">
-  <div class="figure__matte grid place-items-center grid-cols-3 px-6 py-4" style="background-color: #FFDBDB; color: #112E51;">
-    <div class="px-2 text-center">
-      <img class="mb-3" src="/img/pttrn-elements.svg" width="216" height="202" loading="lazy" decoding="async" />
+<figure class="figure mb-3">
+  <div class="figure__matte h-auto grid place-items-center grid-cols-3 px-6 py-8" style="background-color: #FFDBDB; color: #112E51;">
+    <div class="p-3 h-full grid content-between text-center">
+      <img class="mb-1" src="/img/pttrn-elements.svg" width="280" height="280" loading="lazy" decoding="async" />
       <p><b>Elements</b></p>
     </div>
-    <div class="px-2 text-center">
-      <img class="mb-3" src="/img/pttrn-components.svg" width="234" height="202" loading="lazy" decoding="async" />
+    <div class="p-3 h-full grid content-between text-center">
+      <img class="mb-1" src="/img/pttrn-components.svg" width="280" height="280" loading="lazy" decoding="async" />
       <p><b>Components</b></p>
     </div>
-    <div class="px-2 text-center">
-      <img class="mb-3" src="/img/pttrn-objects.svg" width="185" height="185" loading="lazy" decoding="async" />
+    <div class="p-3 h-full grid content-between text-center">
+      <img class="mb-1" src="/img/pttrn-objects.svg" width="280" height="280" loading="lazy" decoding="async" />
       <p><b>Objects</b></p>
     </div>
   </div>
   <figcaption class="static">The team named and organized the patterns under three main categories; elements, components, and objects.</figcaption>
 </figure>
-<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+<section class="grid tablet:grid-cols-2 gap-3 mb-3">
   <figure class="figure m-0">
     <img class="block" width="1440" height="800" src="/img/anyc-patterns-npm.png" alt="A screenshot of the ACCESS NYC UI Patterns documentation homepage." loading="lazy" decoding="async" />
     <figcaption class="static">The <a href="https://www.npmjs.com/package/@nycopportunity/access-patterns" target="_blank" rel="noopener nofollow">NPM landing page</a> for the ACCESS NYC UI Patterns.</figcaption>
@@ -61,16 +61,16 @@ if (domains.indexOf(document.domain) > -1) {
   <figcaption class="static">The corresponding documentation and demonstration site. The team assisted with the content and plain language review of the documentation.</figcaption>
 </figure>
 <p>The first version of the library included 35 elements, components, and utilities. Over time, the set has expanded to over 50 patterns, including reactive component variants for Vue.js applications. Additionally, I introduced CSS utilities to the library by adding <a href="https://tailwindcss.com" target="_blank" rel="noopener nofollow">Tailwindcss</a>, customized using design tokens from the pattern source. The accessibility of the patterns has also improved over time with manual testing by the Mayor's Office for People with Disabilities (MOPD) and automated accessibility testing using <a href="https://pa11y.org/">Pa11y</a>.</p>
-<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+<section class="grid tablet:grid-cols-2 gap-3 mb-3">
   <figure class="figure m-0">
     <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #EEF3F7">
       <div class="px-4"><img class="my-6 mx-auto" src="/img/anyc-patterns-sample.svg" width="1163" height="469" loading="lazy" decoding="async" /></div>
     </div>
-    <figcaption class="static">The ACCESS NYC UI Patterns library includes user interface (UI) elements from the site including buttons, inputs, icons and more.</figcaption>
+    <figcaption class="static">The ACCESS NYC UI Patterns library includes user interface (UI) elements from the site such as buttons, inputs, icons and more.</figcaption>
   </figure>
   <figure class="figure m-0">
     <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #EEF3F7">
-      <div class="px-4"><img class="my-8 mx-auto" src="/img/pttrn-tailwindcss.svg" width="460" loading="lazy" decoding="async" alt="The tailwindcss logo." /></div>
+      <div class="px-4"><img class="my-8 mx-auto" src="/img/pttrn-logo-tailwindcss.svg" width="460" loading="lazy" decoding="async" alt="The tailwindcss logo." /></div>
     </div>
     <figcaption class="static">I introduced CSS utilities to the library by adding Tailwindcss, a utility-first CSS framework, customized using design tokens from the pattern source.</figcaption>
   </figure>
