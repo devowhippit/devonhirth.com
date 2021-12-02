@@ -8,7 +8,8 @@ section(id='typography')
     div(class='max-w-desktop mx-auto')
       h2(class='py-4 m-0')
         a(href='#typography' class='flex mie-1 no-underline')
-          svg(class='icon w-4 h-4' aria-hidden='true')
+          svg(class='icon w-4 h-4' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Typography
@@ -17,7 +18,8 @@ section(id='typography')
     div(class='max-w-desktop mx-auto')
       h3(class='border-b border-t0 pb-2')
         a(id='headings' href='#headings' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Headings
@@ -36,8 +38,11 @@ section(id='typography')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='blockquote' href='#blockquote' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
 
         | Blockquote
 
@@ -45,8 +50,11 @@ section(id='typography')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='small' href='#small' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
 
         | Small
 
@@ -54,8 +62,11 @@ section(id='typography')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='paragraphs' href='#paragraphs' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
 
         | Paragraphs
 
@@ -63,8 +74,11 @@ section(id='typography')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='links' href='#links' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
+
+          span(class='sr-only') Anchor
 
         | Links
 
@@ -72,7 +86,8 @@ section(id='typography')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='highlight' href='#highlight' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Highlight
@@ -84,7 +99,8 @@ section(id='forms')
     div(class='max-w-desktop mx-auto')
       h2(class='py-4 m-0')
         a(href='#forms' class='flex mie-1 no-underline')
-          svg(class='icon w-4 h-4' aria-hidden='true')
+          svg(class='icon w-4 h-4' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Forms
@@ -94,21 +110,23 @@ section(id='forms')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='questions' href='#questions' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Questions
 
       div(class='question')
-        label(class='label') Question label
+        label(class='label' for="answer") Question label
 
         div
           div(class='input')
-            input(type='text' placeholder='Answer')
+            input(type='text' id="answer" placeholder='Answer')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='buttons' href='#buttons' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Buttons
@@ -123,17 +141,18 @@ section(id='forms')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='select' href='#select' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Select
 
       div(class='question')
-        label(class='label') Question label
+        label(class='label' for='select-an-option') Question label
 
         div
           div(class="select")
-            select
+            select(id='select-an-option')
               option Select an Option
               option(disabled) ---
               option Option
@@ -143,7 +162,8 @@ section(id='forms')
 
       h3(class='border-b border-t0 pb-2 mt-6')
         a(id='options' href='#options' class='flex mie-1 no-underline')
-          svg(class='icon' aria-hidden='true')
+          svg(class='icon' role='img')
+            title Anchor Link
             use(xlink:href='#tabler-hash')
 
         | Options
@@ -153,6 +173,8 @@ section(id='forms')
 
         div
           fieldset
+            legend Radio
+
             label(class='opt' for='opt-a')
               input(id='opt-a' name='opt["radio"]' type='radio' value='opt-a' class='sr-only')
 
@@ -176,6 +198,8 @@ section(id='forms')
 
         div
           fieldset
+            legend Checkbox
+
             label(class='opt' for='opt-check')
               input(id='opt-check' name='opt["checkbox"]' type='checkbox' value='opt-check' class='sr-only')
               span(class='opt__base')

@@ -25,13 +25,13 @@ breadcrumbs: ['NYCO UI Patterns Framework']
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Lead Developer and Digital Product Designer</h4>
-    <p><a class="btn btn-primary" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow">nycopportunity.github.io/patterns-framework <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
+    <p><a class="btn btn-primary" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow noreferrer">nycopportunity.github.io/patterns-framework <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
 
 The NYCO User Interface (UI) Patterns Framework is a collection of tools and principles used to make creating UI pattern libraries fun for developers, transparent for teams, and sustainable beyond the lifecycle of digital products. It encourages the principles of utility-first atomic design, JavaScript framework independence, modularity, and portability.
 
-I started the framework with support and feedback from my team and our fellows while building the [ACCESS NYC UI Pattern Library](/portfolio/access-nyc/ui-patterns-library). It includes front-end development tools such as the <a href="https://github.com/cityofnewyork/patterns-cli" target="_blank" rel="noopener nofollow">Patterns Command Line Interface (CLI)</a>, which streamlines the development of pattern libraries by creating and organizing UI components according to the Framework's naming convention.
+I started the framework with support and feedback from my team and our fellows while building the [ACCESS NYC UI Pattern Library](/portfolio/access-nyc/ui-patterns-library). It includes front-end development tools such as the <a href="https://github.com/cityofnewyork/patterns-cli" target="_blank" rel="noopener nofollow noreferrer">Patterns Command Line Interface (CLI)</a>, which streamlines the development of pattern libraries by creating and organizing UI components according to the Framework's naming convention.
 
 <figure class="figure mb-3">
 <div class="figure__matte h-auto">
@@ -172,14 +172,14 @@ npm notice 📦  patterns-demo@0.1.0<br>
 </pre>
 </div>
 
-<figcaption class="static">The CLI includes npm scripts for publishing a pattern library as a package to the NPM registry as well as publishing a GitHub Pages static documentation site.</figcaption>
+<figcaption class="static">The CLI includes npm scripts for publishing a pattern library as a package to the NPM registry as well as publishing a <a href="https://pages.github.com/" target="_blank" rel="noopener nofollow">GitHub Pages</a> static documentation site.</figcaption>
 </figure>
 
 <figure class="figure">
   <div class="figure__matte flex items-center justify-center h-auto" style="background-color: #EEF3F7">
     <img src="/img/pttrn-accordion-demo.png" alt="The ACCESS NYC UI Patterns accordion documentation page." width="1440" height="3688" loading="lazy" decoding="async" />
   </div>
-  <figcaption class="static">Pattern libraries created with the CLI can generate static sites that include live demonstrations, markup examples, and special usage instructions for every UI pattern. This image showcases the ACCESS NYC Patterns documentation page for the accordion component.</figcaption>
+  <figcaption class="static">Pattern libraries created with the CLI can generate static sites on <a href="https://pages.github.com/" target="_blank" rel="noopener nofollow">GitHub Pages</a> that include live demonstrations, markup examples, and special usage instructions for every UI pattern. This image showcases the ACCESS NYC Patterns documentation page for the accordion component.</figcaption>
 </figure>
 
 > This font-end developer tooling helped my team and I to design, develop, and maintain 4 additional product pattern libraries, including the **Working NYC Patterns**, **Growing Up NYC Patterns**, **Generation NYC Patterns**, and **NYC Opportunity Common Agency Patterns**.
@@ -195,12 +195,12 @@ npm notice 📦  patterns-demo@0.1.0<br>
       </div>
     </div>
     <figcaption class="static">
-      <p>The <a href="https://accesspatterns.cityofnewyork.us" target="_blank" rel="noopener nofollow">ACCESS NYC UI Patterns</a> became the basis for front-end developer tools called the <b>NYCO UI Patterns Framework</b> that would help build and maintain other pattern libraries for our products.</p>
+      <p>The <a href="https://accesspatterns.cityofnewyork.us" target="_blank" rel="noopener nofollow noreferrer">ACCESS NYC UI Patterns</a> became the basis for front-end developer tools called the <b>NYCO UI Patterns Framework</b> that would help build and maintain other pattern libraries for our products.</p>
     </figcaption>
   </figure>
 
   <figure class="figure block m-0">
-    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031837">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031837; color: #FFF">
       <div class="absolute flex items-center justify-center px-8 w-full h-full">
         <div class="large:px-8">
           <img class="mt-1 mb-5" src="/img/wnyc-logo-standard.svg" alt="The Working NYC Logo" width="506" height="45" loading="lazy" decoding="async" />
@@ -209,7 +209,7 @@ npm notice 📦  patterns-demo@0.1.0<br>
       </div>
     </div>
     <figcaption class="static">
-      <p>I used the <b>NYCO UI Patterns Framework</b> to design Working NYC in-code and ship <a href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank" rel="noopener nofollow">its pattern library</a> simultaneously with the launch of the product.<br><br></p>
+      <p>I used the <b>NYCO UI Patterns Framework</b> to design Working NYC in-code and ship <a href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank" rel="noopener nofollow noreferrer">its pattern library</a> simultaneously with the launch of the product.<br><br></p>
     </figcaption>
   </figure>
 
@@ -228,7 +228,7 @@ npm notice 📦  patterns-demo@0.1.0<br>
   </figure>
 
   <figure class="figure block m-0">
-    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #1642DF">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #1642DF; color: #FFF">
       <div class="absolute flex items-center justify-center px-8 w-full h-full">
         <div class="large:px-8">
           <img class="mb-3" src="/img/nyco-logo-secondary.svg" alt="The NYC Mayor's Office for Economic Opportunity Logo" width="692" height="121" aria-hidden="true" loading="lazy" decoding="async" />
@@ -237,7 +237,7 @@ npm notice 📦  patterns-demo@0.1.0<br>
       </div>
     </div>
     <figcaption class="static">
-      <p>I used the <b>NYCO UI Patterns Framework</b> to create <a href="https://nycopatterns.cityofnewyork.us" target="_blank" rel="noopener nofollow">common agency patterns</a> for my organization (The Mayor's Office for Economic Opportunity) with many design and development contributions from my team.</p>
+      <p>I used the <b>NYCO UI Patterns Framework</b> to create <a href="https://nycopatterns.cityofnewyork.us" target="_blank" rel="noopener nofollow noreferrer">common agency patterns</a> for my organization (The Mayor's Office for Economic Opportunity) with many design and development contributions from my team.</p>
     </figcaption>
   </figure>
 </section>
@@ -250,16 +250,16 @@ Product managers, designers, and engineers have used the tools and libraries in 
   <figure class="figure block m-0">
     <img class="block" src="/img/benefits-platform-api-landing-page.png" alt="The NYC Benefits Platform Screening API landing page" width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">
-      <p>I led the UI design and development of the <a href="https://screeningapidocs.cityofnewyork.us" target="_blank" rel="noopener nofollow">NYC Benefits Platform: Screening API</a> documentation using the <b>NYCO Common Agency Patterns</b> and the <b>Patterns CLI</b>.</p>
+      <p>I led the UI design and development of the <a href="https://screeningapidocs.cityofnewyork.us" target="_blank" rel="noopener nofollow noreferrer">NYC Benefits Platform: Screening API</a> documentation using the <b>NYCO Common Agency Patterns</b> and the <b>Patterns CLI</b>.</p>
     </figcaption>
   </figure>
 
   <figure class="figure block m-0">
     <img class="block" src="/img/mhfa-landing-page.png" alt="The Mental Health for All website landing page" width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">
-      <p>I led the UI design and development of the <a href="https://mentalhealthforall.nyc.gov" target="_blank" rel="noopener nofollow">Mental Health for All website</a> using the <b>Growing Up NYC Patterns</b> and the <b>Patterns CLI</b>.</p>
+      <p>I led the UI design and development of the <a href="https://mentalhealthforall.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">Mental Health for All website</a> using the <b>Growing Up NYC Patterns</b> and the <b>Patterns CLI</b>.</p>
     </figcaption>
   </figure>
 </section>
 
-<a class="btn btn-primary m-0 justify-center" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> View the Patterns Framework</a>
+<a class="btn btn-primary m-0 justify-center" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow noreferrer"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> View the Patterns Framework</a>

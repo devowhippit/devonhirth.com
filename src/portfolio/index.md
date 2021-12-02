@@ -7,7 +7,7 @@ breadcrumbs: []
 
 ## The Mayor's Office for Economic Opportunity {.sr-only}
 
-<figure class="figure -mx-3 tablet:mx-0" style="background-color: #031553">
+<figure class="figure -mx-3 tablet:mx-0" style="background-color: #031553; color: #FFF">
   <div class="figure__matte p-3 flex items-center justify-center">
     <svg width="500" height="96" role="img">
       <title>Office Logo</title>
@@ -70,7 +70,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
     <div>
       <img src="/img/pttrn-objects.svg" alt="Icon for Patterns Framework objects" width="280" height="280" loading="lazy" decoding="async" />
     </div>
-    <div class="col-span-full mb-4 large:pb-8 large:mb-8">
+    <div class="col-span-full tablet:mb-4 large:pb-8 large:mb-8">
       <span class="h3" style="font-family: Helvetica Neue Pro, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: bolder;">NYCO UI Patterns Framework</span>
     </div>
   </div>
@@ -97,13 +97,13 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Digital Product Designer</h4>
-    <p><a href="https://screeningapidocs.cityofnewyork.us"><b>NYC Benefits Platform: Screening API</b></a> – This open API enables community-based organizations and civic technologists to build tools to screen their clients for benefit program eligibility using the same rules that govern the screening tool featured on ACCESS NYC. My responsibilities for this product included vendor review and selection for building the API, content UX strategy of the technical documentation, and contributions to the UI design and management of documentation components.</p> <a class="btn btn-primary" href="https://screeningapidocs.cityofnewyork.us" target="_blank" rel="noopener nofollow">View the Screening API documentation<svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+    <p><a href="https://screeningapidocs.cityofnewyork.us" target="_blank" rel="noopener nofollow noreferrer"><b>NYC Benefits Platform: Screening API</b></a> – This open API enables community-based organizations and civic technologists to build tools to screen their clients for benefit program eligibility using the same rules that govern the screening tool featured on ACCESS NYC. My responsibilities for this product included vendor review and selection for building the API, content UX strategy of the technical documentation, and contributions to the UI design and management of documentation components.</p> <a class="btn btn-primary" href="https://screeningapidocs.cityofnewyork.us"  target="_blank" rel="noopener nofollow noreferrer">View the Screening API documentation<svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
   </figcaption>
 </figure>
 
 <section class="grid tablet:grid-cols-2 gap-3">
   <figure class="figure block" id="online-applications-pilot">
-    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553; color: #FFF">
       <h3 class="text-center px-4">Online Applications Pilot</h3>
     </div>
     <figcaption class="static">
@@ -113,12 +113,12 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
   </figure>
 
   <figure class="figure block" id="nyc-rules">
-    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553; color: #FFF">
       <h3 class="text-center px-4">NYC Rules</h3>
     </div>
     <figcaption class="static">
       <h4 class="h5 mb-3 inline-block">Role: Lead Developer and Project Consultant</h4>
-      <p>Consulted with the Mayor's Office of Operations to launch <a href="https://rules.cityofnewyork.us/" target="_blank" rel="noopener nofollow">NYC Rules</a>. Designed the site using the <a href="https://www1.nyc.gov/assets/doitt/html/nyc-core-framework/index.html" target="_blank" rel="noopener nofollow">NYC Core Framework</a> and finished core functionality required for the site launch.</p>
+      <p>Consulted with the Mayor's Office of Operations to launch <a href="https://rules.cityofnewyork.us/"  target="_blank" rel="noopener nofollow noreferrer">NYC Rules</a>. Designed the site using the <a href="https://www1.nyc.gov/assets/doitt/html/nyc-core-framework/index.html"  target="_blank" rel="noopener nofollow noreferrer">NYC Core Framework</a> and finished core functionality required for the site launch.</p>
     </figcaption>
   </figure>
 </section>
@@ -161,7 +161,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Researcher / Lead Engineer / Designer</h4>
-    <p>I contributed to and advised on the engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org/" target="_blank" rel="noopener nofollow">daisydebt.org</a>, which helps financial counselors assert their client's rights against unlawful debt collection agencies.</p> <a href="/portfolio/daisy-debt" class="btn btn-primary m-0 justify-center"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View Daisy Debt project</a>
+    <p>I contributed to and advised on the engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org/" target="_blank" rel="noopener nofollow noreferrer">daisydebt.org</a>, which helps financial counselors assert their client's rights against unlawful debt collection agencies.</p> <a href="/portfolio/daisy-debt" class="btn btn-primary m-0 justify-center"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View Daisy Debt project</a>
   </figcaption>
 </figure>
 

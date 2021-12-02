@@ -7,7 +7,7 @@ breadcrumbs: ['ACCESS NYC', 'COVID Response']
 
 --- {.m-0}
 
-## COVID Response {.my-6}
+## COVID Response {.h1 .my-6}
 
 When New York City became the epicenter of the COVID-19 pandemic, ACCESS NYC became a front-line digital resource for local, state, and federal aid information. The site saw an increase in traffic by 200% as a result of the pandemic.
 
@@ -126,7 +126,9 @@ For applying to programs, I moved a link to ACCESS HRA from the top section towa
 I created the redesigns in Figma, and after reviewing the new page updates with the team, implemented the updates in code. Below are screenshots of the homepage and programs landing page with annotated design changes.
 
 <figure class="figure">
-  <img src="/img/anyc-covid-homepage.png" alt="The ACCESS NYC homepage with annotations of the COVID response enhancements." loading="lazy" decoding="async" />
+  <div class="figure__matte p-4 tablet:p-8 bg-t1 h-auto">
+    <img src="/img/anyc-covid-homepage.png" alt="The ACCESS NYC homepage with annotations of the COVID response enhancements." loading="lazy" decoding="async" />
+  </div>
 </figure>
 
 <!-- <figure class="figure">
@@ -153,8 +155,8 @@ The implementation gave content managers the ability to designate what content w
 **COVID-19 Vaccine Program Guide**
 
 <figure class="figure">
-  <div class="figure__matte flex items-center justify-center tablet:px-4 tablet:px-8 bg-t1 h-auto" style="height: auto">
-    <img class="tablet:my-8 mx-auto" src="/img/anyc-covid-vaccine-guide.png" width="1024" height="569" loading="lazy" decoding="async" />
+  <div class="figure__matte flex items-center justify-center p-4 tablet:p-8 bg-t1 h-auto">
+    <img src="/img/anyc-covid-vaccine-guide.png" width="1024" height="569" loading="lazy" decoding="async" />
   </div>
 </figure>
 

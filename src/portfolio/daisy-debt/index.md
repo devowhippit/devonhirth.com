@@ -19,7 +19,7 @@ breadcrumbs: ['Daisy Debt']
   </figcaption>
 </figure>
 
-I contributed to and advised on the engineering and product design of a non-profit SAAS product, [daisydebt.org](https://daisydebt.org), which helps financial counselors assert their client's rights against unlawful debt collection agencies. The site hosts a web application that allows financial counselors to write and send debt verification letters for their clients. It uses a 10-step form to generate a letter that takes less than 5 minutes to complete. The application mails the letter upon completion via U.S. certified mail. Financial counselors and their clients can track the letter to ensure it arrives at its destination using certified mail. The application also sends reminder emails to counselors and their clients to help them remain mutually accountable until the letter-sending process resolves the client's debt collection issue.
+I contributed to and advised on the engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org" target="_blank" rel="noopener nofollow noreferrer">daisydebt.org</a>, which helps financial counselors assert their client's rights against unlawful debt collection agencies. The site hosts a web application that allows financial counselors to write and send debt verification letters for their clients. It uses a 10-step form to generate a letter that takes less than 5 minutes to complete. The application mails the letter upon completion via U.S. certified mail. Financial counselors and their clients can track the letter to ensure it arrives at its destination using certified mail. The application also sends reminder emails to counselors and their clients to help them remain mutually accountable until the letter-sending process resolves the client's debt collection issue.
 
 > The primary challenge with Daisy Debt was conducting research and building a **minimum viable product** within 2 months.
 
@@ -55,7 +55,7 @@ I contributed to and advised on the engineering and product design of a non-prof
 
 ### <a class="flex mie-1 no-underline" id="research-sprint" href="#research-sprint"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Research Sprint
 
-This summary of research conducted during my fellowship at the Blue Ridge Labs foundation in 2016 led my team to build [Daisy Debt](https://daisydebt.org/). It includes what I observed during our interviews with [Financial Empowerment Centers](https://www1.nyc.gov/site/dca/consumers/get-free-financial-counseling.page) (FE Centers), but many community-based organizations (CBOs) do similar work. I am grateful to the financial counselors that we were able to work with, who showed much interest and proved to be highly influential on the project.
+This summary of research conducted during my fellowship at the Blue Ridge Labs foundation in 2016 led my team to build <a href="https://daisydebt.org/" rel="nofollow noopener noreferrer" target="_blank">Daisy Debt</a>. It includes what I observed during our interviews with <a href="https://www1.nyc.gov/site/dca/consumers/get-free-financial-counseling.page" rel="nofollow noopener noreferrer" target="_blank">Financial Empowerment Centers</a> (FE Centers), but many community-based organizations (CBOs) do similar work. I am grateful to the financial counselors that we were able to work with, who showed much interest and proved to be highly influential on the project.
 
 #### Observations of financial counseling sessions
 
@@ -63,7 +63,7 @@ Clients are directed to or reach out for free appointments with FE Centers. Ofte
 
 > Financial Counselors are critical for helping clients navigate the landscape of consumer debt, which is full of pitfalls ranging from difficult-to-discern documentation, predatory practices, wrong information, and scams.
 
-Our team's lead user experience researcher reflected [on her experience working in the consumer debt area](https://labs.robinhood.org/five-insights-about-designing-for-consumer-debt/). There are many excellent descriptions of some challenges.
+Our team's lead user experience researcher reflected <a href="https://labs.robinhood.org/five-insights-about-designing-for-consumer-debt/" target="_blank" rel="nofollow noopener">on her experience working in the consumer debt area</a>. There are many excellent descriptions of some challenges.
 
 #### Observations of counseling sessions
 
@@ -111,7 +111,7 @@ After the conclusion of our research, my team set to build a tool that would all
 
 * Myself. A user interface UI designer and full-stack engineer
 
-Nathan bootstrapped a Ruby on Rails application with a step-by-step form where users can input details about a debt collection harassment and generate a debt verification letter from templated legal language. Together, we refined the design and basic features of the user interface and, with advice from Linda, finalized the text in the letter template to ensure its legal standing. Finally, we created an API request to the direct mailing service, [Lob.com](https://lob.com), to mail letters created by the form to a specified debt collection agency. It was with this prototype of Daisy Debt that we would conduct usability testing sessions moderated by Marianne.
+Nathan bootstrapped a Ruby on Rails application with a step-by-step form where users can input details about a debt collection harassment and generate a debt verification letter from templated legal language. Together, we refined the design and basic features of the user interface and, with advice from Linda, finalized the text in the letter template to ensure its legal standing. Finally, we created an API request to the direct mailing service, <a href="https://lob.com" target="_blank" rel="noopener nofollow noreferrer">Lob.com</a>, to mail letters created by the form to a specified debt collection agency. It was with this prototype of Daisy Debt that we would conduct usability testing sessions moderated by Marianne.
 
 The prototype included 9 steps.
 
@@ -125,7 +125,16 @@ The prototype included 9 steps.
 1. Preview and send
 1. Collecting email for follow up
 
-#### Screenshots
+<div class="tablet:flex justify-between items-center mb-4">
+  <h4 class="tablet:m-0">Application Screenshots</h4>
+
+  <span class="flex items-center">
+    <span class="mie-1">Scroll horizontally to see more</span>
+    <svg class="icon" aria-hidden="true">
+      <use xlink:href="#tabler-arrow-bar-right"></use>
+    </svg>
+  </span>
+</div>
 
 Below are a few screenshots of steps from the letter writing flow.
 
@@ -180,6 +189,15 @@ We needed to be careful about testing this application with New Yorkers facing h
 
 The Creditor Details step provided tips to help clients find the information they needed to address the letter correctly.
 
+<div class="tablet:flex justify-between items-center mb-4">
+  <span class="flex items-center">
+    <span class="mie-1">Scroll horizontally to see more</span>
+    <svg class="icon" aria-hidden="true">
+      <use xlink:href="#tabler-arrow-bar-right"></use>
+    </svg>
+  </span>
+</div>
+
 <figure class="figure figure-scroll">
   <div class="figure__matte h-auto" style="background-color: #FFF">
     <img class="block" src="/img/dd-letter-04-creditor-details-popover-tip.png" loading="lazy" decoding="async" alt="The creditor details popover tip." />
@@ -191,6 +209,15 @@ The Creditor Details step provided tips to help clients find the information the
 </figure>
 
 We provided an autocomplete feature using data from a register of national debt collection agencies. It would pre-populate our recommended address to send the letter.
+
+<div class="tablet:flex justify-between items-center mb-4">
+  <span class="flex items-center">
+    <span class="mie-1">Scroll horizontally to see more</span>
+    <svg class="icon" aria-hidden="true">
+      <use xlink:href="#tabler-arrow-bar-right"></use>
+    </svg>
+  </span>
+</div>
 
 <figure class="figure figure-scroll">
   <div class="figure__matte h-auto" style="background-color: #FFF">
@@ -225,6 +252,15 @@ I designed the homepage for a broad audience to explain the tool and its justifi
 #### Follow-up
 
 The final feature I designed and engineered for the application was a notification system that sends an email to users 1, 14, 30, and 40 days after creating and mailing a letter. Users can also provide the email address of their financial counselor assisting them in making the letter. Both addresses receive an email when the letter is finally delivered by mail. The application sends the client a survey to determine if and how the debt collection agency responded and reminds them to meet with their financial counselor.
+
+<div class="tablet:flex justify-between items-center mb-4">
+  <span class="flex items-center">
+    <span class="mie-1">Scroll horizontally to see more</span>
+    <svg class="icon" aria-hidden="true">
+      <use xlink:href="#tabler-arrow-bar-right"></use>
+    </svg>
+  </span>
+</div>
 
 <figure class="figure figure-scroll">
   <div class="figure__matte h-auto" style="background-color: #F5F5F5">

@@ -20,7 +20,7 @@ breadcrumbs: ['ACCESS NYC']
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Lead Developer and Digital Product Designer</h4>
-    <p><a class="btn btn-primary" href="https://access.nyc.gov"target="_blank" rel="noopener nofollow">https://access.nyc.gov <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+    <p><a class="btn btn-primary" href="https://access.nyc.gov"target="_blank" rel="noopener nofollow noreferrer">https://access.nyc.gov <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
   </figcaption>
 </figure>
 
@@ -38,9 +38,9 @@ NYC Opportunity initially launched the product a few months before I joined the 
 
 ACCESS NYC has won several Government design and technology awards since its launch. Our team was also recognized by the Mayor's Office with a customer service award for our response to the COVID-19 pandemic.
 
-* 2020 City Government Experience Award <a href="https://www.govtech.com/cdg/government-experience/Government-Experience-Awards-2020-Winners-Announced.html" class="inline-flex align-text-bottom"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
-* 2020 Customer Service Award: Mayor's Office of Operations
-* 2019 AWS City on a Cloud Innovation Challenge <a href="https://www.bodyworn.com/news/2019/12/4/announcing-the-2019-aws-city-on-a-cloud-innovation-challenge-winners" class="inline-flex align-text-bottom"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+* 2020 City Government Experience Award <a href="https://www.govtech.com/cdg/government-experience/Government-Experience-Awards-2020-Winners-Announced.html"  rel="noopener nofollow" target="_blank" class="inline-flex align-text-bottom"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+* 2020 The City of New York Mayor's Excellence in Customer Service Award: [For providing outstanding customer service to residents throughout the COVID-19 pandemic](/portfolio/access-nyc/covid-response).
+* 2019 AWS City on a Cloud Innovation Challenge <a href="https://www.bodyworn.com/news/2019/12/4/announcing-the-2019-aws-city-on-a-cloud-innovation-challenge-winners" rel="noopener nofollow" target="_blank" class="inline-flex align-text-bottom"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
 * 2018 Adobe Government Creativity Awards
 * 2017 Best Application Serving the Public: Center for Digital Government, Best of New York
 

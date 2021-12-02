@@ -25,18 +25,18 @@ To do this, I took the current site and cataloged all of the reusable patterns. 
   <figcaption class="static">I hosted a workshop to catalogue ACCESS NYC's reusable patterns using cut-outs printed from the site.</figcaption>
 </figure>
 
-<figure class="figure mb-3">
-  <div class="figure__matte h-auto grid place-items-center grid-cols-3 px-6 py-8" style="background-color: #FFDBDB; color: #112E51;">
-    <div class="p-3 h-full grid content-between text-center">
-      <img class="mb-1" src="/img/pttrn-elements.svg" width="280" height="280" loading="lazy" decoding="async" />
+<figure class="figure mb-3" style="background-color: #FFDBDB">
+  <div class="figure__matte h-auto grid place-items-center grid-cols-3 auto-rows-min px-8 py-8" style="background-color:#FFDBDB;color:#112E51;">
+    <div class="tablet:p-3 h-full grid content-between text-center">
+      <img class="mb-1" src="/img/pttrn-elements.svg" alt="Icon for Patterns Framework elements" width="280" height="280" loading="lazy" decoding="async" />
       <p><b>Elements</b></p>
     </div>
-    <div class="p-3 h-full grid content-between text-center">
-      <img class="mb-1" src="/img/pttrn-components.svg" width="280" height="280" loading="lazy" decoding="async" />
+    <div class="tablet:p-3 h-full grid content-between text-center">
+      <img class="mb-1" src="/img/pttrn-components.svg" alt="Icon for Patterns Framework components" width="280" height="280" loading="lazy" decoding="async" />
       <p><b>Components</b></p>
     </div>
-    <div class="p-3 h-full grid content-between text-center">
-      <img class="mb-1" src="/img/pttrn-objects.svg" width="280" height="280" loading="lazy" decoding="async" />
+    <div class="tablet:p-3 h-full grid content-between text-center">
+      <img class="mb-1" src="/img/pttrn-objects.svg" alt="Icon for Patterns Framework objects" width="280" height="280" loading="lazy" decoding="async" />
       <p><b>Objects</b></p>
     </div>
   </div>
@@ -61,7 +61,7 @@ To do this, I took the current site and cataloged all of the reusable patterns. 
   <figcaption class="static">The corresponding documentation and demonstration site. The team assisted with the content and plain language review of the documentation.</figcaption>
 </figure>
 
-The first version of the library included 35 elements, components, and utilities. Over time, the set has expanded to over 50 patterns, including reactive component variants for Vue.js applications. Additionally, I introduced CSS utilities to the library by adding <a href="https://tailwindcss.com" target="_blank" rel="noopener nofollow">Tailwindcss</a>, customized using design tokens from the pattern source. The accessibility of the patterns has also improved over time with manual testing by the Mayor's Office for People with Disabilities (MOPD) and automated accessibility testing using [Pa11y](https://pa11y.org/).
+The first version of the library included 35 elements, components, and utilities. Over time, the set has expanded to over 50 patterns, including reactive component variants for Vue.js applications. Additionally, I introduced CSS utilities to the library by adding <a href="https://tailwindcss.com" target="_blank" rel="noopener nofollow">Tailwindcss</a>, customized using design tokens from the pattern source. The accessibility of the patterns has also improved over time with manual testing by the Mayor's Office for People with Disabilities (MOPD) and automated accessibility testing using <a href="https://pa11y.org/" target="_blank" rel="noopener nofollow">Pa11y</a>.
 
 <section class="grid tablet:grid-cols-2 gap-3 mb-3">
   <figure class="figure m-0">
@@ -86,7 +86,7 @@ The first version of the library included 35 elements, components, and utilities
   <figcaption class="static">Over time, the set has expanded to over 50 patterns, including some reactive component variants for Vue.js applications.</figcaption>
 </figure>
 
-> The ACCESS NYC UI Patterns Library was [released on November 29th, 2018](https://github.com/CityOfNewYork/ACCESS-NYC-PATTERNS/releases/tag/v0.1.0) and integrated into the core ACCESS NYC website as a dependency. The UI Patterns Library served as the form patterns for the <a href="/portfolio/#online-applications-pilot">Online Applications Pilot</a> and created the <a href="/portfolio/nyco-ui-patterns-framework">NYCO UI Patterns Framework</a>.
+> The ACCESS NYC UI Patterns Library was <a href="https://github.com/CityOfNewYork/ACCESS-NYC-PATTERNS/releases/tag/v0.1.0" rel="noopener nofollow" target="_blank">released on November 29th, 2018</a> and integrated into the core ACCESS NYC website as a dependency. The UI Patterns Library served as the form patterns for the <a href="/portfolio/#online-applications-pilot">Online Applications Pilot</a> and created the <a href="/portfolio/nyco-ui-patterns-framework">NYCO UI Patterns Framework</a>.
 
 ### Next Project
 

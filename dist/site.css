@@ -374,7 +374,7 @@ h2, .h2 {
   font-weight: var(--dh-font-weight-normal);
   font-size: var(--dh-font-size-h2);
   font-feature-settings: var(--dh-font-features-secondary);
-  page-break-before: always;
+  /* page-break-before: always; */
 }
 h3, .h3 {
   font-size: var(--dh-font-size-h3);

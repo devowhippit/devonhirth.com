@@ -9,27 +9,27 @@ layout: 'layouts/resume.pug'
 
 ### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Digital Product Designer, January 2020** – **Present (1 year 10 months)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design and user interface (UI) design/engineering.
+**Digital Product Designer, January 2020** – **Present (2 years 1 month)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design and user interface (UI) design/engineering.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
-* **Working NYC Product Launch** – Designed and developed the brand identity and UI for [working.nyc.gov](https://working.nyc.gov), a workforce program guide aggregator. Conducted usability interviews and worked with other team members to launch and iterate on the product during its post-launch phase.
+* **Mental Health for All** – Designed and oversaw the engineering of <a href="https://mentalhealthforall.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">mentalhealthforall.nyc.gov</a>, New York City’s free mental health services resource. I tokenized the marketing campaign’s brand identity and built page templates using our internally maintained UI pattern library.
 
-* **ACCESS NYC COVID-19 Response** – Redesigned homepage and introduced COVID iconography of [access.nyc.gov](https://access.nyc.gov), a benefit program guide aggregator and eligibility screener, to funnel the traffic surge due to the pandemic. I scoped and oversaw the implementation of the Special Announcement structured data schema for COVID-related information through the management of junior staff.
+* **Working NYC Product Launch** – Designed and developed the brand identity and UI for <a href="https://working.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">working.nyc.gov</a>, a workforce program guide aggregator. Conducted usability interviews and worked with other team members to launch and iterate on the product during its post-launch phase.
 
-* **NYCO Patterns Framework** and **Libraries** – Engineered an open-source command-line interface, JavaScript module library, and other tools as a framework for pattern library development. Modularized UI tokens, fonts, icons, elements, and components into 3 accessible UI libraries for Working NYC, ACCESS NYC, and The Mayor’s Office for Economic Opportunity.
+* **ACCESS NYC COVID-19 Response** – Redesigned homepage and introduced COVID iconography of <a href="https://access.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">access.nyc.gov</a>, a benefit program guide aggregator and eligibility screener, to funnel the traffic surge due to the pandemic. I scoped and oversaw the implementation of the Special Announcement structured data schema for COVID-related information through the management of junior staff. As a result, I was awarded for excellence in customer service by the City of New York Mayor's Office.
+
+* **NYCO Patterns Framework** and **Libraries** – Engineered an open-source command-line interface, JavaScript module library, and other tools as <a href="https://nycopportunity.github.io/patterns-framework/" target="_blank" rel="noopener nofollow noreferrer">a framework for pattern library development</a>. Modularized UI tokens, fonts, icons, elements, and components into 3 accessible UI libraries for Working NYC, ACCESS NYC, and The Mayor’s Office for Economic Opportunity.
 
 **Lead Front-end Developer, May 2017** – **January 2020 (2 years 9 months)**. As a lead front-end developer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using UI design and full-stack development.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
-* **ACCESS NYC Development Contributions** – Contributed to the development of 60+ releases to the core product, access.nyc.gov, including new features, optimizations, and security enhancements.
+* **ACCESS NYC Development Contributions** – Contributed to the development of <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases" target="_blank" rel="noopener nofollow noreferrer">60+ releases</a> to our award-winning product, <a href="https://access.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">access.nyc.gov</a>, including new features, optimizations, and security enhancements.
 
 * **Online Applications Pilot** – Architected a SAAS-based solution with Ruby middleware for digital forms for City rent stabilization programs and oversaw the minimum viable product development by an engineering fellow.
 
-* **NYCO WordPress Boilerplate** – Engineered an open-source development environment, remote management tool, and documentation guide for our WordPress products.
-
-* **Additional open-source projects** – Created 13+ open-source packages used by our products. Including pattern library tooling, WordPress plugins, and Vue.js applications.
+* **Released and maintained 13+ open-source projects** – <a href="https://nycopportunity.github.io/loves-open-source/" target="_blank" rel="noopener nofollow noreferrer">Published code used by our products</a> and for the City of New York’s civic technology community. Types of repositories include reusable web components, pattern library framework, WordPress framework and plugins, and Vue.js applications.
 
 <!-- #### Mentorship {.h6 .primary .mt-0 .mb-1} -->
 
@@ -37,21 +37,17 @@ layout: 'layouts/resume.pug'
 
 ### Principle, Digital Product Designer, exp. design {.h5 .primary .mb-1}
 
-**May 2009 – May 2017 (8 years 1 month), Greater New York City Area**. I provide digital product design and web development services using design research, brand identity, UX design, UI design, data visualization, and full-stack engineering through my freelance practice.
+**May 2009 – May 2017 (8 years 1 month), Greater New York City Area**. I provide <a href="https://expdesign.io" target="_blank" rel="noopener nofollow noreferrer">digital product design and web development services</a> using design research, brand identity, UX design, UI design, data visualization, and full-stack engineering through my freelance practice.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
-* **Clark Product Launch** – Designed and engineered UI elements for the product launch, including landing pages, social media assets, sign-up forms, and product UI for Clark, a tutoring business management platform.
+* **Clark Product Launch** – Designed and engineered UI elements for the product launch, including landing pages, social media assets, sign-up forms, and product UI for <a href="https://www.hiclark.com" target="_blank" rel="noopener nofollow noreferrer">Clark</a>, a tutoring business management platform.
 
-* **Hello Smile Homepage Redesign** – Redesigned and engineered homepage for this innovative NYC-based pediatric dental provider network.
+* **Hello Smile Homepage Redesign** – Redesigned and engineered homepage for <a href="https://www.hellosmile.com/" target="_blank" rel="noopener nofollow noreferrer">Hello Smile</a>, an innovative NYC-based pediatric dental provider network.
 
 ### 2016 Design Fellow at the Blue Ridge Labs @ Robin Hood Foundation {.h5 .primary .mb-1}
 
-**June 2016 – October 2016 (5 months), Greater New York City Area**. I participated in agile-based research, prototyping, and development sprints to create technology solutions for low-income New Yorkers that address access-to-justice issues in the areas of juvenile justice, foster care, and consumer debt.
-
-##### Projects {.h6 .primary .mt-0 .mb-1}
-
-* **Daisy Debt** – Led engineering and product design of a non-profit SAAS product, [daisydebt.org](https://daisydebt.org/), that helps financial counselors assert their client’s rights against unlawful debt collection agencies.
+**June 2016 – October 2016 (5 months), Greater New York City Area**. I participated in agile-based research, prototyping, and development sprints to create technology solutions for low-income New Yorkers that address access-to-justice issues in the areas of juvenile justice, foster care, and consumer debt. Led engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org/" target="_blank" rel="noopener nofollow noreferrer">daisydebt.org</a>, that helps financial counselors assert their client’s rights against unlawful debt collection agencies.
 
 ### Co-founder, Chief Design Technologist at Quadrant.io {.h5 .primary .mb-1}
 
@@ -69,7 +65,7 @@ layout: 'layouts/resume.pug'
 
 <!-- Using my skills in UX design, UI design, front-end development, video production, and animation. -->
 
-## Recommendations {.mt-0}
+## Recommendations
 
 ---
 
