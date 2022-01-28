@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link href="/demos/working-nyc/styles/site-default.css" rel="stylesheet" />
+  <link href="/demos/working-nyc/styles/site-color-default.css" rel="stylesheet" />
+  <title>Newsletter | WorkingNYC</title>
+  <link href="/demos/working-nyc/favicons/apple@180x180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="/demos/working-nyc/favicons/favicon@32x32.png" rel="icon" sizes="32x32" type="image/png" />
+  <link href="/demos/working-nyc/site.webmanifest" rel="manifest" />
+  <meta content="#071f42" name="msapplication-TileColor" />
+  <meta content="#ffffff" name="theme-color" />
+</head>
+
+<body class="color bg-scale-2 p-body">
+  <div class="relative z-10 shadow-up tablet:shadow-none">
+    <!--{ @role        Use role='navigation' in production layouts. Identifies the nav as a major landmark }-->
+    <!--{ @aria-label  Ensures a unique landmark }-->
+    <!--{ @class       Add "o-navigation-fixed" in production layouts }-->
+    <nav aria-label="Primary Navigation" class="o-navigation bg-scale-2 o-navigation-fixed" role="navigation">
+      <a class="o-navigation__logo o-navigation__menu-item" href="/demos/working-nyc/">
+        <span class="sr-only">Working N Y C</span>
+        <svg aria-hidden="true" class="hidden tablet:inline icon-logo-standard-menu-item fill-white text-blue-l-2">
+          <use xlink:href="#logo-wnyc-standard"></use>
+        </svg>
+        <svg aria-hidden="true" class="tablet:hidden icon-logo-stacked-menu-item fill-white text-blue-l-2">
+          <use xlink:href="#logo-wnyc-stacked"></use>
+        </svg>
+      </a>
+      <!--{ @class  Hide menu items for mobile using utilities }-->
+      <a class="hidden desktop:inline-flex" href="/demos/working-nyc/programs/">Programs</a>
+      <a class="hidden desktop:inline-flex" href="#">Opportunities</a>
+      <a class="hidden desktop:inline-flex" href="/demos/working-nyc/newsletter">Newsletter</a>
+      <!--{ @class  The nav supports button elements using "btn-link" }-->
+      <!--button class='o-navigation__menu-item btn-link' data-js='search' aria-controls='aria-c-search' aria-expanded='false'-->
+      <!--  svg class='o-navigation__menu-icon icon-wnyc-ui'-->
+      <!--    use xlink:href='#feather-search'-->
+      <!--  span class='o-navigation__menu-label' Search-->
+      <button aria-controls="aria-c-text-controller" aria-expanded="false" class="o-navigation__menu-item btn-link desktop:m-0" data-dropdown="open" data-dropdown-lock="true" data-js="dropdown">
+        <svg class="o-navigation__menu-icon icon-wnyc-ui">
+          <use xlink:href="#icon-wnyc-translate"></use>
+        </svg>
+        <span class="o-navigation__menu-label">Translate</span>
+      </button>
+      <button aria-controls="aria-c-mobile-menu" aria-expanded="false" class="o-navigation__menu-item btn-link desktop:hidden" data-js="mobile-menu" data-js-mobile-menu="open">
+        <svg class="o-navigation__menu-icon icon-wnyc-ui">
+          <use xlink:href="#feather-menu"></use>
+        </svg>
+        <span class="o-navigation__menu-label">Menu</span>
+      </button>
+    </nav>
+    <!--{ @id     Identifies the Mobile Menu for toggling }-->
+    <!--{ @class  Add "o-mobile-menu-fixed" in production layouts }-->
+    <aside aria-hidden="true" class="o-mobile-menu o-mobile-menu-fixed hidden" id="aria-c-mobile-menu">
+      <!--{ @aria-label  Ensures landmarks are unique }-->
+      <nav aria-label="mobile menu" class="o-mobile-menu__nav border-b pb-2">
+        <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+        <a href="/demos/working-nyc/" tabindex="-1">Home</a>
+        <a href="/demos/working-nyc/programs/" tabindex="-1">Programs</a>
+        <a href="#" tabindex="-1">Opportunities</a>
+        <a href="/demos/working-nyc/newsletter" tabindex="-1">Newsletter</a>
+      </nav>
+      <div class="pt-3">
+        <!--{ @data-js              "mobile-menu" Adds the toggling utility to close the menu }-->
+        <!--{ @data-js-mobile-menu  "close" indicates that this is the primary closing button for the menu. Focus will shift from the open button to the close button when the menu is opened. }-->
+        <!--{ @aria-controls        Targets the Mobile Menu ID for toggling }-->
+        <!--{ @aria-expanded        Indicates the toggled state of the target }-->
+        <!--{ @tabindex             Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+        <button aria-controls="aria-c-mobile-menu" aria-expanded="false" class="btn-link" data-js="mobile-menu" data-js-mobile-menu="close" tabindex="-1">
+          <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+          <svg aria-hidden="true" class="icon-wnyc-ui">
+            <use xlink:href="#feather-x"></use>
+          </svg>
+          <span>Close</span>
+          <span class="sr-only"> and return to site</span>
+        </button>
+      </div>
+    </aside>
+    <div aria-hidden="true" class="o-text-controller bg-scale-1 o-text-controller-fixed hidden" data-js="text-controller" id="aria-c-text-controller">
+      <div class="o-text-controller__inner">
+        <div>
+          <div class="text-end">
+            <button aria-controls="aria-c-text-controller" aria-expanded="false" class="btn btn-primary btn-small" data-dropdown="close" data-js="dropdown" tabindex="-1">
+              <svg aria-hidden="true" class="icon-wnyc-ui" tabindex="-1">
+                <use xlink:href="#feather-x"></use>
+              </svg>
+              <span>Close</span>
+              <span class="sr-only">and return to site</span>
+            </button>
+          </div>
+          <p class="h4 block w-full m-0 py-2 text-alt">Translate Text</p>
+          <div class="o-text-controller__options">
+            <div class="o-text-controller__languages">
+              <div>
+                <ul>
+                  <li>
+                    <a href="/demos/working-nyc/" tabindex="-1">
+                      <span>English</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/es" tabindex="-1">
+                      <span>Español</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/ru" tabindex="-1">
+                      <span>Русский</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/ko" tabindex="-1">
+                      <span>한국어</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/ar" tabindex="-1">
+                      <span>العربية</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/ht" tabindex="-1">
+                      <span>Kreyol</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/zh-hant" tabindex="-1">
+                      <span>繁體中文</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/fr" tabindex="-1">
+                      <span>Français</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/pl" tabindex="-1">
+                      <span>polski</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/ur" tabindex="-1">
+                      <span>اردو</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demos/working-nyc/bn" tabindex="-1">
+                      <span>বাংলা</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p>
+                <span class="sr-only">Powered by Google Translate</span>
+                <svg aria-hidden="true" class="icon-logo-google-translate" tabindex="-1">
+                  <use xlink:href="#logo-google-translate"></use>
+                </svg>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-scale-2">
+      <main class="bg-scale-1" id="content">
+        <div>
+          <div class="layout-content sticky top-0 bg-scale-1 z-10">
+            <nav aria-label="utility" class="c-utility">
+              <a class="btn-link me-auto" href="/demos/working-nyc/">
+                <svg aria-hidden="true" class="icon-wnyc-ui">
+                  <use xlink:href="#feather-chevron-left"></use>
+                </svg>
+                <span>Home</span>
+              </a>
+              <a class="btn btn-small btn-primary" data-js="web-share" data-web-share="{&quot;title&quot;: &quot;Newsletter" , "text" : "" , "url" : "/demos/working-nyc/newsletter" }" href="#">
+                <svg aria-hidden="true" class="icon-wnyc-ui">
+                  <use xlink:href="#feather-share-2"></use>
+                </svg>
+                <span>Share</span>
+              </a>
+            </nav>
+          </div>
+          <div class="layout-content">
+            <header class="o-header">
+              <div>
+                <h1 class="o-header__title">Newsletter</h1>
+                <nav class="o-header__breadcrumbs">
+                  <a href="/demos/working-nyc/">Home</a>
+                  <svg aria-hidden="true" class="o-header__breadcrumbs-chevron icon-wnyc-ui text-scale-4">
+                    <use xlink:href="#feather-chevron-right"></use>
+                  </svg>
+                  <b>Newsletter</b>
+                </nav>
+              </div>
+            </header>
+          </div>
+          <section class="layout-content">
+            <div class="wrap">
+              <div class="pb-6">
+                <div data-js="newsletter-form">
+                  <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                  <form action="https://nyc.us18.list-manage.com/subscribe/post?u=d04b7b607bddbd338b416fa89&amp;id=aa67394696" id="mc-embedded-subscribe-form" method="post" target="_blank">
+                    <!--{ @data-js  This selector is recommended for JavaScript enhanced alerts but not necessary }-->
+                    <article aria-hidden="true" class="c-alert color-status-tertiary mb-5 hidden" data-js="alert-warning">
+                      <div class="c-alert__graphic">
+                        <svg aria-hidden="true" class="icon-wnyc-ui">
+                          <use xlink:href="#feather-info"></use>
+                        </svg>
+                      </div>
+                      <!--{ @aria-live  Setting aria-live="polite" dynamically is recommended for new content that appears based on user interaction }-->
+                      <div class="c-alert__body">
+                        <!--{ @data-js-alert  This selector is recommended for JavaScript enhanced alerts but not necessary }-->
+                        <p data-js-alert='text'></p>
+                      </div>
+                    </article>
+                    <!--{ @data-js  This selector is recommended for JavaScript enhanced alerts but not necessary }-->
+                    <article aria-hidden="true" class="c-alert color-status-secondary mb-5 hidden" data-js="alert-success">
+                      <div class="c-alert__graphic">
+                        <svg aria-hidden="true" class="icon-wnyc-ui">
+                          <use xlink:href="#feather-info"></use>
+                        </svg>
+                      </div>
+                      <!--{ @aria-live  Setting aria-live="polite" dynamically is recommended for new content that appears based on user interaction }-->
+                      <div class="c-alert__body">
+                        <!--{ @data-js-alert  This selector is recommended for JavaScript enhanced alerts but not necessary }-->
+                        <p data-js-alert='text'></p>
+                      </div>
+                    </article>
+                    <div class="c-question " id="652517ace579d">
+                      <!--{ @for  Should match the id of the input }-->
+                      <label class="c-question__label" for="question-652517ace579d">Your email address.</label>
+                      <div class="c-question__container">
+                        <div class="c-question__input">
+                          <div class="input">
+                            <!--{ @required  required="true" specifies wether the input is required by a form }-->
+                            <!--{ @pattern   pattern="{{ my regular expression }}" a regular expression the input's value must match in order to validate }-->
+                            <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                            <input id="question-652517ace579d" name="EMAIL" required="true" type="email" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-question " id="5f7bfd0aeeb79">
+                      <!--{ @for  Should match the id of the input }-->
+                      <label class="c-question__label" for="question-5f7bfd0aeeb79">What is your zip code?</label>
+                      <div class="c-question__container">
+                        <div class="c-question__input">
+                          <div class="input">
+                            <!--{ @required  required="true" specifies wether the input is required by a form }-->
+                            <!--{ @pattern   pattern="{{ my regular expression }}" a regular expression the input's value must match in order to validate }-->
+                            <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                            <input id="question-5f7bfd0aeeb79" name="ZIPCODE" required="true" type="text" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--{ @fieldset  Checkbox and radio input groups should be grouped in fieldset tags }-->
+                    <fieldset class="c-question" id="6a25d445ba11b">
+                      <!--{ @legend  Checkboxes and radio input groups should be labeled by legend tags }-->
+                      <legend class="c-question__label">Which borough(s) would you like to recieve updates for?</legend>
+                      <div class="c-question__container layout-rows tablet:layout-two-columns-gutter">
+                        <!--{ @for       Should match the id of the input }-->
+                        <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                        <label class="option " for="mce-group[4369]-4369-0">
+                          <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                          <input id="mce-group[4369]-4369-0" name="group[4369][1]" type="checkbox" value="1" />
+                          <span class="option__base">
+                            <svg aria-hidden="true" class="option__graphic">
+                              <use xlink:href="#option-wnyc-checkbox"></use>
+                            </svg>
+                            <span class="option__label">Bronx</span>
+                          </span>
+                        </label>
+                        <!--{ @for       Should match the id of the input }-->
+                        <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                        <label class="option " for="mce-group[4369]-4369-4">
+                          <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                          <input id="mce-group[4369]-4369-4" name="group[4369][16]" type="checkbox" value="16" />
+                          <span class="option__base">
+                            <svg aria-hidden="true" class="option__graphic">
+                              <use xlink:href="#option-wnyc-checkbox"></use>
+                            </svg>
+                            <span class="option__label">Staten Island</span>
+                          </span>
+                        </label>
+                        <!--{ @for       Should match the id of the input }-->
+                        <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                        <label class="option " for="mce-group[4369]-4369-3">
+                          <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                          <input id="mce-group[4369]-4369-3" name="group[4369][8]" type="checkbox" value="8" />
+                          <span class="option__base">
+                            <svg aria-hidden="true" class="option__graphic">
+                              <use xlink:href="#option-wnyc-checkbox"></use>
+                            </svg>
+                            <span class="option__label">Queens</span>
+                          </span>
+                        </label>
+                        <!--{ @for       Should match the id of the input }-->
+                        <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                        <label class="option " for="mce-group[4369]-4369-1">
+                          <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                          <input id="mce-group[4369]-4369-1" name="group[4369][2]" type="checkbox" value="2" />
+                          <span class="option__base">
+                            <svg aria-hidden="true" class="option__graphic">
+                              <use xlink:href="#option-wnyc-checkbox"></use>
+                            </svg>
+                            <span class="option__label">Brooklyn</span>
+                          </span>
+                        </label>
+                        <!--{ @for       Should match the id of the input }-->
+                        <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                        <label class="option " for="mce-group[4369]-4369-2">
+                          <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                          <input id="mce-group[4369]-4369-2" name="group[4369][4]" type="checkbox" value="4" />
+                          <span class="option__base">
+                            <svg aria-hidden="true" class="option__graphic">
+                              <use xlink:href="#option-wnyc-checkbox"></use>
+                            </svg>
+                            <span class="option__label">Manhattan</span>
+                          </span>
+                        </label>
+                      </div>
+                    </fieldset>
+                    <!--{ This is a hidden input to help prevent spam }-->
+                    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                      <input name="b_d04b7b607bddbd338b416fa89_98ff3f3900" tabindex="-1" type="text" value="" />
+                    </div>
+                    <!--{ @tabindex  Add tabindex="-1" to insure focusable elements are not visible when parent is hidden }-->
+                    <button class="btn-primary" type="submit">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </div>
+  <!--{ @role        Use role="contentinfo" in production layouts. Identifies the footer as a major landmark }-->
+  <!--{ @aria-label  Ensures a unique landmark }-->
+  <!--{ @class       Add "o-footer-fixed" in production layouts }-->
+  <footer aria-label="Primary Footer" class="o-footer bg-scale-2 o-footer-fixed" role="contentinfo">
+    <div class="page-max">
+      <div class="o-footer__wrap">
+        <nav aria-label="Footer Primary Navigation" class="o-footer__nav o-footer__nav-a">
+          <a class="uppercase text-small no-underline" href="/demos/working-nyc/">
+            <span class="sr-only">Working N Y C</span>
+            <svg aria-hidden="true" class="icon-logo-standard-menu-item fill-white text-blue-l-2">
+              <use xlink:href="#logo-wnyc-standard"></use>
+            </svg>
+          </a>
+          <a href="/demos/working-nyc/programs/">Programs</a>
+          <a href="#">Opportunities</a>
+          <a href="/demos/working-nyc/newsletter">Newsletter</a>
+        </nav>
+        <nav aria-label="Footer Secondary Navigation" class="o-footer__nav o-footer__nav-b">
+          <div class="py-2">
+            <svg aria-hidden="true" class="icon-logo-partnership-footer">
+              <use xlink:href="#logo-partnership-workdev-opportunity"></use>
+            </svg>
+            <span class="sr-only">N Y C Office of Workforce Development and Office for Economic Opporunity</span>
+          </div>
+          <a href="http://nyc.gov/wkdev" rel="nofollow noopener" target="_blank">Workforce Development</a>
+          <a href="http://nyc.gov/opportunity" rel="nofollow noopener" target="_blank">Economic Opportunity</a>
+        </nav>
+        <!--{ @o-footer__break  This empty tag is needed to break the columns }-->
+        <div class="o-footer__break"></div>
+        <nav aria-label="Footer Tertiary Navigation" class="o-footer__nav o-footer__nav-c border-none mb-0 pb-0">
+          <a class="font-secondary font-normal text-inherit no-underline flex items-center pb-1" href="http://nyc.gov" rel="nofollow noopener" target="_blank">
+            <svg aria-hidden="true" class="icon-logo-nyc-copyright fill-white me-1">
+              <use xlink:href="#logo-nyc"></use>
+            </svg>
+            <span>© 2022 City of New York. All Rights Reserved.</span>
+          </a>
+          <p class="small">NYC is a trademark and service mark of the City of New York</p>
+          <a href="https://www1.nyc.gov/home/privacy-policy.page" rel="nofollow noopener" target="_blank">Privacy Policy</a>
+          <a href="https://www1.nyc.gov/home/terms-of-use.page" rel="nofollow noopener" target="_blank">Terms of Use</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+  <script src="/demos/working-nyc/scripts/polyfills.js"></script>
+  <script src="/demos/working-nyc/scripts/main.js"></script>
+  <script type="text/javascript">
+    var patterns = new WorkingNyc();
+    patterns.accordion();
+    patterns.dropdown();
+    patterns.copy();
+    patterns.icons('/demos/working-nyc/svg/icons.svg');
+    patterns.icons('/demos/working-nyc/svg/feather.svg');
+    patterns.mobileMenu();
+    patterns.search();
+    patterns.toggle();
+    patterns.webShare();
+    patterns.newsletter('/demos/working-nyc/newsletter');
+    patterns.newsletterForm();
+    patterns.validateAndQuery();
+  </script>
+</body>
+
+</html>
