@@ -60,7 +60,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 #### NYCO User Interface (UI) Patterns Framework {.small .pb-2 .m-0 .font-normal}
 
 <figure class="figure" style="background-color: #FFDBDB">
-  <div class="figure__matte h-auto grid place-items-center grid-cols-3 px-8 py-8 text-center" style="background-color: #FFDBDB; color: #112E51;">
+  <div class="figure__matte grid place-items-center grid-cols-3 px-8 py-8 text-center" style="background-color: #FFDBDB; color: #112E51;">
     <div>
       <img src="/img/pttrn-elements.svg" alt="Icon for Patterns Framework elements" width="280" height="280" loading="lazy" decoding="async" />
     </div>
