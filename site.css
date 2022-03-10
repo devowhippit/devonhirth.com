@@ -1,22 +1,13 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,700');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Regular.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Bold.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-Bold.woff') format('woff');
-} */
+/**
+ * Font-face
+ */
+/**
+ * Font-face
+ */
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -41,6 +32,9 @@
   src: url('https://cdn.jsdelivr.net/gh/rsms/inter@v3.19/docs/font-files/Inter-roman.var.woff2') format('woff2');
   font-named-instance: 'Regular';
 }
+/**
+ * Font-face
+ */
 :root {
   /**
    * Spacing
@@ -324,6 +318,9 @@ svg, a > *, button > *, use {
 iframe {
   border: none;
 }
+/**
+ * Body
+ */
 body {
   color: var(--dh-color-text);
   background: var(--dh-color-background);
@@ -338,6 +335,9 @@ body {
   -webkit-font-smoothing: var(--dh-font-webkit-smoothing);
   -moz-osx-font-smoothing: var(--dh-font-moz-smoothing);
 }
+/**
+ * Animate
+ */
 a, input, textarea, select, .btn, [class*='hover:'], .opt__base {
   transition-property: opacity, background, color, border, box-shadow, outline, transform, stroke, stroke-dashoffset, fill, -webkit-text-decoration-color;
   transition-property: opacity, background, color, text-decoration-color, border, box-shadow, outline, transform, stroke, stroke-dashoffset, fill;
@@ -433,6 +433,9 @@ li > ul, li > ul:first-child {
 p {
   font-family: var(--dh-font-family-body);
 }
+/**
+ * Code
+ */
 code, pre, .hljs {
   display: inline-block;
 }
@@ -560,7 +563,7 @@ input, button, select, textarea {
           user-select: none;
 }
 /**
- * Option
+ * Options
  */
 .opt__graphic {
   color: inherit;
@@ -613,7 +616,7 @@ input:checked + .opt__base > .opt__graphic {
   border-color: var(--dh-button-background-hover);
 }
 /**
- * Select
+ * Selects
  */
 .select {
   position: relative;
@@ -660,7 +663,7 @@ input:focus + .opt__base {
    outline: none;
    box-shadow: 0 0 0 var(--dh-focus-gap) var(--dh-color-background),
                0 0 0 var(--dh-focus-width) var(--dh-color-focus);
- }
+}
 /**
  * Icons
  */
