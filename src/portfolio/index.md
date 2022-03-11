@@ -60,7 +60,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 #### NYCO User Interface (UI) Patterns Framework {.small .pb-2 .m-0 .font-normal}
 
 <figure class="figure" style="background-color: #FFDBDB">
-  <div class="figure__matte grid place-items-center grid-cols-3 px-8 py-8 text-center" style="background-color: #FFDBDB; color: #112E51;">
+  <div class="figure__matte grid place-items-center grid-cols-3 px-8 py-4 large:py-8 text-center" style="background-color: #FFDBDB; color: #112E51;">
     <div>
       <img src="/img/pttrn-elements.svg" alt="Icon for Patterns Framework elements" width="280" height="280" loading="lazy" decoding="async" />
     </div>
@@ -88,6 +88,8 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
 <figure class="figure" style="background-color: #031553">
   <div class="figure__matte">
+    <img aria-hidden="true" width="290" height="627" src="/img/benefits-platform-api-gr-start.svg" class="absolute top-0 left-0 hidden large:block" loading="lazy" decoding="async">
+    <img aria-hidden="true" width="261" height="657" src="/img/benefits-platform-api-gr-end.svg" class="absolute top-0 right-0 hidden large:block" loading="lazy" decoding="async">
     <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full">
       <img class="large:mb-6" src="/img/benefits-platform-api-logo.svg" alt="The NYC Benefits Platform: Screening API logo" width="552" height="86" />
     </div>
@@ -103,22 +105,20 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
 <section class="grid tablet:grid-cols-2 gap-3">
   <figure class="figure block" id="online-applications-pilot">
-    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553; color: #FFF">
-      <h3 class="text-center px-4">Online Applications Pilot</h3>
-    </div>
+    <img class="block" src="/img/online-applications-pilot.png" alt="Software architecture diagram for the online applications pilot" width="1440" height="821" loading="lazy" decoding="async">
     <figcaption class="static">
-      <h4 class="h5 mb-3 inline-block">Role: Lead Front-end Developer and Mentor</h4>
-      <p>Architected a SAAS-based solution with Ruby middleware for digital forms for City rent stabilization programs and oversaw an engineering fellow's development of the minimum viable product.</p>
+      <h3 class="h4 mb-3">Online Applications Pilot</h3>
+      <h4 class="h5 mt-0 mb-3 inline-block">Role: Lead Front-end Developer and Mentor</h4>
+      <p>I architected a SAAS-based digital forms solution with Ruby middleware to help City staff collect, submit, and accept rent stabilization applications. I participated in my team's evaluation and procurement of online forms tool, <a href="https://www.formstack.com/" target="_blank" rel="noopener nofollow noreferrer">Formstack</a> and integrated <a href="/portfolio/access-nyc/ui-patterns-library/">ACCESS NYC UI Patterns Library</a> into the form theme. I also oversaw an engineering fellow's development of the minimum viable product and consulted on application security review.</p>
     </figcaption>
   </figure>
 
   <figure class="figure block" id="nyc-rules">
-    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #031553; color: #FFF">
-      <h3 class="text-center px-4">NYC Rules</h3>
-    </div>
+    <img class="block" src="/img/rules-nyc.png" alt="Screenshot of the rules.cityofnewyork.us website." width="1440" height="821" loading="lazy" decoding="async">
     <figcaption class="static">
-      <h4 class="h5 mb-3 inline-block">Role: Lead Developer and Project Consultant</h4>
-      <p>Consulted with the Mayor's Office of Operations to launch <a href="https://rules.cityofnewyork.us/"  target="_blank" rel="noopener nofollow noreferrer">NYC Rules</a>. Designed the site using the <a href="https://www1.nyc.gov/assets/doitt/html/nyc-core-framework/index.html"  target="_blank" rel="noopener nofollow noreferrer">NYC Core Framework</a> and finished core functionality required for the site launch.</p>
+      <h3 class="h4 mb-3">NYC Rules</h3>
+      <h4 class="h5 mt-0 mb-3 inline-block">Role: Lead Developer and Project Consultant</h4>
+      <p>Consulted with the Mayor's Office of Operations to launch <a href="https://rules.cityofnewyork.us/"  target="_blank" rel="noopener nofollow noreferrer">NYC Rules</a>. I designed the site in-code using the <a href="https://www1.nyc.gov/assets/doitt/html/nyc-core-framework/index.html" target="_blank" rel="noopener nofollow noreferrer">NYC Core Framework</a>. In addition to the design, I finished other core functionality for the site launch including user management and application security requirements.</p>
     </figcaption>
   </figure>
 </section>
