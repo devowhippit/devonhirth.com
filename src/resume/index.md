@@ -1,6 +1,7 @@
 ---
 title: 'Resume / Devon Hirth'
 layout: 'layouts/resume.pug'
+type: 'normal'
 ---
 
 ## Experience
@@ -9,31 +10,31 @@ layout: 'layouts/resume.pug'
 
 ### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Digital Product Designer, January 2020** – **Present (2 years 1 month)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design and user interface (UI) design/engineering.
+**Digital Product Designer, January 2020** – **Present (2 years 4 months)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design, branding identity design, and user interface (UI) design/engineering.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
-* **Mental Health for All** – Designed and oversaw the engineering of <a href="https://mentalhealthforall.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">mentalhealthforall.nyc.gov</a>, New York City’s free mental health services resource. I tokenized the marketing campaign’s brand identity and built page templates using our internally maintained UI pattern library.
+* **Brand Identity Accomplishments** – I audited and created guidelines for our product brand identities to help our team contextualize how residents interact with our products as well as illustrate how to create new brands using the New York City brand identity.
 
-* **Working NYC Product Launch** – Designed and developed the brand identity and UI for <a href="https://working.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">working.nyc.gov</a>, a workforce program guide aggregator. Conducted usability interviews and worked with other team members to launch and iterate on the product during its post-launch phase.
+* **UX Accomplishments** – Led the assessment of team UX maturity using Nielson Norman Group's UX Maturity model and worked towards more effective practices. Organized our research materials, collection, and archival practices to facilitate regular in-person testing to inform our project decisions. Piloted the use of Airtable as a User Relationship Manager tool for outreach and research archiving. Mentored our first UX Design fellow, overseeing her work on several core initiatives such as heuristics for our products.
 
-* **ACCESS NYC COVID-19 Response** – Redesigned homepage and introduced COVID iconography of <a href="https://access.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">access.nyc.gov</a>, a benefit program guide aggregator and eligibility screener, to funnel the traffic surge due to the pandemic. I scoped and oversaw the implementation of the Special Announcement structured data schema for COVID-related information through the management of junior staff. As a result, I was awarded for excellence in customer service by the City of New York Mayor's Office.
+* **Working NYC Product Launch and Iteration** – Designed and developed the brand identity and UI for <a href="https://working.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">working.nyc.gov</a>, a workforce program guide aggregator. Conducted usability interviews and worked with other team members to launch and iterate on the product during its post-launch phase. Created a feature development process incorporating feedback into our existing analytics collection resulting in a framework for validating feature ideas. Participated in the strategy, design, and engineering of several research-backed product features including user feedback forms, newsletter, job board, and inclusive color themes.
 
-* **NYCO Patterns Framework** and **Libraries** – Engineered an open-source command-line interface, JavaScript module library, and other tools as <a href="https://nycopportunity.github.io/patterns-framework/" target="_blank" rel="noopener nofollow noreferrer">a framework for pattern library development</a>. Modularized UI tokens, fonts, icons, elements, and components into 3 accessible UI libraries for Working NYC, ACCESS NYC, and The Mayor’s Office for Economic Opportunity.
+* **ACCESS NYC COVID-19 Response** – Redesigned homepage and introduced COVID iconography of <a href="https://access.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">access.nyc.gov</a>, a benefit program guide aggregator and eligibility screener, to funnel the traffic surge due to the pandemic. I scoped and oversaw the implementation of the Special Announcement structured data schema for COVID-related information through the management of junior staff. As a result or our efforts, our team was awarded for excellence in customer service by the City of New York Mayor's Office.
 
 **Lead Front-end Developer, May 2017** – **January 2020 (2 years 9 months)**. As a lead front-end developer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using UI design and full-stack development.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
+* **NYCO Patterns Framework** and **Libraries** – Engineered an open-source command-line interface, JavaScript module library, and other tools as <a href="https://nycopportunity.github.io/patterns-framework/" target="_blank" rel="noopener nofollow noreferrer">a framework for pattern library development</a>. Modularized UI tokens, fonts, icons, elements, and components into 3 accessible UI libraries for our digital products.
+
 * **ACCESS NYC Development Contributions** – Contributed to the development of <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases" target="_blank" rel="noopener nofollow noreferrer">60+ releases</a> to our award-winning product, <a href="https://access.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">access.nyc.gov</a>, including new features, optimizations, and security enhancements.
 
-* **Online Applications Pilot** – Architected a SAAS-based solution with Ruby middleware for digital forms for City rent stabilization programs and oversaw the minimum viable product development by an engineering fellow.
-
-* **Released and maintained 13+ open-source projects** – <a href="https://nycopportunity.github.io/loves-open-source/" target="_blank" rel="noopener nofollow noreferrer">Published code used by our products</a> and for the City of New York’s civic technology community. Types of repositories include reusable web components, pattern library framework, WordPress framework and plugins, and Vue.js applications.
+* **Released and maintained 13+ open-source projects** – <a href="https://nycopportunity.github.io/loves-open-source/" target="_blank" rel="noopener nofollow noreferrer">Published code used by our products</a> and for the City of New York’s civic technology community.
 
 <!-- #### Mentorship {.h6 .primary .mt-0 .mb-1} -->
 
-**Mentor**. The Mayor's Office for Economic Opportunity offers a fellowship program for emerging designers, product managers, and engineers to gain experience working in local government. I had the opportunity to mentor 4 engineering fellows and 1 user experience fellow.
+**Mentor**. I mentored 4 engineering fellows and 1 user experience fellow in a program for emerging designers, product managers, and engineers to gain experience working in local government.
 
 ### Principle, Digital Product Designer, exp. design {.h5 .primary .mb-1}
 

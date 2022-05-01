@@ -1,0 +1,33 @@
+doctype html
+html(dir='ltr' lang='en')
+  head
+    meta(name='robots' content='noindex')
+
+    include /../../../pm/_includes/partials/head.pug
+
+  body(class='relative')
+    nav(class='py-2 px-3 mx-auto max-w-large sticky top-0 flex justify-between bg-t0 print:hidden')
+      div(class='inline-flex items-center' aria-label='Breadcrumb')
+        a(href='/')
+          | Home
+
+        <span class="px-1">/</span>
+
+        a(href='/letters')
+          | Letters
+
+      button(class='hidden btn btn-primary tablet:flex' onclick='window.print()' title='To save as a PDF, click this link then select "Save as PDF" in the print dialog.')
+        svg(class='icon mie-1' aria-hidden='true')
+          use(xlink:href='#tabler-print')
+
+        | Save as PDF
+
+    main(class='py-8 px-3 print:p-0 mx-auto max-w-large')
+      aside(class='col-span-4 mb-6')
+
+      article(class='col-span-8')
+        != content
+
+    include /partials/footer.pug
+
+    include /../../../pm/_includes/partials/sprite.pug
