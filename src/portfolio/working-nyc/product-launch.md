@@ -163,7 +163,7 @@ Our strategy for the site was to have the content to lead the user experience. T
   </div>
 
   <figcaption>
-    <p>The static HTML design I created using the Working NYC pattern library.</p>
+    <p>The static HTML demonstration I created using the Working NYC pattern library.</p>
     <p><a class="btn btn-primary" href="/working-nyc-patterns-0.0.1-44/" target="_blank" rel="noopener nofollow">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
@@ -176,7 +176,7 @@ We conducted remote user acceptance testing with program managers and participan
 
 #### Final Final
 
-The site's design is a collection of open-source code and public Figma file that can be scaled up as the product evolves. I also created internal documentation for all of the historical context behind the design so that team members could understand my decisions. You can browse the GitHub repository and the Figma file following the links below.
+The site's design is a collection of open-source code and public Figma file that can be scaled up as the product evolves. I also created internal documentation for all of the historical context behind the design so that team members can understand design decisions. You can browse the GitHub repository and the Figma file following the links below.
 
 <nav class="grid grid-cols-2 gap-3">
   <a class="btn btn-primary m-0 justify-center" href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> Pattern Library</a> <a class="btn btn-primary m-0 justify-center" href="https://www.figma.com/file/CH7ZOCW55SgsDnsTj3UrTi" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-figma"></use></svg> Figma Design File</a>

@@ -138,11 +138,11 @@ Using this process would require additional tools and expanding our team's capac
 
 ### Next Project
 
-<p><a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/working-nyc/product-launch">
+<p><a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/working-nyc/inclusive-design-pattern-iteration">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>
-  <span class="h3 primary font-normal m-0 my-1 text-center">Product Launch</span>
+  <span class="h3 primary font-normal m-0 my-1 text-center">Inclusive Design Pattern Iteration</span>
 </a></p>
 
 [View all Working NYC projects](/portfolio/working-nyc#featured-projects)

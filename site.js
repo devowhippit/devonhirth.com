@@ -1,6 +1,7 @@
 import site from '../pm/site.js'
 
 site.copy('working-nyc-patterns-0.0.1-44');
+site.copy('working-nyc-patterns-0.0.1-55');
 
 site.data('site', {
   'shared': './../../../../_includes',

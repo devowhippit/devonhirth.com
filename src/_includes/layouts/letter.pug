@@ -22,8 +22,18 @@ html(dir='ltr' lang='en')
 
         | Save as PDF
 
-    main(class='py-8 px-3 print:p-0 mx-auto max-w-large')
+    - var classname = ' tablet:grid print:grid grid-cols-12 gap-3'
+
+    main(class='py-8 px-3 print:p-0 mx-auto max-w-large' + classname)
       aside(class='col-span-4 mb-6')
+        h2 Devon Hirth
+
+        hr
+
+        ul(class='list-none p-0 mt-4')
+          li 431 16th St. Apt. 3L <br> Brooklyn, NY 11215
+          li <a href="mailto:devonhirth@gmail.com" target="_blank" rel="noopener nofollow">devonhirth@gmail.com</a>
+          li <a href="tel:3475068810" target="_blank" rel="noopener nofollow">(347) 506–8810</a>
 
       article(class='col-span-8')
         != content

@@ -86,7 +86,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
 #### NYC Benefits Platform: Screening API {.small .pb-2 .m-0 .font-normal}
 
-<figure class="figure" style="background-color: #031553">
+<figure class="figure mb-3 tablet:mb-8" style="background-color: #031553">
   <div class="figure__matte">
     <img aria-hidden="true" width="290" height="627" src="/img/benefits-platform-api-gr-start.svg" class="absolute top-0 left-0 hidden large:block" loading="lazy" decoding="async">
     <img aria-hidden="true" width="261" height="657" src="/img/benefits-platform-api-gr-end.svg" class="absolute top-0 right-0 hidden large:block" loading="lazy" decoding="async">
@@ -103,8 +103,17 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
   </figcaption>
 </figure>
 
-<section class="grid tablet:grid-cols-2 gap-3">
-  <figure class="figure block" id="online-applications-pilot">
+<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+  <figure class="figure block m-0">
+    <img class="block" src="/img/mhfa-landing-page.png" alt="The Mental Health for All website landing page" width="1440" height="821" loading="lazy" decoding="async" />
+    <figcaption class="static">
+      <h3 class="h4 mb-3">Mental Health for All</h3>
+      <h4 class="h5 mt-0 mb-3 inline-block">Role: Lead Front-end Developer and Mentor</h4>
+      <p>I designed and oversaw the engineering of <a href="https://mentalhealthforall.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">mentalhealthforall.nyc.gov</a>, New York City’s free mental health services resource. Working with the First Ladies' Office and our lead content strategist, I tokenized the marketing campaign’s brand identity and built page templates using our internally maintained <a href="/portfolio/nyco-ui-patterns-framework/">UI pattern framework</a>.<br><br></p>
+    </figcaption>
+  </figure>
+
+  <figure class="figure block m-0" id="online-applications-pilot">
     <img class="block" src="/img/online-applications-pilot.png" alt="Software architecture diagram for the online applications pilot" width="1440" height="821" loading="lazy" decoding="async">
     <figcaption class="static">
       <h3 class="h4 mb-3">Online Applications Pilot</h3>
@@ -113,7 +122,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
     </figcaption>
   </figure>
 
-  <figure class="figure block" id="nyc-rules">
+  <figure class="figure block m-0" id="nyc-rules">
     <img class="block" src="/img/rules-nyc.png" alt="Screenshot of the rules.cityofnewyork.us website." width="1440" height="821" loading="lazy" decoding="async">
     <figcaption class="static">
       <h3 class="h4 mb-3">NYC Rules</h3>
