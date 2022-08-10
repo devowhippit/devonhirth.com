@@ -2,6 +2,7 @@
 title: 'Federal / Resume / Devon Hirth'
 layout: 'layouts/resume.pug'
 type: 'federal'
+robots: 'noindex'
 job_announcement_number: ' '
 job_title: ' '
 job_grade: ' '

@@ -9,7 +9,7 @@ breadcrumbs: ['Working NYC', 'Feature Development Framework']
 
 ### Feature Development Framework {.h1 .my-6}
 
-Once the Working NYC website launched, we began to plan for the next round of development. As the lead product designer, I wanted to continue to understand and build empathy for our audience and ensure feature development for the site was user-driven. To do this, I created a step-by-step framework to validate and guide ideas to maturity using data and user experience (UX) design.
+Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), we began to plan for the next round of development. As the lead product designer, I wanted to continue to understand and build empathy for our audience and ensure feature development for the site was user-driven. To do this, I created a step-by-step framework to validate and guide ideas to maturity using data and user experience (UX) design.
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">

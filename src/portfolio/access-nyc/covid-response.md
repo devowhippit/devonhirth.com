@@ -216,7 +216,7 @@ In addition to pandemic program guides, the main site alert banner that links to
 
 ### Next Project
 
-<p><a class="btn border-4 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/access-nyc/ui-patterns-library">
+<p><a class="btn border-4 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/access-nyc/ui-pattern-library">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>

@@ -7,3 +7,8 @@
 /src/letters/**/*
 
 !/src/letters/.gitkeep
+
+/dist/present/**/*
+/src/present/**/*
+
+!/src/present/.gitkeep

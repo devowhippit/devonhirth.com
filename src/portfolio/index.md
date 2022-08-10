@@ -109,7 +109,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
     <figcaption class="static">
       <h3 class="h4 mb-3">Mental Health for All</h3>
       <h4 class="h5 mt-0 mb-3 inline-block">Role: Lead Front-end Developer and Mentor</h4>
-      <p>I designed and oversaw the engineering of <a href="https://mentalhealthforall.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">mentalhealthforall.nyc.gov</a>, New York City’s free mental health services resource. Working with the First Ladies' Office and our lead content strategist, I tokenized the marketing campaign’s brand identity and built page templates using our internally maintained <a href="/portfolio/nyco-ui-patterns-framework/">UI pattern framework</a>.<br><br></p>
+      <p>I designed and oversaw the engineering of <a href="https://mentalhealthforall.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">mentalhealthforall.nyc.gov</a>, New York City’s free mental health services resource. Working with the First Ladies' Office, our engineering mentee, and our lead content strategist, I tokenized the marketing campaign’s brand identity and built page templates using our internally maintained <a href="/portfolio/nyco-ui-patterns-framework/">UI pattern framework</a>.<br><br></p>
     </figcaption>
   </figure>
 
