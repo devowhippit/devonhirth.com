@@ -1,7 +1,7 @@
 .DS_Store
 
 /src/resume/federal-*.md
-/dist/resume/federal-*/index.html
+# /dist/resume/federal-*/index.html
 
 /dist/letters/**/*
 /src/letters/**/*
