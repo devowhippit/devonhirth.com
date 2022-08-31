@@ -7,7 +7,7 @@ html(dir='ltr' lang='en')
     include /../../../pm/_includes/partials/head.pug
 
   body(class='relative')
-    nav(class='py-2 px-3 mx-auto max-w-large sticky top-0 flex justify-between bg-t0 print:hidden')
+    nav(class='py-2 px-2 mx-auto max-w-large sticky top-0 flex justify-between bg-t0 print:hidden')
       div(class='inline-flex items-center' aria-label='Breadcrumb')
         a(href='/')
           | Home
@@ -31,7 +31,7 @@ html(dir='ltr' lang='en')
 
     - var classname = (type === 'federal') ? '' : ' tablet:grid print:grid grid-cols-12 gap-3'
 
-    main(class='py-8 px-3 print:p-0 mx-auto max-w-large' + classname)
+    main(class='py-8 px-2 print:p-0 mx-auto max-w-large' + classname)
       aside(class='col-span-4 mb-6')
         if type === 'federal'
           dl(class='dl mb-4')

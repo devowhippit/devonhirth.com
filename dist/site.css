@@ -363,6 +363,10 @@ h1, h2, h3, h4, h5, h6,
 
   page-break-after: avoid;
 }
+h5, h6,
+.h5, .h6 {
+  margin-bottom: calc(var(--dh-type-margin) / 2);
+}
 h1, .h1 {
   font-family: var(--dh-font-family-secondary);
   font-weight: var(--dh-font-weight-normal);
@@ -609,6 +613,8 @@ input:checked + .opt__base > .opt__graphic {
  * Buttons
  */
 .btn {
+  justify-content: center;
+
   color: var(--dh-button-color);
   font-weight: var(--dh-button-font-weight);
 
@@ -704,21 +710,26 @@ input:focus + .opt__base {
 .figure .figure__matte {
   position: relative;
   overflow: hidden;
-
-  height: 40vh;
-  min-height: var(--screen-xsmall);
-
+  aspect-ratio: 16 / 9;
   width: 100%;
+}
+.figure .figure__work {
+  aspect-ratio: inherit;
 }
 .figure figcaption {
   font-size: var(--dh-font-size-small);
-
   background: var(--dh-color-background-t1);
   padding: var(--dh-space-3) var(--dh-space-3);
 }
 .figure figcaption {
   bottom: calc(-1 * var(--dh-space-3));
   right: calc(-1 * var(--dh-space-3));
+}
+.figure--frame .figure__matte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--dh-space-3);
 }
 .figure-scroll {
   overflow: hidden;
@@ -735,6 +746,9 @@ input:focus + .opt__base {
   max-width: 88%;
   flex-basis: 88%;
 }
+.figure figcaption .figure__cta {
+  width: 100%
+}
 @media screen and (min-width: 1280px) {
   .figure figcaption:not(.static) {
     position: relative;
@@ -742,12 +756,16 @@ input:focus + .opt__base {
             margin-block-start: calc(var(--dh-grid) * -16);
     -webkit-margin-end: calc(var(--dh-grid) * -2);
             margin-inline-end: calc(var(--dh-grid) * -2);
-    -webkit-margin-start: 25vw;
-            margin-inline-start: 25vw;
+    -webkit-margin-start: calc(33% - var(--dh-space-6));
+            margin-inline-start: calc(33% - var(--dh-space-6));
   }
 
-  .figure .figure__matte {
-    height: 80vh;
+  .figure figcaption:not(.static) .figure__cta {
+    width: 50%
+  }
+
+  .figure figcaption.static .figure__cta {
+    width: auto
   }
 }
 /**
@@ -973,6 +991,12 @@ th, td {
     -webkit-padding-end: 0;
             padding-inline-end: 0
   }
+}
+.aspect-ratio-16\/9 {
+  aspect-ratio: 16 / 9;
+}
+.aspect-ratio-auto {
+  aspect-ratio: auto !important;
 }
 @media screen and (min-width: 480px) {
   .mis-0 {

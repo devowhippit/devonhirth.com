@@ -7,7 +7,7 @@ breadcrumbs: ['Working NYC']
 
 ## Working NYC {.sr-only}
 
-<figure class="figure -mx-3 tablet:mx-0" style="background-color: #031837">
+<figure class="figure -mx-3 tablet:mx-0 mt-0" style="background-color: #031837">
   <div class="figure__matte">
     <img class="absolute hidden desktop:block" src="/img/wnyc-shape-1.svg" width="352" height="352" style="right: -90px; bottom: -63px;" />
     <img class="absolute hidden desktop:block" src="/img/wnyc-shape-2.svg" width="485" height="485" style="left: -123px; bottom: 0px;" />
@@ -19,7 +19,7 @@ breadcrumbs: ['Working NYC']
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Digital Product Designer</h4>
-    <p><a class="btn btn-primary" href="https://working.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">https://working.nyc.gov <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+    <p><a class="btn btn-primary figure__cta" href="https://working.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">https://working.nyc.gov <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
   </figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ During the summer of 2020, the Mayor's Office of Workforce Development partnered
 
 ### <a class="flex mie-1 no-underline" id="featured-projects" href="#featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Projects
 
-<nav class="grid grid-cols-1 tablet:grid-cols-2 gap-3" aria-label="Project Navigation">
+<nav class="grid grid-cols-1 tablet:grid-cols-2 gap-3 mb-8" aria-label="Project Navigation">
   <a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/working-nyc/product-launch">
     <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
       <use xlink:href="#tabler-folder"></use>
@@ -53,3 +53,5 @@ During the summer of 2020, the Mayor's Office of Workforce Development partnered
     <span class="h3 primary font-normal m-0 my-1 text-center">Inclusive Design Pattern Iteration</span>
   </a>
 </nav>
+
+[Back to portfolio](/portfolio)

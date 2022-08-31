@@ -25,49 +25,49 @@ I chose to build the screener using Vue.js to take advantage of the state, react
 
 <section class="grid tablet:grid-cols-2 gap-3 mb-3">
   <figure class="figure bg-t1 m-0">
-    <div class="figure__matte flex items-center justify-center p-4 tablet:p-6 h-auto" style="height: auto;">
+    <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto" style="height: auto;">
       <img class="mx-auto" src="/img/anyc-field-screener-a-landing.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the landing view for the Field Screener" />
     </div>
     <figcaption class="static">The Field Screener landing view.</figcaption>
   </figure>
 
   <figure class="figure bg-t1 m-0">
-    <div class="figure__matte flex items-center justify-center p-4 tablet:p-6 h-auto" style="height: auto;">
+    <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto" style="height: auto;">
       <img class="mx-auto" src="/img/anyc-field-screener-b-disclaimer.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the disclaimer section" />
     </div>
     <figcaption class="static">The disclaimer section.</figcaption>
   </figure>
 
   <figure class="figure bg-t1 m-0">
-    <div class="figure__matte flex items-center justify-center p-4 tablet:p-6 h-auto">
+    <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto">
       <img class="mx-auto" src="/img/anyc-field-screener-c-client-needs.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the client needs section" />
     </div>
     <figcaption class="static">The client needs section.</figcaption>
   </figure>
 
   <figure class="figure bg-t1 m-0">
-    <div class="figure__matte flex items-center justify-center p-4 tablet:p-6 h-auto">
+    <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto">
       <img class="mx-auto" src="/img/anyc-field-screener-d-household-information.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the household information section" />
     </div>
     <figcaption class="static">The household information section.</figcaption>
   </figure>
 
   <figure class="figure bg-t1 m-0">
-    <div class="figure__matte flex items-center justify-center p-4 tablet:p-6 h-auto">
+    <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto">
       <img class="mx-auto" src="/img/anyc-field-screener-e-household-expenses.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the household expenses section" />
     </div>
     <figcaption class="static">The household expenses section.</figcaption>
   </figure>
 
   <figure class="figure bg-t1 m-0">
-    <div class="figure__matte flex items-center justify-center p-4 tablet:p-6 h-auto">
+    <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto">
       <img class="mx-auto" src="/img/anyc-field-screener-f-results.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the screener results page" />
     </div>
     <figcaption class="static">The screening results page.</figcaption>
   </figure>
 
   <figure class="figure bg-t1 m-0">
-    <div class="figure__matte flex items-center justify-center p-4 tablet:p-6 h-auto">
+    <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto">
       <img class="mx-auto" src="/img/anyc-field-screener-g-results-share.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the share dialogue on the results page" />
     </div>
     <figcaption class="static">The screener results page with share dialogue.</figcaption>
@@ -78,8 +78,8 @@ I chose to build the screener using Vue.js to take advantage of the state, react
 
 Read more about the background in the case-study below. Additionally, the source code for the screener can be browsed on GitHub.
 
-<nav class="grid grid-cols-2 gap-3">
-  <a class="btn btn-primary m-0 justify-center" href="https://medium.com/nyc-opportunity/nyc-opportunity-and-the-public-engagement-unit-partner-for-facilitated-benefits-screening-and-e889407ccf4c" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#iconir-medium"></use></svg> Read about the case-study here</a> <a class="btn btn-primary m-0 justify-center" href="https://github.com/cityOfNewYork/ACCESS-NYC-field-screener" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> View the source code</a>
+<nav class="grid tablet:grid-cols-2 gap-3">
+  <a class="btn btn-primary m-0 justify-center" href="https://medium.com/nyc-opportunity/nyc-opportunity-and-the-public-engagement-unit-partner-for-facilitated-benefits-screening-and-e889407ccf4c" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#iconir-medium"></use></svg> Read the case-study here</a> <a class="btn btn-primary m-0 justify-center" href="https://github.com/cityOfNewYork/ACCESS-NYC-field-screener" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> View the source code</a>
 </nav>
 
 ### Next Project

@@ -71,9 +71,9 @@ I synthesized user behavior flow by observing click-through rates from the COVID
 
 For health, I changed the fixed homepage alert from a modal (dismissable) to a nonmodal (persistent) dialogue on the homepage. The alert's content would link to the New York City Health Department's website and our frequently updated COVID-19 resource page. The background color of the alert was also updated to purple, matching the color chosen by the City to label COVID-19 related content.
 
-<figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8" style="height: auto; background-color: #FFF">
-    <img class="my-8 mx-auto" src="/img/anyc-covid-alert.svg" width="800" height="202" loading="lazy" decoding="async" />
+<figure class="figure figure--frame">
+  <div class="figure__matte" style="background-color: #FFF">
+    <img class="figure__work" src="/img/anyc-covid-alert.svg" width="800" height="202" loading="lazy" decoding="async" />
   </div>
 
   <figcaption class="static">I changed the fixed homepage alert from a modal (dismissable) to a nonmodal (persistent) dialogue.</figcaption>
@@ -83,9 +83,9 @@ For health, I changed the fixed homepage alert from a modal (dismissable) to a n
 
 For agency service updates, I updated our existing announcements section to include a title, two additional announcement slots, a timestamp of the last update, and a badge element that would clearly label the status of an announcement. The status badge could be colored purple to reinforce an announcement's relevance to the pandemic.
 
-<figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8" style="height: auto; background-color: #FFF" >
-    <img class="my-8 mx-auto" src="/img/anyc-covid-announcements.svg" width="800" height="627" loading="lazy" decoding="async" />
+<figure class="figure figure--frame">
+  <div class="figure__matte" style="background-color: #FFF">
+    <img class="figure__work" src="/img/anyc-covid-announcements.svg" width="800" height="627" loading="lazy" decoding="async" />
   </div>
 
   <figcaption class="static">I redesigned the homepage announcements section to include timestamps and additional announcements.</figcaption>
@@ -95,17 +95,17 @@ For agency service updates, I updated our existing announcements section to incl
 
 For food and unemployment, I relied on the existing featured programs section. However, the program "cards" would include category icons and status badges colored with the same COVID-19 purple to emphasize new food and unemployment-related pandemic benefit guides.
 
-<figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8" style="height: auto; background-color: #FFF" >
-    <img class="my-8 mx-auto" src="/img/anyc-covid-featured-programs.svg" width="800" height="511" loading="lazy" decoding="async" />
+<figure class="figure figure--frame">
+  <div class="figure__matte" style="background-color: #FFF">
+    <img class="figure__work" src="/img/anyc-covid-featured-programs.svg" width="800" height="511" loading="lazy" decoding="async" />
   </div>
 
   <figcaption class="static">I redesigned the featured programs section with badges and new program icons.</figcaption>
 </figure>
 
 <figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8" style="height: auto; background-color: #FFF" >
-    <img class="my-8 mx-auto" src="/img/anyc-covid-icons.svg" width="800" height="1107" loading="lazy" decoding="async" />
+  <div class="figure__matte overflow-auto" style="background-color: #FFF">
+    <img class="block my-8 mx-auto" src="/img/anyc-covid-icons.svg" width="800" height="1107" loading="lazy" decoding="async" />
   </div>
 
   <figcaption class="static">I updated the category icon design for programs to be more consistent and clear while honoring the previous iconography.</figcaption>
@@ -115,18 +115,18 @@ For food and unemployment, I relied on the existing featured programs section. H
 
 For applying to programs, I moved a link to ACCESS HRA from the top section towards the bottom of the section hierarchy. ACCESS HRA is a similar product separate from ACCESS NYC that helps New Yorkers apply to benefits *directly*. The traffic to the site suggested that this was the fifth need of users, so I created an alternate placement for it on the bottom of the page and replaced the callout with a link to our internal COVID-19 program guides. However, our team decided not to move forward with this change.
 
-<figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8" style="height: auto; background-color: #FFF" >
-    <img class="my-8 mx-auto" src="/img/anyc-covid-access-hra.svg" width="800" height="232" loading="lazy" decoding="async" />
+<figure class="figure figure--frame">
+  <div class="figure__matte" style="background-color: #FFF">
+    <img class="figure__work" src="/img/anyc-covid-access-hra.svg" width="800" height="232" loading="lazy" decoding="async" />
   </div>
 
   <figcaption class="static">I redesigned the link to ACCESS HRA to be disambiguous and help users understand how to apply to benefit programs directly.</figcaption>
 </figure>
 
-I created the redesigns in Figma, and after reviewing the new page updates with the team, implemented the updates in code. Below are screenshots of the homepage and programs landing page with annotated design changes.
+I created the redesigns in Figma, and after reviewing the new page updates with the team, implemented the updates in code. Below are screenshots of the homepage with annotated changes.
 
 <figure class="figure">
-  <div class="figure__matte p-4 tablet:p-8 bg-t1 h-auto">
+  <div class="figure__matte overflow-auto">
     <img src="/img/anyc-covid-homepage.png" alt="The ACCESS NYC homepage with annotations of the COVID response enhancements." loading="lazy" decoding="async" />
   </div>
 </figure>
@@ -155,8 +155,8 @@ The implementation gave content managers the ability to designate what content w
 **COVID-19 Vaccine Program Guide**
 
 <figure class="figure">
-  <div class="figure__matte flex items-center justify-center p-4 tablet:p-8 bg-t1 h-auto">
-    <img src="/img/anyc-covid-vaccine-guide.png" width="1024" height="569" loading="lazy" decoding="async" />
+  <div class="figure__matte flex items-center justify-center bg-t1 overflow-auto">
+    <img src="/img/anyc-covid-vaccine-guide.png" loading="lazy" decoding="async" />
   </div>
 </figure>
 
@@ -204,7 +204,7 @@ Wherever the COVID-19 Vaccine Guide appears in the site, such as on the homepage
 In addition to pandemic program guides, the main site alert banner that links to ACCESS NYC's frequently updated pandemic resources page was also marked up with the Special Announcement schema. This markup ensures that visitors searching for ACCESS NYC in Google will be presented with a prominent link in search results to the COVID-19 resources page.
 
 <figure class="figure">
-  <div class="figure__matte desktop:flex items-center text-center justify-between tablet:py-8 tablet:bg-t1 h-auto" style="height: auto">
+  <div class="figure__matte desktop:flex items-center text-center justify-between tablet:py-2 tablet:bg-t1 h-auto aspect-ratio-auto">
     <img class="mx-auto mb-4 desktop:mb-0" src="/img/anyc-special-announcement.png" loading="lazy" decoding="async" width="414" height="736" />
     <img class="mx-auto mb-4 desktop:mb-0" src="/img/anyc-special-announcement-preview.png" loading="lazy" decoding="async" width="414" height="736" />
   </div>

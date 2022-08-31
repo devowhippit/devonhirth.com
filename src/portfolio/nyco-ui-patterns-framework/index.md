@@ -7,25 +7,16 @@ breadcrumbs: ['NYCO UI Patterns Framework']
 
 ## NYCO UI Patterns Framework {.sr-only}
 
-<figure class="figure -mx-3 tablet:mx-0" style="background-color: #FFDBDB">
-  <div class="figure__matte h-auto grid place-items-center grid-cols-3 px-8 py-8 text-center" style="background-color: #FFDBDB; color: #112E51;">
-    <div>
-      <img src="/img/pttrn-elements.svg" alt="Icon for Patterns Framework elements" width="280" height="280" loading="lazy" decoding="async" />
-    </div>
-    <div>
-      <img src="/img/pttrn-components.svg" alt="Icon for Patterns Framework components" width="280" height="280" loading="lazy" decoding="async" />
-    </div>
-    <div>
-      <img src="/img/pttrn-objects.svg" alt="Icon for Patterns Framework objects" width="280" height="280" loading="lazy" decoding="async" />
-    </div>
-    <div class="col-span-full mb-4 large:pb-8 large:mb-8">
-      <span class="h3" style="font-family: Helvetica Neue Pro, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: bolder;">NYCO UI Patterns Framework</span>
+<figure class="figure -mx-3 tablet:mx-0 mt-0" style="background-color: #FFDBDB">
+  <div class="figure__matte flex justify-center items-center" style="background-color: #FFDBDB;">
+    <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full">
+      <img class="large:mb-6" src="/img/pttrn-lockup.svg" alt="NYC Opportunity UI Patterns Framework logo" width="696" height="299" loading="lazy" decoding="async" />
     </div>
   </div>
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Lead Developer and Digital Product Designer</h4>
-    <p><a class="btn btn-primary" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow noreferrer">nycopportunity.github.io/patterns-framework <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
+    <p><a class="btn btn-primary figure__cta" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow noreferrer">nycopportunity.github.io/patterns-framework <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
 
@@ -34,7 +25,7 @@ The NYCO User Interface (UI) Patterns Framework is a collection of tools and pri
 I started the framework with support and feedback from my team and our fellows while building the [ACCESS NYC UI Pattern Library](/portfolio/access-nyc/ui-patterns-library). It includes front-end development tools such as the <a href="https://github.com/cityofnewyork/patterns-cli" target="_blank" rel="noopener nofollow noreferrer">Patterns Command Line Interface (CLI)</a>, which streamlines the development of pattern libraries by creating and organizing UI components according to the Framework's naming convention.
 
 <figure class="figure mb-3">
-<div class="figure__matte h-auto">
+<div class="figure__matte h-auto aspect-ratio-auto">
 <pre tabindex="0" class="m-0 nohighlight whitespace-normal" style="color:#B1B1B1;background-color:#1A191C">
 $ npx pttrn make component accordion<br><br>
 
@@ -55,7 +46,7 @@ $ npx pttrn make component accordion<br><br>
 </figure>
 
 <figure class="figure" style="background-color: #FFDBDB">
-  <div class="figure__matte h-auto grid place-items-center grid-cols-2 desktop:grid-cols-4 auto-rows-min px-8 py-8" style="background-color:#FFDBDB;color:#112E51;">
+  <div class="figure__matte h-auto grid place-items-center grid-cols-2 desktop:grid-cols-4 auto-rows-min px-8 py-8 aspect-ratio-auto" style="background-color: #FFDBDB; color: #112E51;">
     <div class="tablet:p-3 h-full grid content-between text-center">
       <img class="mb-1" src="/img/pttrn-tokens.svg" alt="Icon for Patterns Framework tokens" w width="280" height="280" loading="lazy" decoding="async" />
       <p><b>Tokens</b></p>
@@ -82,7 +73,7 @@ $ npx pttrn make component accordion<br><br>
 The CLI also includes a zero-configuration build pack that brings together existing, well-known open-source languages and compiles them to static HTML, CSS, and JavaScript. It also lints the output for potential accessibility issues and publishes the library to <a href="https://github.com/" target="_blank" rel="noopener nofollow">GitHub</a> and the <a href="https://www.npmjs.com/" target="_blank" rel="noopener nofollow">Node Package Manager (NPM)</a> registry.
 
 <figure class="figure mb-3" style="background-color: #FFDBDB">
-  <div class="figure__matte h-auto grid place-items-center grid-cols-2 desktop:grid-cols-4 auto-rows-min px-8 py-8" style="background-color:#FFDBDB;color:#112E51;">
+  <div class="figure__matte h-auto grid place-items-center grid-cols-2 desktop:grid-cols-4 auto-rows-min px-8 py-8 aspect-ratio-auto" style="background-color: #FFDBDB; color: #112E51">
     <div class="h-full grid content-between text-center">
       <img class="mb-1" src="/img/pttrn-logo-tailwindcss-mark.svg" alt="Tailwindcss Logo" width="300" height="300" loading="lazy" decoding="async" />
       <p><b>Tailwindcss</b></p>
@@ -107,7 +98,7 @@ The CLI also includes a zero-configuration build pack that brings together exist
 </figure>
 
 <figure class="figure mb-3">
-<div class="figure__matte h-auto">
+<div class="figure__matte h-auto aspect-ratio-auto">
 <pre tabindex="0" class="m-0 nohighlight whitespace-normal" style="color:#B1B1B1;background-color:#1A191C">
 $ npx pttrn<br><br>
 
@@ -132,7 +123,7 @@ $ npx pttrn<br><br>
 </figure>
 
 <figure class="figure mb-3">
-<div class="figure__matte h-auto">
+<div class="figure__matte h-auto aspect-ratio-auto">
 <pre tabindex="0" class="m-0 nohighlight whitespace-normal" style="color:#B1B1B1;background-color:#1A191C">
 $ npx pttrn pa11y<br><br>
 
@@ -149,7 +140,7 @@ $ npx pttrn pa11y<br><br>
 </figure>
 
 <figure class="figure mb-3">
-<div class="figure__matte h-auto">
+<div class="figure__matte h-auto aspect-ratio-auto">
 <pre tabindex="0" class="m-0 nohighlight whitespace-normal" style="color:#B1B1B1;background-color:#1A191C">
 $ npm publish<br><br>
 
@@ -176,7 +167,7 @@ npm notice 📦  patterns-demo@0.1.0<br>
 </figure>
 
 <figure class="figure">
-  <div class="figure__matte flex items-center justify-center h-auto" style="background-color: #EEF3F7">
+  <div class="figure__matte flex items-center justify-center h-auto overflow-auto" style="background-color: #EEF3F7">
     <img src="/img/pttrn-accordion-demo.png" alt="The ACCESS NYC UI Patterns accordion documentation page." width="1440" height="3688" loading="lazy" decoding="async" />
   </div>
   <figcaption class="static">Pattern libraries created with the CLI can generate static sites on <a href="https://pages.github.com/" target="_blank" rel="noopener nofollow">GitHub Pages</a> that include live demonstrations, markup examples, and special usage instructions for every UI pattern. This image showcases the ACCESS NYC Patterns documentation page for the accordion component.</figcaption>
@@ -262,4 +253,6 @@ Product managers, designers, and engineers have used the tools and libraries in 
   </figure>
 </section>
 
-<a class="btn btn-primary m-0 justify-center" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow noreferrer"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> View the Patterns Framework</a>
+<a class="btn btn-primary m-0 justify-center w-full" href="https://nycopportunity.github.io/patterns-framework" target="_blank" rel="noopener nofollow noreferrer"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> View the Patterns Framework</a>
+
+[Back to portfolio](/portfolio)

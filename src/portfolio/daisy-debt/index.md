@@ -7,7 +7,7 @@ breadcrumbs: ['Daisy Debt']
 
 ## Daisy Debt {.sr-only}
 
-<figure class="figure -mx-3 tablet:mx-0" style="background-color: #06C7E1">
+<figure class="figure -mx-3 tablet:mx-0 mt-0" style="background-color: #06C7E1">
   <div class="figure__matte">
     <div class="absolute flex flex-col justify-center items-center px-4 w-full h-full" style="color: #112E51">
       <img class="desktop:mb-6" src="/img/daisy-debt-logo.svg" width="474" height="131" loading="lazy" decoding="async" alt="The Daisy Debt logo"/>
@@ -90,7 +90,7 @@ We learned clients could resolve their debt collection issues by requesting veri
 Debt collection letters do three things; 1. **They make the debt collection agency prove they have the right to collect the debt**. Often, collectors don't have all of the information they need to collect the debt legally. 2. **It tells the agency that they can't contact the sender anymore**. There are strict laws regarding harassment that collectors need to follow. 3. **It tells the agency they can't collect the sender's income if it is exempt from collection**.
 
 <figure class="figure">
-  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8 h-auto" style="background-color: #EEE">
+  <div class="figure__matte flex items-center justify-center px-4 tablet:px-8 h-auto aspect-ratio-auto" style="background-color: #EEE">
     <img class="my-8 mx-auto" src="/img/dd-debt-verification-letter.svg" width="1098" height="793" loading="lazy" decoding="async" alt="A debt verification letter." />
   </div>
 
@@ -129,7 +129,7 @@ The prototype included 9 steps.
   <h4 class="tablet:m-0">Application Screenshots</h4>
 
   <span class="flex items-center">
-    <span class="mie-1">Scroll horizontally to see more</span>
+    <span class="mie-1">Scroll horizontally to view screens</span>
     <svg class="icon" aria-hidden="true">
       <use xlink:href="#tabler-arrow-bar-right"></use>
     </svg>
@@ -139,32 +139,32 @@ The prototype included 9 steps.
 Below are a few screenshots of steps from the letter writing flow.
 
 <figure class="figure figure-scroll">
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <div class="small p-3 bg-t1"><p><b>Step 1: Introduction</b>. Here the client is on-boarded to the letter writing, mailing, and follow-up process.</p></div>
     <img class="block" src="/img/dd-letter-01-new.png" loading="lazy" decoding="async" alt="The introduction page." />
   </div>
 
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <div class="small p-3 bg-t1"><p><b>Step 2: Personal Details</b>. Here the client adds the information needed for their signature and return address.</p></div>
     <img class="block" src="/img/dd-letter-02-personal-details.png" loading="lazy" decoding="async" alt="The personal details page." />
   </div>
 
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <div class="small p-3 bg-t1"><p><b>Step 3: Exempt Income</b>. Here the client selects what types of income they receive which are exempt from collection.</p></div>
     <img class="block" src="/img/dd-letter-03-exempt-income.png" loading="lazy" decoding="async" alt="The exempt income entry page." />
   </div>
 
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <div class="small p-3 bg-t1"><p><b>Step 4: Creditor Details</b>. Here the client enters information about the debt collection agency and address where the letter will be mailed.</p></div>
     <img class="block" src="/img/dd-letter-04-creditor-details.png" loading="lazy" decoding="async" alt="The creditor details page." />
   </div>
 
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <div class="small p-3 bg-t1"><p><b>Step 5: Dispute Debt</b>. Here the client can determine wether or not they should dispute the debt with the debt collection agency.</p></div>
     <img class="block" src="/img/dd-letter-05-dispute-debt.png" loading="lazy" decoding="async" alt="The dispute debt page." />
   </div>
 
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <div class="small p-3 bg-t1"><p><b>Step 6: Dispute Identity Theft</b>. Here the client can claim they are a victim identity theft.</p></div>
     <img class="block" src="/img/dd-letter-06-dispute-identity-theft.png" loading="lazy" decoding="async" alt="The dispute identity theft page." />
   </div>
@@ -191,7 +191,7 @@ The Creditor Details step provided tips to help clients find the information the
 
 <div class="tablet:flex justify-between items-center mb-4">
   <span class="flex items-center">
-    <span class="mie-1">Scroll horizontally to see more</span>
+    <span class="mie-1">Scroll horizontally to view screens</span>
     <svg class="icon" aria-hidden="true">
       <use xlink:href="#tabler-arrow-bar-right"></use>
     </svg>
@@ -199,11 +199,11 @@ The Creditor Details step provided tips to help clients find the information the
 </div>
 
 <figure class="figure figure-scroll">
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <img class="block" src="/img/dd-letter-04-creditor-details-popover-tip.png" loading="lazy" decoding="async" alt="The creditor details popover tip." />
   </div>
 
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <img class="block" src="/img/dd-letter-04-creditor-details-address-popover-tip.png" loading="lazy" decoding="async" alt="The creditor details address popover tip." />
   </div>
 </figure>
@@ -212,7 +212,7 @@ We provided an autocomplete feature using data from a register of national debt 
 
 <div class="tablet:flex justify-between items-center mb-4">
   <span class="flex items-center">
-    <span class="mie-1">Scroll horizontally to see more</span>
+    <span class="mie-1">Scroll horizontally to view screens</span>
     <svg class="icon" aria-hidden="true">
       <use xlink:href="#tabler-arrow-bar-right"></use>
     </svg>
@@ -220,11 +220,11 @@ We provided an autocomplete feature using data from a register of national debt 
 </div>
 
 <figure class="figure figure-scroll">
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <img class="block" src="/img/dd-letter-04-creditor-details-autocomplete.png" loading="lazy" decoding="async" alt="The creditor details autocomplete field." />
   </div>
 
-  <div class="figure__matte h-auto" style="background-color: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
     <img class="block" src="/img/dd-letter-04-creditor-details-autofill.png" loading="lazy" decoding="async" alt="The creditor details autofill alert." />
   </div>
 
@@ -238,7 +238,9 @@ We provided an autocomplete feature using data from a register of national debt 
 It was towards the later stages of our work that we named our tool Daisy Debt. "Daisy" is a reference to the daisy chain effect consumers can experience when struggling with debt. I designed a logo to brand the product and several assets, including palm cards, one-pagers, and presentation decks, to create a consistent experience for the audience Daisy Debt would be assisting.
 
 <figure class="figure" style="background: #FFF">
-  <img class="block" src="/img/dd-branding.svg" loading="lazy" decoding="async" alt="The Daisy Debt branding and colors." />
+  <div class="figure__matte aspect-ratio-auto">
+    <img class="block" src="/img/dd-branding.svg" loading="lazy" decoding="async" alt="The Daisy Debt branding and colors." />
+  </div>
 
   <figcaption class="static">The logo design and color scheme evoke optimism and hope for consumers struggling with debt.</figcaption>
 </figure>
@@ -246,7 +248,9 @@ It was towards the later stages of our work that we named our tool Daisy Debt. "
 I designed the homepage for a broad audience to explain the tool and its justification through the rights of consumers.
 
 <figure class="figure" style="background: #FFF">
-  <img class="block" src="/img/dd-homepage.png" loading="lazy" decoding="async" alt="The Daisy Debt website homepage." />
+  <div class="figure__matte overflow-auto">
+    <img class="block" src="/img/dd-homepage.png" loading="lazy" decoding="async" alt="The Daisy Debt website homepage." />
+  </div>
 </figure>
 
 #### Follow-up
@@ -255,7 +259,7 @@ The final feature I designed and engineered for the application was a notificati
 
 <div class="tablet:flex justify-between items-center mb-4">
   <span class="flex items-center">
-    <span class="mie-1">Scroll horizontally to see more</span>
+    <span class="mie-1">Scroll horizontally to view screens</span>
     <svg class="icon" aria-hidden="true">
       <use xlink:href="#tabler-arrow-bar-right"></use>
     </svg>
@@ -263,31 +267,31 @@ The final feature I designed and engineered for the application was a notificati
 </div>
 
 <figure class="figure figure-scroll">
-  <div class="figure__matte h-auto" style="background-color: #F5F5F5">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #F5F5F5">
     <div class="small p-3 bg-t1"><p><b>Confirmation Email</b>. This email is sent to the client after they send a letter.</p></div>
     <div class="flex items-start justify-center">
       <img width="768px" src="/img/dd-follow-up-01-day-one.png" loading="lazy" decoding="async" alt="The say one follow-up email." />
     </div>
   </div>
 
-  <div class="figure__matte h-auto" style="background: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background: #FFF">
     <div class="small p-3 bg-t1"><p><b>Day 14 Email</b>. This email is sent to the client to see if the debt collection has responded to their letter.</p></div>
     <div class="flex items-start justify-center">
       <img class="block" width="768px" src="/img/dd-follow-up-02-day-fourteen.png" loading="lazy" alt="The day fourteen follow-up email." />
     </div>
   </div>
 
-  <div class="figure__matte h-auto" style="background: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background: #FFF">
     <div class="small p-3 bg-t1"><p><b>Follow Up Survey: Contact Type</b>. The emails include links to a survey that collects response details provided to the client's financial counselor.</p></div>
     <img class="block" src="/img/dd-response-01-how.png" loading="lazy" decoding="async" alt="The follow-up response page." />
   </div>
 
-  <div class="figure__matte h-auto" style="background: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background: #FFF">
     <div class="small p-3 bg-t1"><p><b>Follow Up Survey: Response</b>. This survey step asks for what the debt collection agency may have said.</p></div>
     <img class="block" src="/img/dd-response-03-say.png" loading="lazy" alt="The follow-up survey debt collection response input." />
   </div>
 
-  <div class="figure__matte h-auto" style="background: #FFF">
+  <div class="figure__matte h-auto aspect-ratio-auto" style="background: #FFF">
     <div class="small p-3 bg-t1"><p><b>Survey Email to Financial Counselor</b>. The client's survey response is sent to the client's financial counselor.</p></div>
     <div class="flex items-start justify-center">
       <img class="block" width="768px" src="/img/dd-follow-up-04-response-counselor.png" loading="lazy" decoding="async" alt="The follow-up email to the client's financial counselor." />
@@ -314,4 +318,6 @@ I presented at our project along with other fellows in the Blue Ridge Labs 2016 
 
 The end of the 2016 summer fellowship concluded my full-time contributions to the project. I continued to advise on the project overseeing and reviewing pull-requests of other engineering contributions to the application, including an authentication system and dashboard to enable financial counselors to track and manage letters they send for their clients.
 
-<a class="btn btn-primary m-0 justify-center" href="https://www.behance.net/collection/184398201/Daisy-Debt" target="_blank" rel="noopener nofollow">View additional Daisy Debt design on Behance <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+<a class="btn btn-primary m-0 justify-center w-full" href="https://www.behance.net/collection/184398201/Daisy-Debt" target="_blank" rel="noopener nofollow">View additional Daisy Debt design on Behance <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+
+[Back to portfolio](/portfolio)

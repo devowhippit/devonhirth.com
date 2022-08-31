@@ -13,7 +13,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
-    <h4 class="mb-4 font-normal tablet:mb-0 h4">Step 1</h4>
+    <h4 class="my-4 font-normal tablet:my-0 h4">Step 1</h4>
   </div>
 
   <div class="col-span-6 tablet:p-8">
@@ -23,7 +23,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
-    <h4 class="mb-4 font-normal tablet:mb-0 h4">Step 2</h4>
+    <h4 class="my-4 font-normal tablet:my-0 h4">Step 2</h4>
   </div>
 
   <div class="col-span-6 tablet:p-8">
@@ -37,7 +37,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
-    <h4 class="mb-4 font-normal tablet:mb-0 h4">Step 3</h4>
+    <h4 class="my-4 font-normal tablet:my-0 h4">Step 3</h4>
   </div>
 
   <div class="col-span-6 tablet:p-8">
@@ -47,7 +47,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
-    <h4 class="mb-4 font-normal tablet:mb-0 h4">Step 4</h4>
+    <h4 class="my-4 font-normal tablet:my-0 h4">Step 4</h4>
   </div>
 
   <div class="col-span-6 tablet:p-8">
@@ -64,7 +64,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
-    <h4 class="mb-4 font-normal tablet:mb-0 h4">Step 5</h4>
+    <h4 class="my-4 font-normal tablet:my-0 h4">Step 5</h4>
   </div>
 
   <div class="col-span-6 tablet:p-8">
@@ -74,7 +74,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
-    <h4 class="mb-4 font-normal tablet:mb-0 h4">Step 6</h4>
+    <h4 class="my-4 font-normal tablet:my-0 h4">Step 6</h4>
   </div>
 
   <div class="col-span-6 tablet:p-8">
@@ -84,7 +84,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 <div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
-    <h4 class="mb-4 font-normal tablet:mb-0 h4">Step 7</h4>
+    <h4 class="my-4 font-normal tablet:my-0 h4">Step 7</h4>
   </div>
 
   <div class="col-span-6 tablet:p-8">
@@ -97,7 +97,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 Using this process would require additional tools and expanding our team's capacity.
 
 <section class="grid tablet:grid-cols-2 gap-3 mb-8">
-  <figure class="figure block m-0">
+  <figure class="figure block m-0 bg-t1">
     <div style="background-color: #031837">
       <img class="block" src="/img/wnyc-component-feedback.svg" alt="The website Feedback component." width="1440" height="821" loading="lazy" decoding="async" />
     </div>
@@ -107,15 +107,15 @@ Using this process would require additional tools and expanding our team's capac
     </figcaption>
   </figure>
 
-  <figure class="figure block m-0">
+  <figure class="figure block m-0 bg-t1">
     <img class="block" src="/img/wnyc-user-relationship-manager.png" alt="Working NYC User Relationship Manager" width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">
       <h5>User Relationship Manager</h5>
-      <p>I created a user relationship management tool using Airtable. We use the tool to retain research participant contact information with informed consent, track research sessions, catalog synthesis, and develop nuanced user personas.<br><br><br></p>
+      <p>I created a user relationship management tool using Airtable. We use the tool to retain research participant contact information with informed consent, track research sessions, catalog synthesis, and develop nuanced user personas.</p>
     </figcaption>
   </figure>
 
-  <figure class="figure block m-0">
+  <figure class="figure block m-0 bg-t1">
     <div style="background-color: #031837">
       <img class="block" src="/img/wnyc-recruitment-email.png" alt="The NYC Benefits Platform Screening API landing page" width="1440" height="821" loading="lazy" decoding="async" />
     </div>
@@ -125,7 +125,7 @@ Using this process would require additional tools and expanding our team's capac
     </figcaption>
   </figure>
 
-  <figure class="figure block m-0">
+  <figure class="figure block m-0 bg-t1">
     <img class="block" src="/img/wnyc-personas.png" alt="Personas of users for the Working NYC website." width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">
       <h5>Personas</h5>

@@ -37,7 +37,7 @@ Since joining the team in May 2017, I have contributed to front-end features, op
 
 ACCESS NYC has been an open-source project since it's launch. The GitHub repository for ACCESS NYC can be browsed following the link below.
 
-<a class="btn btn-primary m-0 justify-center" href="https://github.com/cityOfNewYork/access-nyc" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> ACCESS NYC Repository</a>
+<a class="btn btn-primary m-0 justify-center w-full" href="https://github.com/cityOfNewYork/access-nyc" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> ACCESS NYC Repository</a>
 
 ### Next Project
 

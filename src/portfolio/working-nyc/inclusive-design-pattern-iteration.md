@@ -18,8 +18,8 @@ After the launch of Working NYC our team solicited feedback from stakeholders on
 * **Content** – how respondents felt about the existing content.
 
 <figure class="figure">
-  <div class="figure__matte tablet:p-8 tablet:pb-3 h-auto bg-t1">
-    <img src="/img/wnyc-feedback-synthesis.png" width="1440" height="822" alt="A screenshot of the feedback synthesis from Airtable.">
+  <div class="figure__matte aspect-ratio-auto">
+    <img class="block" src="/img/wnyc-feedback-synthesis.png" width="1440" height="822" alt="A screenshot of the feedback synthesis from Airtable.">
   </div>
 
   <figcaption class="static">The feedback synthesis from Airtable.</figcaption>
@@ -76,8 +76,8 @@ I worked with a research fellow to facilitate usability and preference testing i
 To implement findings from our research, I updated the product pattern library's Figma design file, adding color, typography styles, and symbols from the code-based pattern library. The result was a complete set of design tokens and components to use in full page mockups and other designs.
 
 <figure class="figure">
-  <div class="figure__matte tablet:p-8 tablet:pb-3 h-auto bg-t1">
-    <img src="/img/wnyc-figma-file-color-tokens.png" width="1440" height="900" alt="A screenshot of the Figma file.">
+  <div class="figure__matte aspect-ratio-auto">
+    <img class="block" src="/img/wnyc-figma-file-color-tokens.png" width="1440" height="900" alt="A screenshot of the Figma file.">
   </div>
 
   <figcaption class="static">The Figma file including all design tokens and and components from the product's pattern library.</figcaption>
@@ -168,7 +168,7 @@ As a result of this research and evaluation, we were able to enhance and standar
 #### Results
 
 <figure class="figure">
-  <div class="figure__matte grid tablet:grid-cols-2 gap-8 p-3 tablet:p-8 tablet:pb-3 h-auto bg-t1">
+  <div class="figure__matte grid tablet:grid-cols-2 gap-8 p-3 tablet:p-8 tablet:pb-3 h-auto aspect-ratio-auto bg-t1">
     <img class="mx-auto" src="/img/wnyc-colors.png" width="1240" height="881" class="mb-0" alt="The original color scales for the website." />
     <img class="mx-auto" src="/img/wnyc-color-revisions.png" width="1240" height="1562" class="mb-0" alt="The enhanced color scales for the website." />
   </div>
@@ -177,7 +177,7 @@ As a result of this research and evaluation, we were able to enhance and standar
 </figure>
 
 <figure class="figure">
-  <div class="figure__matte grid tablet:grid-cols-3 gap-3 p-3 tablet:p-6 tablet:pb-3 h-auto bg-t1">
+  <div class="figure__matte grid tablet:grid-cols-3 gap-3 p-3 tablet:p-6 tablet:pb-3 h-auto aspect-ratio-auto bg-t1">
     <img src="/img/wnyc-v1.5-card.png" width="1468" height="1488" class="mb-0" alt="Screenshot of the original program card color theme for the website." />
     <img src="/img/wnyc-v1.6-card-night.png" width="1468" height="1488" class="mb-0" alt="Screenshot of the updated program card night color theme for the website." />
     <img src="/img/wnyc-v1.6-card-day.png" width="1468" height="1488" class="mb-0" alt="Screenshot of the updated program card day color theme for the website." />
@@ -197,15 +197,15 @@ As a result of this research and evaluation, we were able to enhance and standar
 </figure>
 
 <figure class="figure">
-  <div class="figure__matte flex tablet:p-8 tablet:pb-3 h-auto bg-t1 justify-center">
-    <img src="/img/wnyc-v1.6-focus-states.png" width="800" height="965" alt="A screenshot of the focus state from the website for various page elements." class="mx-auto">
+  <div class="figure__matte overflow-auto">
+    <img class="block" src="/img/wnyc-v1.6-focus-states.png" alt="A screenshot of the focus state from the website for various page elements.">
   </div>
 
   <figcaption class="static">A focus state for interactive elements was designed and implemented. Previously, the native browser focus state was used.</figcaption>
 </figure>
 
 <figure class="figure">
-  <div class="figure__matte grid tablet:grid-cols-2 gap-8 p-3 tablet:p-8 tablet:pb-3 h-auto bg-t1">
+  <div class="figure__matte grid tablet:grid-cols-2 gap-8 p-3 tablet:p-8 tablet:pb-3 h-auto aspect-ratio-auto bg-t1">
     <img class="mx-auto" src="/img/wnyc-v1.5-header.png" width="2000" height="1610" class="mb-0" alt="Screenshot of an original typography sample from the website."/>
     <img class="mx-auto" src="/img/wnyc-v1.6-header-night-desktop.png" width="2000" height="1262" class="mb-0" alt="Screenshot of the updated typography sample from the website."/>
   </div>
@@ -216,10 +216,10 @@ As a result of this research and evaluation, we were able to enhance and standar
 The final task was designing and testing a system for users to select their preferred color preference between light or dark modes. Our research fellow mocked up and quickly tested recommendations for a toggle for mobile and desktop users.
 
 <figure class="figure">
-  <div class="figure__matte tablet:p-8 tablet:pb-3 h-auto bg-t1">
-    <img src="/img/wnyc-toggle-c-default-day-desktop.png" width="1988" height="108" class="mb-4" alt="Screenshot of the default theme toggle button for desktop users."/>
-    <img src="/img/wnyc-toggle-c-night-night-desktop.png" width="1988" height="108" class="mb-4" alt="Screenshot of the day theme toggle button for desktop users."/>
-    <img src="/img/wnyc-toggle-c-day-day-desktop.png" width="1988" height="108" class="mb-4" alt="Screenshot of the night theme toggle button for desktop users."/>
+  <div class="figure__matte p-2 tablet:p-8 h-auto aspect-ratio-auto bg-t1">
+    <img src="/img/wnyc-toggle-c-default-day-desktop.png" width="1988" height="108" class="block mb-4" alt="Screenshot of the default theme toggle button for desktop users."/>
+    <img src="/img/wnyc-toggle-c-night-night-desktop.png" width="1988" height="108" class="block mb-4" alt="Screenshot of the day theme toggle button for desktop users."/>
+    <img src="/img/wnyc-toggle-c-day-day-desktop.png" width="1988" height="108" class="block " alt="Screenshot of the night theme toggle button for desktop users."/>
   </div>
 
   <figcaption class="static">Mockups for the theme toggle for desktop users.</figcaption>
@@ -228,13 +228,13 @@ The final task was designing and testing a system for users to select their pref
 With our design recommendations finalized, I began implementing changes to the website's code-based UI pattern library. I converted our stylesheets to create different color themes using CSS custom properties for all design tokens. Previously, design tokens were exported from JSON to SASS variables, becoming hard-coded at runtime. Using CSS custom properties allowed toggling color themes more fluidly in the browser.
 
 <figure class="figure">
-  <div class="figure__matte flex items-center justify-center p-2 large:p-8 large:mb-8 bg-t1" style="height: auto">
+  <div class="figure__matte flex items-center justify-center p-2 bg-t1 h-auto aspect-ratio-auto">
     <iframe class="iframe" width="378" height="667" src="/working-nyc-patterns-0.0.1-55/"></iframe>
   </div>
 
-  <figcaption>
+  <figcaption class="static">
     <p>The static HTML demonstration I created using the Working NYC pattern library. The theme toggle can be found behind the mobile menu button.</p>
-    <p><a class="btn btn-primary" href="/working-nyc-patterns-0.0.1-55/" target="_blank" rel="noopener nofollow">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
+    <p><a class="btn btn-primary justify-center w-full tablet:w-auto" href="/working-nyc-patterns-0.0.1-55/" target="_blank" rel="noopener nofollow">View the full design <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
   </figcaption>
 </figure>
 
@@ -244,7 +244,7 @@ With our design recommendations finalized, I began implementing changes to the w
 
 The site's design is a collection of open-source code and public Figma file that can be scaled up as the product evolves. I also created internal documentation for all of the historical context behind the design so that team members can understand design decisions. You can browse the GitHub repository and the Figma file following the links below.
 
-<nav class="grid grid-cols-2 gap-3">
+<nav class="grid tablet:grid-cols-2 gap-3">
   <a class="btn btn-primary m-0 justify-center" href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> Pattern Library</a> <a class="btn btn-primary m-0 justify-center" href="https://www.figma.com/file/CH7ZOCW55SgsDnsTj3UrTi" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-figma"></use></svg> Figma Design File</a>
 </nav>
 
