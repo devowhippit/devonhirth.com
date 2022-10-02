@@ -35,6 +35,9 @@
    * Typography
    */
 
+   --dh-font-webkit-smoothing: antialiased;
+   --dh-font-moz-smoothing: grayscale;
+
   --dh-font-family-primary: 'Inter var', sans-serif;
   --dh-font-weight-primary-normal: 400;
   --dh-font-weight-primary-bold: 700;
@@ -80,6 +83,12 @@
 
   --dh-button-color-hover: var(--dh-color-background);
   --dh-button-background-hover: var(--dh-color-text);
+
+  /**
+   * Hyperlinks
+   */
+
+  --dh-font-weight-hyperlinks: bold;
 }
 
 /**

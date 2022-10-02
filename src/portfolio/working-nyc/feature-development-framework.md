@@ -51,7 +51,6 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
   </div>
 
   <div class="col-span-6 tablet:p-8">
-    <p>If our audience is experiencing different problems or are we imposing something that is not helpful to them, refine the idea to match real-world expectations.</p>
     <p>Ideate on solutions, keeping in mind the following parameters.</p>
     <ul>
       <li>What is and who has the problem are we solving?</li>
