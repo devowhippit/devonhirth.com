@@ -8,9 +8,13 @@ type: 'normal'
 
 ---
 
+### Code for America, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
+
+**Staff User Experience (UX) Designer, January 2023** – **Present**. As a UX designer on the Safety Net Platforms team, I work with colleagues to support all safety net subject area (enrollment, renewal, and feedback) teams using UX research, design and user interface (UI) design.
+
 ### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Digital Product Designer, January 2020** – **Present (2 years 10 months)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using user experience (UX) research/design, branding identity design, and user interface (UI) design/engineering.
+**Digital Product Designer, January 2020** – **December 2022 (3 years)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using UX research/design, branding identity design, and UI design/engineering.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 

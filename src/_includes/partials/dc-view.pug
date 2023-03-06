@@ -1,4 +1,4 @@
-script(src='https://documentcloud.adobe.com/view-sdk/main.js')
+script(src='https://documentservices.adobe.com/view-sdk/viewer.js')
 
 script.
   const previewFile = (pdf, title) => {
@@ -16,7 +16,12 @@ script.
       metaData: {
         fileName: title
       }
-    }, {embedMode: 'LIGHT_BOX'});
+    }, {
+      embedMode: 'LIGHT_BOX',
+      showDownloadPDF: false,
+      showPrintPDF: false,
+      enableFormFilling: false
+    });
   };
 
   document.querySelector('body').addEventListener('click', (event) => {
