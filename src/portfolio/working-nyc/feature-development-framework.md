@@ -7,7 +7,7 @@ breadcrumbs: ['Working NYC', 'Feature Development Framework']
 
 --- {.m-0}
 
-### Feature Development Framework {.h1 .my-6}
+### Feature development framework {.h1 .my-6}
 
 Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), we began to plan for the next round of development. As the lead product designer, I wanted to continue to understand and build empathy for our audience and ensure feature development for the site was user-driven. To do this, I created a step-by-step framework to validate and guide ideas to maturity using data and user experience (UX) design.
 
@@ -101,7 +101,7 @@ Using this process would require additional tools and expanding our team's capac
       <img class="block" src="/img/wnyc-component-feedback.svg" alt="The website Feedback component." width="1440" height="821" loading="lazy" decoding="async" />
     </div>
     <figcaption class="static">
-      <h5>Qualitative Data Streams</h5>
+      <h5>Qualitative data streams</h5>
       <p>I proposed collecting qualitative data through the website to complement our quantitative data collection and worked with the product manager to create multiple feedback forms for collecting users' input about the website experience and content. I then designed and implemented callouts with links to externally hosted forms.</p>
     </figcaption>
   </figure>
@@ -109,8 +109,8 @@ Using this process would require additional tools and expanding our team's capac
   <figure class="figure block m-0 bg-t1">
     <img class="block" src="/img/wnyc-user-relationship-manager.png" alt="Working NYC User Relationship Manager" width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">
-      <h5>User Relationship Manager</h5>
-      <p>I created a user relationship management tool using Airtable. We use the tool to retain research participant contact information with informed consent, track research sessions, catalog synthesis, and develop nuanced user personas.</p>
+      <h5>User relationship manager</h5>
+      <p>I created a user relationship management tool using Airtable. We use the tool to retain research participant contact information with informed consent, track research sessions, catalog synthesis, and develop nuanced user archetypes.</p>
     </figcaption>
   </figure>
 
@@ -119,7 +119,7 @@ Using this process would require additional tools and expanding our team's capac
       <img class="block" src="/img/wnyc-recruitment-email.png" alt="The NYC Benefits Platform Screening API landing page" width="1440" height="821" loading="lazy" decoding="async" />
     </div>
     <figcaption class="static">
-      <h5>Testing Tools</h5>
+      <h5>Testing tools</h5>
       <p>We needed methodologies to be available to us to test our ideas, ranging from unmoderated preference testing to usability testing interview guides. I implemented the A/B testing tool Google Optimize and led several usability testing projects creating guides and scripts for recruitment, scheduling, and interview sessions.</p>
     </figcaption>
   </figure>
@@ -128,20 +128,20 @@ Using this process would require additional tools and expanding our team's capac
     <img class="block" src="/img/wnyc-personas.png" alt="Personas of users for the Working NYC website." width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">
       <h5>Personas</h5>
-      <p>To understand our users better, I facilitated the creation of proto personas. These personas were cataloged and showcased to the team to build a consensus on the site's audience. While conducting research, the proto personas are reviewed, validated, and updated with more fine details that help us understand our users even more over time.</p>
+      <p>I facilitated a workshop with our team to prioritize the most immediate needs for the product collectively. I presented 11 possible features and backlog items we could focus on. Each team member created a proto-persona, and we discussed how each potential feature might address a need during their life experience.</p>
     </figcaption>
   </figure>
 </section>
 
-> Over time, the framework has become more refined with additional tools that facilitate better UX research. I oversaw the addition of **usability heuristics** and **framework for prioritizing research and methodologies** by fellows on our team.
+> Over time, the framework has become more refined with additional tools that facilitate better UX research. I oversaw the addition of **usability heuristics** and **framework for prioritizing research and methodologies** by fellows on our team. We applied this framework to work such as our [inclusive design pattern iteration](/portfolio/working-nyc/inclusive-design-pattern-iteration).
 
-### Next Project
+### Next project
 
 <p><a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/working-nyc/inclusive-design-pattern-iteration">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>
-  <span class="h3 primary font-normal m-0 my-1 text-center">Inclusive Design Pattern Iteration</span>
+  <span class="h3 primary font-normal m-0 my-1 text-center">Inclusive design pattern iteration</span>
 </a></p>
 
 [View all Working NYC projects](/portfolio/working-nyc#featured-projects)

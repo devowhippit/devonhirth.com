@@ -16,7 +16,7 @@ breadcrumbs: []
   </div>
 </figure>
 
-The Mayor's Office for Economic Opportunity works to reduce poverty and increase equity for New York City residents. As a digital product designer and lead user interface (UI) engineer on my team, I support our portfolio of products on many aspects of their lifecycles, including strategy, scoping, research, development, delivery, and management. Much of our focus is to broaden the reach of city-based programs and services that drive down poverty. We do this by engaging other agency stakeholders to collect and standardize up-to-date information on services that provide employment, housing, health, cash assistance, and more. In turn, we publish that information in formats such as marketing sites, communication materials, open APIs, datasets, and other digital products for New Yorkers. Below are a few products that I have worked on with specific project examples for each.
+The Mayor's Office for Economic Opportunity works to reduce poverty and increase equity for New York City residents. As a digital product designer and lead user interface (UI) engineer on my team, I supported our portfolio of products on many aspects of their lifecycles, including strategy, scoping, research, development, delivery, and management. Much of the office's focus is to broaden the reach of city-based programs and services that drive down poverty. They do this by engaging other agency stakeholders to collect and standardize up-to-date information on services that provide employment, housing, health, cash assistance, and more. In turn, that information is published formats such as marketing sites, communication materials, open APIs, datasets, and other digital products for New Yorkers. Below are a few products that I worked on with specific project examples for each.
 
 ### <a class="flex mie-1 no-underline" id="featured-products" href="#featured-products"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Products
 
@@ -34,7 +34,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Lead Digital Product Designer</h4>
-    <p><a href="/portfolio/working-nyc"><b>Working NYC</b></a> – During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create Working NYC, which helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product is to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. Featured projects include the <a href="/portfolio/working-nyc/product-launch">Product Launch</a>, <a href="/portfolio/working-nyc/feature-development-framework">Feature Development Framework</a>, and <a href="/portfolio/working-nyc/inclusive-design-pattern-iteration">Inclusive Design Pattern Iteration</a>.</p>
+    <p><a href="/portfolio/working-nyc"><b>Working NYC</b></a> – During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create Working NYC, which helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product was to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. Featured projects include the <a href="/portfolio/working-nyc/product-launch">product launch</a>, <a href="/portfolio/working-nyc/feature-development-framework">feature development framework</a>, and <a href="/portfolio/working-nyc/inclusive-design-pattern-iteration">inclusive design pattern iteration</a>.</p>
     <a class="btn btn-primary justify-center figure__cta" href="/portfolio/working-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View Working NYC projects</a>
   </figcaption>
 </figure>
@@ -55,7 +55,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
   <figcaption>
     <h4 class="h5 mb-3">Role: Lead Developer and Digital Product Designer</h4>
     <p><a href="/portfolio/access-nyc"><b>ACCESS NYC</b></a> – ACCESS NYC is an <a href="/portfolio/access-nyc/#awards">award winning</a> public benefits platform and has been my primary product assignment at the Mayor's Office for Economic Opportunity. Over the past several years, I have participated in numerous sprints using my expertise in front-end engineering, user interface/experience design, and digital product feature development.
-      Featured projects include <a href="/portfolio/access-nyc/covid-response">our COVID Response</a>, <a href="/portfolio/access-nyc/ui-pattern-library">UI Pattern Library</a>, <a href="/portfolio/access-nyc/field-screener">Field Screener</a>, and <a href="/portfolio/access-nyc/development-contributions">Development Contributions</a>.</p> <a class="btn btn-primary justify-center figure__cta" href="/portfolio/access-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View ACCESS NYC projects</a>
+      Featured projects include <a href="/portfolio/access-nyc/covid-response">our COVID response</a>, <a href="/portfolio/access-nyc/ui-pattern-library">UI pattern library</a>, <a href="/portfolio/access-nyc/field-screener">field screener</a>, and <a href="/portfolio/access-nyc/development-contributions">development contributions</a>.</p> <a class="btn btn-primary justify-center figure__cta" href="/portfolio/access-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View ACCESS NYC projects</a>
   </figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
   </figcaption>
 </figure>
 
-### <a class="flex mie-1 no-underline" id="other-projects" href="#other-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Other Projects
+### <a class="flex mie-1 no-underline" id="other-projects" href="#other-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Other projects
 
 #### NYC Benefits Platform: Screening API {.small .pb-2 .m-0 .font-normal}
 
@@ -148,7 +148,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
 &nbsp; -->
 
-## Products from Previous Roles
+## Products from previous roles
 
 ---
 

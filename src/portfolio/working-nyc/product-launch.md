@@ -7,7 +7,7 @@ breadcrumbs: ['Working NYC', 'Product Lunch']
 
 --- {.m-0}
 
-### Product Launch {.h1 .my-6}
+### Product launch {.h1 .my-6}
 
 > My primary challenge with the Working NYC launch was to create a **new brand identity** and **user interface** that templatizes 30+ programs across 9 industries from multiple providers serving a diverse population of New Yorkers.
 
@@ -28,7 +28,7 @@ breadcrumbs: ['Working NYC', 'Product Lunch']
 |                                           | LGBTQ+ New Yorkers              | |
 |                                           | People with justice involvement | |
 
-#### Brand Identity
+#### Brand identity
 
 The direction for the brand identity was to use design tokens from a previous project created in collaboration with the <b>Mayor's Office of Workforce Development</b> to keep the product within a family of Workforce products. This project was called the <b>Workforce Data Portal</b>. I extracted the token set from the project, including typography and colors, and expanded it to create a brand identity system.
 
@@ -81,7 +81,7 @@ The direction for the brand identity was to use design tokens from a previous pr
   <figcaption class="static">I created icons representing different industry sectors. The four major sector taxonomies are represented here; Technology, Healthcare, Construction, and Culinary.</figcaption>
 </figure>
 
-#### User Interface
+#### User interface
 
 Drawing on the foundation of other products in our portfolio, I designed and built (in code) a production-ready version of a pattern library explicitly created for New York City resident-facing products. This library includes 38 elements, components, and utilities; multi-lingual stylesheets with support for 11 languages, left-to-right, and right-to-left reading orientations; and meets Web Content Accessibility Guidelines (WCAG) AA compliance.
 
@@ -95,7 +95,7 @@ Drawing on the foundation of other products in our portfolio, I designed and bui
 
 Our strategy for the site was to have the content to lead the user experience. To build the views, I used content priority guides (created by our content strategist) in place of wireframes. I applied the finished pattern library to build the site's primary view templates in static HTML pages. The views were designed and engineered to make the product feel like a progressive web application to accommodate our end-users browsing behavior (observed through analytics of other products in our portfolio). We reviewed these pages internally and with our agency partners, and because they were live prototypes, the team could experience and review the designs as they would exist in production.
 
-#### Program Pages
+#### Program pages
 
 **Content priority guide**. This table showcases the content priority for our content specialist's program page template.
 
@@ -168,13 +168,13 @@ Our strategy for the site was to have the content to lead the user experience. T
   </figcaption>
 </figure>
 
-#### User Acceptance Testing
+#### User acceptance testing
 
 We conducted remote user acceptance testing with program managers and participants from the NYC Parks Opportunity Program to gauge interest and uncover usability issues with this product iteration. With their valuable input, we could make all of the changes needed to launch the project's first version.
 
 > A total of 5 content, design and engineering sprints began in May 2020 and ended in a launch on August 20th (13 weeks).
 
-#### Final Final
+#### Final final
 
 The site's design is a collection of open-source code and public Figma file that can be scaled up as the product evolves. I also created internal documentation for all of the historical context behind the design so that team members can understand design decisions. You can browse the GitHub repository and the Figma file following the links below.
 
@@ -182,13 +182,13 @@ The site's design is a collection of open-source code and public Figma file that
   <a class="btn btn-primary m-0 justify-center" href="https://cityofnewyork.github.io/working-nyc-patterns/" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> Pattern Library</a> <a class="btn btn-primary m-0 justify-center" href="https://www.figma.com/file/CH7ZOCW55SgsDnsTj3UrTi" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-figma"></use></svg> Figma Design File</a>
 </nav>
 
-### Next Project
+### Next project
 
 <p><a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/working-nyc/feature-development-framework">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>
-  <span class="h3 primary font-normal m-0 my-1 text-center">Feature Development Framework</span>
+  <span class="h3 primary font-normal m-0 my-1 text-center">Feature development framework</span>
 </a></p>
 
 [View all Working NYC projects](/portfolio/working-nyc#featured-projects)

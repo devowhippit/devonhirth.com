@@ -53,7 +53,7 @@ I contributed to and advised on the engineering and product design of a non-prof
   </div>
 </div>
 
-### <a class="flex mie-1 no-underline" id="research-sprint" href="#research-sprint"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Research Sprint
+### <a class="flex mie-1 no-underline" id="research-sprint" href="#research-sprint"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Research sprint
 
 This summary of research conducted during my fellowship at the Blue Ridge Labs foundation in 2016 led my team to build <a href="https://daisydebt.org/" rel="nofollow noopener noreferrer" target="_blank">Daisy Debt</a>. It includes what I observed during our interviews with <a href="https://www1.nyc.gov/site/dca/consumers/get-free-financial-counseling.page" rel="nofollow noopener noreferrer" target="_blank">Financial Empowerment Centers</a> (FE Centers), but many community-based organizations (CBOs) do similar work. I am grateful to the financial counselors that we were able to work with, who showed much interest and proved to be highly influential on the project.
 
@@ -99,7 +99,7 @@ Debt collection letters do three things; 1. **They make the debt collection agen
 
 > Our team realized we could automate creating and mailing these letters well within a single client session. We could also provide additional tools to help build mutual accountability via tracking, reminders, and follow-up surveys.
 
-### <a class="flex mie-1 no-underline" id="build-sprint" href="#build-sprint"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Build Sprint
+### <a class="flex mie-1 no-underline" id="build-sprint" href="#build-sprint"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Build sprint
 
 After the conclusion of our research, my team set to build a tool that would alleviate some of the challenges financial counselors face. Our team consisted of
 
@@ -126,7 +126,7 @@ The prototype included 9 steps.
 1. Collecting email for follow up
 
 <div class="tablet:flex justify-between items-center mb-4">
-  <h4 class="tablet:m-0">Application Screenshots</h4>
+  <h4 class="tablet:m-0">Application screenshots</h4>
 
   <span class="flex items-center">
     <span class="mie-1">Scroll horizontally to view screens</span>
@@ -233,7 +233,7 @@ We provided an autocomplete feature using data from a register of national debt 
 </figure> -->
 </figure>
 
-#### Branding and Homepage
+#### Branding and homepage
 
 It was towards the later stages of our work that we named our tool Daisy Debt. "Daisy" is a reference to the daisy chain effect consumers can experience when struggling with debt. I designed a logo to brand the product and several assets, including palm cards, one-pagers, and presentation decks, to create a consistent experience for the audience Daisy Debt would be assisting.
 

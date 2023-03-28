@@ -7,7 +7,7 @@ breadcrumbs: ['ACCESS NYC', 'Field Screener']
 
 --- {.m-0}
 
-### Field Screener  {.h1 .my-6}
+### Field screener {.h1 .my-6}
 
 <!-- <figure class="figure">
   ACCESS NYC Field Screener
@@ -74,7 +74,7 @@ I chose to build the screener using Vue.js to take advantage of the state, react
   </figure>
 </section>
 
-#### Case-study and Source Code
+#### Case-study and source code
 
 Read more about the background in the case-study below. Additionally, the source code for the screener can be browsed on GitHub.
 
@@ -82,13 +82,13 @@ Read more about the background in the case-study below. Additionally, the source
   <a class="btn btn-primary m-0 justify-center" href="https://medium.com/nyc-opportunity/nyc-opportunity-and-the-public-engagement-unit-partner-for-facilitated-benefits-screening-and-e889407ccf4c" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#iconir-medium"></use></svg> Read the case-study here</a> <a class="btn btn-primary m-0 justify-center" href="https://github.com/cityOfNewYork/ACCESS-NYC-field-screener" target="_blank" rel="noopener nofollow"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-github"></use></svg> View the source code</a>
 </nav>
 
-### Next Project
+### Next project
 
 <p><a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/access-nyc/development-contributions">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>
-  <span class="h3 primary font-normal m-0 my-1 text-center">Development Contributions</span>
+  <span class="h3 primary font-normal m-0 my-1 text-center">Development contributions</span>
 </a></p>
 
 [View all ACCESS NYC projects](/portfolio/access-nyc#featured-projects)

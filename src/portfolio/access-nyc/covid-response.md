@@ -7,7 +7,7 @@ breadcrumbs: ['ACCESS NYC', 'COVID Response']
 
 --- {.m-0}
 
-## COVID Response {.h1 .my-6}
+## COVID response {.h1 .my-6}
 
 When New York City became the epicenter of the COVID-19 pandemic, ACCESS NYC became a front-line digital resource for local, state, and federal aid information. The site saw an increase in traffic by 200% as a result of the pandemic.
 
@@ -52,7 +52,7 @@ When New York City became the epicenter of the COVID-19 pandemic, ACCESS NYC bec
   </div>
 </div>
 
-##### Homepage Redesign {#homepage-redesign}
+##### Homepage redesign {#homepage-redesign}
 
 NYC Opportunity designed ACCESS NYC for New York City residents seeking information on public benefit programs. The pandemic and corresponding economic shutdown created a much larger audience and nearly doubled the traffic. The user behavior flow patterns also dramatically shifted to our frequently updated COVID-19 resources page. The homepage redesign's primary challenge was to ensure visitors easily find content relevant to their needs directly from the homepage and maintain familiar patterns for returning visitors.
 
@@ -137,7 +137,7 @@ I created the redesigns in Figma, and after reviewing the new page updates with 
 
 > We released the <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases/tag/v3.18.0" target="_blank" rel="noopener nofollow">COVID Response Patterns May 4th, 2020<svg class="icon mis-1 w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
 
-##### Special Announcement Schema {#special-announcement-schema}
+##### Special Announcement schema {#special-announcement-schema}
 
 <!-- <figure class="figure">
   Special Announcement Schema
@@ -152,7 +152,7 @@ I worked with our junior developer to document how our content mapped to the sch
 
 The implementation gave content managers the ability to designate what content was relevant to the pandemic and the flexibility to add multiple pandemic benefit guides as they rolled out from the federal government. Featured program guides include Pandemic Unemployment Insurance, Federal Stimulus Payments, and a COVID-19 Vaccination Guide.
 
-**COVID-19 Vaccine Program Guide**
+**COVID-19 vaccine program guide**
 
 <figure class="figure">
   <div class="figure__matte flex items-center justify-center bg-t1 overflow-auto">
@@ -160,7 +160,7 @@ The implementation gave content managers the ability to designate what content w
   </div>
 </figure>
 
-**COVID-19 Vaccine Structured Data**
+**COVID-19 vaccine structured data**
 
 ```json
 {
@@ -214,13 +214,13 @@ In addition to pandemic program guides, the main site alert banner that links to
 
 > We released the <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases/tag/v3.19.0" target="_blank" rel="noopener nofollow">Special Announcement schema on May 20th, 2020<svg class="icon mis-1 w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>. In the 14 months after its release has accounted for over **1.2 million <!-- 1,283,722 --> impressions** and over **53 <!-- 53,700 --> thousand clicks**.
 
-### Next Project
+### Next project
 
 <p><a class="btn border-4 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/access-nyc/ui-pattern-library">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>
-  <span class="h3 primary font-normal m-0 my-1 text-center">UI Pattern Library</span>
+  <span class="h3 primary font-normal m-0 my-1 text-center">UI pattern library</span>
 </a></p>
 
 [View all ACCESS NYC projects](/portfolio/access-nyc#featured-projects)

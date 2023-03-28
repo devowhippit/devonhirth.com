@@ -7,7 +7,7 @@ breadcrumbs: ['ACCESS NYC', 'UI Patterns Library']
 
 --- {.m-0}
 
-### UI Pattern Library {.h1 .my-6}
+### UI pattern library {.h1 .my-6}
 
 <!-- <figure class="figure">
   ACCESS NYC Pattern Library
@@ -88,13 +88,13 @@ The first version of the library included 35 elements, components, and utilities
 
 > The ACCESS NYC UI Patterns Library was <a href="https://github.com/CityOfNewYork/ACCESS-NYC-PATTERNS/releases/tag/v0.1.0" rel="noopener nofollow" target="_blank">released on November 29th, 2018</a> and integrated into the core ACCESS NYC website as a dependency. The UI Patterns Library served as the form patterns for the <a href="/portfolio/#online-applications-pilot">Online Applications Pilot</a> and led to the creation of the <a href="/portfolio/nyco-ui-patterns-framework">NYCO UI Patterns Framework</a>.
 
-### Next Project
+### Next project
 
 <p><a class="btn border-4 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/access-nyc/field-screener">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>
-  <span class="h3 primary font-normal m-0 my-1 text-center">Field Screener</span>
+  <span class="h3 primary font-normal m-0 my-1 text-center">Field screener</span>
 </a></p>
 
 [View all ACCESS NYC projects](/portfolio/access-nyc/#featured-projects)
