@@ -10,11 +10,23 @@ type: 'normal'
 
 ### Code for America, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Staff User Experience (UX) Designer, January 2023** – **Present**. As a UX designer on the Safety Net Platforms team, I work with colleagues to support all safety net subject area (enrollment, renewal, and feedback) teams using UX research, design and user interface (UI) design.
+**Staff User Experience (UX) Designer, January 2023** – **Present**. As a Staff UX designer on the Safety Net Platforms team, I support teams in the Safety Net Innovation Lab by leading the UX design and development of 2 internal tools and platforms to deploy human-centered digital form services for state governments nationwide, as well as integrate process improvements to the design practice in accessibility and best practices in designing digital forms for the public.
+
+**Platform responsibilities**
+
+* **The Code for America Design System** – I lead internal collaboration efforts to develop the organization's design system for new digital products and services for State Government partners.
+
+* **The Code for America Form Flow Builder** – I contribute to our core platform's user interface (UI) and experience design for creating digital forms by leading the design, integrating human-centered design and best practices in digital form design.
+
+**Contributions**
+
+* **Adoption assessment for the U.S. Web Design System** – I led the investigation, planning, and implementation of migrating our core platform, the Form Flow Builder, to the U.S. Web Design System.
+
+* **Accessibility initiatives** – I reviewed and mentored junior staff contributions to ensure design and engineering output complied with and exceeded Web Content Accessibility Guidelines 2.1 AA standards.
 
 ### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Digital Product Designer, January 2020** – **December 2022 (3 years)**. As a product designer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using UX research/design, branding identity design, and UI design/engineering.
+**Digital Product Designer, January 2020** – **December 2022 (3 years)**. I contributed to the management and strategy of 11 products in our portfolio throughout their lifecycle. Beginning with identifying the needs of our product audiences and stakeholders, then market delivery, engagement measurement, and finally, maintenance and iteration on features to ensure impact, scale, and client satisfaction.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
