@@ -1,0 +1,36 @@
+doctype html
+html(dir='ltr' lang='en')
+  head
+    if robots
+      meta(name='robots' content=robots)
+
+    include /../../../pm/_includes/partials/head.pug
+
+  body(class=classes)
+    main(id='main' class='px-2 tablet:px-8 max-w-xlarge mx-auto py-8 mb-8')
+      if breadcrumbs
+        - if (!breadcrumbs.includes('Portfolio')) breadcrumbs.unshift('Portfolio')
+
+        nav(class='mb-2' aria-label='Breadcrumb')
+          a(href='/') Home
+
+          span(class='px-1') /
+
+          each crumb, i in breadcrumbs
+            - if (i > 0)
+              span(class='px-1') /
+
+            if (i < breadcrumbs.length - 1)
+              a(href=`/${breadcrumbs.slice(0, i + 1).join('/').split(' ').join('-').toLowerCase()}`)
+                = crumb
+            else
+              a(href='#' aria-current='page')
+                = crumb
+
+      != content
+
+    include /partials/footer.pug
+
+    include /../../../pm/_includes/partials/sprite.pug
+
+    include /partials/dc-view.pug

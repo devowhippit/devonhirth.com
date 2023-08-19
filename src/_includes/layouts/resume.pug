@@ -1,0 +1,123 @@
+doctype html
+html(dir='ltr' lang='en')
+  head
+    if robots
+      meta(name='robots' content=robots)
+
+    include /../../../pm/_includes/partials/head.pug
+
+  body(class='relative')
+    nav(class='py-2 px-2 mx-auto max-w-large sticky top-0 flex justify-between bg-t0 print:hidden')
+      div(class='inline-flex items-center' aria-label='Breadcrumb')
+        a(href='/')
+          | Home
+
+        <span class="px-1">/</span>
+
+        a(href='/resume')
+          | Resume
+
+        if type === 'federal'
+          <span class="px-1">/</span>
+
+          a(href='#' aria-current='page')
+            | Federal
+
+      button(class='hidden btn btn-primary tablet:flex' onclick='window.print()' title='To save as a PDF, click this link then select "Save as PDF" in the print dialog.')
+        svg(class='icon mie-1' aria-hidden='true')
+          use(xlink:href='#tabler-print')
+
+        | Save as PDF
+
+    - var classname = (type === 'federal') ? '' : ' tablet:grid print:grid grid-cols-12 gap-3'
+
+    main(class='py-8 px-2 print:p-0 mx-auto max-w-large' + classname)
+      aside(class='col-span-4 mb-6')
+        if type === 'federal'
+          dl(class='dl mb-4')
+            dt
+              b Announcement Number
+            dd= job_announcement_number
+
+            dt
+              b Title
+            dd= job_title
+
+            dt
+              b Grade
+            dd= job_grade
+
+            dt
+              b Control Number
+            dd= job_control_number
+
+        if type === 'federal'
+          h2 Devon Eric Hirth
+        else
+          h2 Devon Hirth
+
+        hr
+
+        ul(class='list-none p-0 mt-4')
+          if type === 'normal'
+            li Portfolio <a href="https://devonhirth.com/portfolio">devonhirth.com</a>
+            li Freelance Site <a href="https://expdesign.io" target="_blank" rel="noopener nofollow">expdesign.io</a>
+            li LinkedIn.com <a href="https://www.linkedin.com/in/devonhirth/" target="_blank" rel="noopener nofollow">/in/devonhirth</a>
+            li GitHub.com <a href="https://github.com/devowhippit" target="_blank" rel="noopener nofollow">/devowhippit</a>
+            li Behance.net <a href="https://www.behance.net/devonhirth" target="_blank" rel="noopener nofollow">/devonhirth</a>
+
+          if type === 'federal'
+            li United States Citizen
+            li 431 16th St. Apt. 3L, Brooklyn, NY 11215
+
+          li <a href="mailto:devonhirth@gmail.com" target="_blank" rel="noopener nofollow">devonhirth@gmail.com</a>
+          li <a href="tel:3475068810" target="_blank" rel="noopener nofollow">(347) 506–8810</a>
+
+        if type === 'normal'
+          h3(class='h5 primary mb-1') Proficiencies
+
+          h4(class='h6 primary my-2') Skills
+
+          ul(class='list-none p-0')
+            li User Research
+            li User Experience (UX) Design
+            li Live Prototyping
+            li Brand Identity
+            li User Interface (UI) Design
+            li Front-end Development
+            li Data Visualization
+            li Technical Documentation
+            li Scrum
+
+          h4(class='h6 primary mb-2') Programming
+
+          ul(class='list-none p-0')
+            li JavaScript; ES6, Node.js, NPM, Vue.js
+            li PostCSS, SASS
+            li Git, GitHub
+            li PHP
+            li Working knowledge of Deno, Svelte, React, Angular, D3.js
+            li Working knowledge of Ruby, Python
+
+          h4(class='h6 primary mb-2') Design Tools
+
+          ul(class='list-none p-0')
+            li Figma
+            //- li HTML + CSS
+            li Adobe Illustrator, Photoshop, InDesign
+
+          br
+
+          h3(class='h5 primary mb-2') Education
+
+          ul(class='list-none p-0')
+            li <b>+Acumen</b> – Human-Centered Design for Social Innovation, 2014
+            li <b>General Assembly</b> – Data Science, 2013
+            li <b>Maryville University of Saint Louis</b> – BFA, Graphic Design, 2006 – 2009
+
+      article(class='col-span-8')
+        != content
+
+    include /partials/footer.pug
+
+    include /../../../pm/_includes/partials/sprite.pug

@@ -1,0 +1,17 @@
+.DS_Store
+
+/src/resume/**/*
+!/src/resume/index.md
+
+/dist/resume/**/*
+!/dist/resume/index.html
+
+/dist/letters/
+/dist/letters/**/*
+/src/letters/**/*
+!/src/letters/.gitkeep
+
+/dist/present/**/*
+/src/present/**/*
+
+!/src/present/.gitkeep
