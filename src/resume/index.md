@@ -10,19 +10,19 @@ type: 'normal'
 
 ### Code for America, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Staff User Experience (UX) Designer, January 2023** – **Present**. As a Staff UX designer on the Safety Net Platforms team, I support teams in the Safety Net Innovation Lab by leading the UX design and development of 2 internal tools and platforms to deploy human-centered digital form services for state governments nationwide, as well as integrate process improvements to the design practice in accessibility and best practices in designing digital forms for the public.
+**Staff User Experience (UX) Designer, January 2023** – **Present**. As a Staff UX designer on the Platform team, I support teams in the Safety Net Innovation Lab by leading the UX design of 2 internal tools used to deploy human-centered digital form services for state governments nationwide, as well as integrate process improvements to the organization's design practice in accessibility and creating public digital forms.
 
 **Platform responsibilities**
 
-* **The Code for America Design System** – I lead internal collaboration efforts to develop the organization's design system for new digital products and services for State Government partners.
+* **Design System** – I lead internal collaboration efforts to develop the design system for new state government digital products and services.
 
-* **The Code for America Form Flow Builder** – I contribute to our core platform's user interface (UI) and experience design for creating digital forms by leading the design, integrating human-centered design and best practices in digital form design.
+* **Form Flow Builder** – I maintain our core platform's user interface (UI) and experience design, enabling other designers to replicate human-centered digital forms.
 
 **Contributions**
 
-* **Adoption assessment for the U.S. Web Design System** – I led the investigation, planning, and implementation of migrating our core platform, the Form Flow Builder, to the U.S. Web Design System.
+* **Adoption assessment for the U.S. Web Design System** – I led the investigation, planning, and migration of our core platform, the Form Flow Builder, to the U.S. Web Design System.
 
-* **Accessibility initiatives** – I reviewed and mentored junior staff contributions to ensure design and engineering output complied with and exceeded Web Content Accessibility Guidelines 2.1 AA standards.
+* **Accessibility initiatives** – I review and mentor junior staff contributions to ensure design and engineering comply with and exceed Web Content Accessibility Guidelines 2.1 AA standards.
 
 ### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
