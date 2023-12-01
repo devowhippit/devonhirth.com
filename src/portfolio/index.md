@@ -34,7 +34,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
   <figcaption>
     <h4 class="h5 mb-3">Role: Lead Digital Product Designer</h4>
-    <p><a href="/portfolio/working-nyc"><b>Working NYC</b></a> – During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create Working NYC, which helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product was to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. Featured projects include the <a href="/portfolio/working-nyc/product-launch">product launch</a>, <a href="/portfolio/working-nyc/feature-development-framework">feature development framework</a>, and <a href="/portfolio/working-nyc/inclusive-design-pattern-iteration">inclusive design pattern iteration</a>.</p>
+    <p><a href="/portfolio/working-nyc"><b>Working NYC</b></a> – During the summer of 2020, the Mayor's Office of Workforce Development partnered with our agency to create Working NYC, which helps New Yorkers prepare for and find a job through free job and adult education programs. My primary role on this product was to manage the brand identity and lead the design strategy working closely with the product manager, content strategist, and lead engineer. Featured projects include the <a href="/portfolio/working-nyc/product-launch">product launch</a>, <a href="/portfolio/working-nyc/feature-development-framework">feature development framework</a>, <a href="/portfolio/working-nyc/jobs-and-opportunities-content-design">jobs and opportunities content design</a>, and <a href="/portfolio/working-nyc/inclusive-design-pattern-iteration">inclusive color schemes</a>.</p>
     <a class="btn btn-primary justify-center figure__cta" href="/portfolio/working-nyc"><svg class="icon mie-1" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg> View Working NYC projects</a>
   </figcaption>
 </figure>
@@ -96,7 +96,7 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
   </figcaption>
 </figure>
 
-<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+<section class="content__full grid tablet:grid-cols-2 gap-3 mb-8">
   <figure class="figure block m-0">
     <img class="block" src="/img/mhfa-landing-page.png" alt="The Mental Health for All website landing page" width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">

@@ -5,11 +5,11 @@ classes: ['working-nyc']
 breadcrumbs: ['Working NYC', 'Product Lunch']
 ---
 
---- {.m-0}
+--- {.my-0}
 
-### Product launch {.h1 .my-6}
+### Product launch {.content__full .justify-around .h1 .my-6}
 
-> My primary challenge with the Working NYC launch was to create a **new brand identity** and **user interface** that templatizes 30+ programs across 9 industries from multiple providers serving a diverse population of New Yorkers.
+> My primary challenge with the Working NYC launch was to create a **new brand identity** and **user interface** that templatizes 30+ programs across 9 industries from multiple providers serving a diverse population of New Yorkers. {.content__full}
 
 **Program Taxonomies**. This table showcases 3 of the 7 finalized taxonomy collections for programs on the site that I would need to accommodate in the product's design.
 

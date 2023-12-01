@@ -5,9 +5,9 @@ classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'UI Patterns Library']
 ---
 
---- {.m-0}
+--- {.my-0}
 
-### UI pattern library {.h1 .my-6}
+### UI pattern library {.content__full .justify-around .h1 .my-6}
 
 <!-- <figure class="figure">
   ACCESS NYC Pattern Library
@@ -44,7 +44,7 @@ To do this, I took the current site and cataloged all of the reusable patterns. 
   <figcaption class="static">The team named and organized the patterns under three main categories; elements, components, and objects.</figcaption>
 </figure>
 
-<section class="grid tablet:grid-cols-2 gap-3 mb-3">
+<section class="content__full grid tablet:grid-cols-2 gap-3 mb-3">
   <figure class="figure m-0">
     <img class="block" width="1440" height="800" src="/img/anyc-patterns-npm.png" alt="A screenshot of the ACCESS NYC UI Patterns documentation homepage." loading="lazy" decoding="async" />
     <figcaption class="static">The <a href="https://www.npmjs.com/package/@nycopportunity/access-patterns" target="_blank" rel="noopener nofollow">NPM landing page</a> for the ACCESS NYC UI Patterns.</figcaption>
@@ -63,7 +63,7 @@ To do this, I took the current site and cataloged all of the reusable patterns. 
 
 The first version of the library included 35 elements, components, and utilities. Over time, the set has expanded to over 50 patterns, including reactive component variants for Vue.js applications. Additionally, I introduced CSS utilities to the library by adding <a href="https://tailwindcss.com" target="_blank" rel="noopener nofollow">Tailwindcss</a>, customized using design tokens from the pattern source. The accessibility of the patterns has also improved over time with manual testing by the Mayor's Office for People with Disabilities (MOPD) and automated accessibility testing using <a href="https://pa11y.org/" target="_blank" rel="noopener nofollow">Pa11y</a>.
 
-<section class="grid tablet:grid-cols-2 gap-3 mb-3">
+<section class="content__full grid tablet:grid-cols-2 gap-3 mb-3">
   <figure class="figure m-0">
     <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #EEF3F7">
       <div class="px-4"><img class="my-6 mx-auto" src="/img/anyc-patterns-sample.svg" width="1163" height="469" loading="lazy" decoding="async" /></div>
@@ -86,7 +86,7 @@ The first version of the library included 35 elements, components, and utilities
   <figcaption class="static">Over time, the set has expanded to over 50 patterns, including some reactive component variants for Vue.js applications.</figcaption>
 </figure>
 
-> The ACCESS NYC UI Patterns Library was <a href="https://github.com/CityOfNewYork/ACCESS-NYC-PATTERNS/releases/tag/v0.1.0" rel="noopener nofollow" target="_blank">released on November 29th, 2018</a> and integrated into the core ACCESS NYC website as a dependency. The UI Patterns Library served as the form patterns for the <a href="/portfolio/#online-applications-pilot">Online Applications Pilot</a> and led to the creation of the <a href="/portfolio/nyco-ui-patterns-framework">NYCO UI Patterns Framework</a>.
+> The ACCESS NYC UI Patterns Library was <a href="https://github.com/CityOfNewYork/ACCESS-NYC-PATTERNS/releases/tag/v0.1.0" rel="noopener nofollow" target="_blank">released on November 29th, 2018</a> and integrated into the core ACCESS NYC website as a dependency. The UI Patterns Library served as the form patterns for the <a href="/portfolio/#online-applications-pilot">Online Applications Pilot</a> and led to the creation of the <a href="/portfolio/nyco-ui-patterns-framework">NYCO UI Patterns Framework</a>. {.content__full}
 
 ### Next project
 

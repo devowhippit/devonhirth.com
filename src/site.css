@@ -24,3 +24,13 @@
 @import url('../../pm/styles/tables.css');
 @import url('../../pm/styles/first-last.css');
 @import url('../../pm/styles/utilities.css');
+
+.content > *:not(.content__full):not(.figure):not(table) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(var(--dh-grid) * 100);
+}
+
+.content__full {
+  width: 100%;
+}

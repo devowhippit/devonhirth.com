@@ -5,9 +5,9 @@ classes: ['working-nyc']
 breadcrumbs: ['Working NYC', 'Inclusive Design Pattern Iteration']
 ---
 
---- {.m-0}
+--- {.my-0}
 
-### Inclusive design pattern iteration {.h1 .my-6}
+### Inclusive design pattern iteration {.content__full .justify-around .h1 .my-6}
 
 After the launch of Working NYC our team solicited feedback from stakeholders on the product. We received over 100 responses to a survey that included information on favorite features and where we could make improvements. Using Airtable, I synthesized the qualitative data by extracting and counting the occurrences of keywords and phrases. I then organized these items into the following feedback categories.
 
@@ -33,7 +33,7 @@ The most common point of feedback respondents had regarded the website's general
 
 I designed the website using a color palette established by the Workforce Data Portal for its [initial launch](/portfolio/working-nyc/product-launch/). To address the negative feedback on the original design, I oversaw the creation of a new light color palette by a fellow on our team. We ensured that the new color palette met WCAG AA color contrast standards.
 
-<section class="grid tablet:grid-cols-2 gap-3 bg-t1 p-3 mb-8">
+<section class="content__full grid tablet:grid-cols-2 gap-3 bg-t1 p-3 mb-8">
   <figure class="figure block m-0">
     <div style="height: 70vh; overflow: hidden;">
       <img class="block" src="/img/wnyc-v1.6-0-page-home-day.png" alt="A screenshot of the homepage in the light color palette designed by our fellow." width="2880" height="9458" loading="lazy" decoding="async" />
@@ -55,7 +55,7 @@ I designed the website using a color palette established by the Workforce Data P
 
 I worked with a research fellow to facilitate usability and preference testing interviews with users. We used these interviews to gauge which design users might prefer, light or dark, and ensure there were no major usability issues with the new light color palette. We also received consultation on low-vision usability with the Mayor's Office for People with Disabilities to assess the color contrast between the colors. They revealed that while the colors may have met WCAG AA standards, they needed further **refinement** to achieve better **perceptual contrast**.
 
-<section class="grid tablet:grid-cols-2 gap-3 bg-t1 p-3 mb-8">
+<section class="content__full grid tablet:grid-cols-2 gap-3 bg-t1 p-3 mb-8">
   <figure class="figure block m-0">
     <div style="height: 70vh; overflow: hidden;">
       <img class="block" src="/img/wnyc-v1.5-page-home.png" alt="A screenshot of the default, or night color palette of the original design we tested." width="2880" height="9458" loading="lazy" decoding="async" />
@@ -87,7 +87,7 @@ To implement findings from our research, I extracted the most up-to-date design 
 
 Our research fellow also conducted desk research to understand how users with different color blindness would experience each palette and what color combinations work well for most color-blind users. She made more recommendations for our color combinations and evaluated them for contrast using a color blindness simulator commonly found in developer tools.
 
-<section class="grid tablet:grid-cols-3 gap-3 bg-t1 p-3 mb-8">
+<section class="content__full grid tablet:grid-cols-3 gap-3 bg-t1 p-3 mb-8">
   <figure class="figure block m-0">
     <div style="height: 40vh; overflow: hidden;">
       <img class="block" src="/img/wnyc-v1.6-dark-simulated-achromatopsia.png" width="2880" height="7760" style="image-rendering:" loading="lazy" decoding="async" alt="Screenshot of simulated Achromatopsia for the default, or night theme.." />
@@ -163,7 +163,7 @@ Our research fellow also conducted desk research to understand how users with di
   </figure>
 </section>
 
-> After the conclusion of our usability and desktop research, we realized that providing alternate color themes is more than a matter of user preference. It is an inclusive design pattern that helps users with specific vision impairments.
+> After the conclusion of our usability and desktop research, we realized that providing alternate color themes is more than a matter of user preference. It is an inclusive design pattern that helps users with specific vision impairments. {.content__full}
 
 As a result of this research and evaluation, we were able to enhance and standardize both light and dark color palettes for color-blind users and achieve full compliance with WCAG AA contrast standards and AAA standards in some cases for low-vision users.
 
@@ -240,7 +240,7 @@ With our design recommendations finalized, I began implementing changes to the w
   </figcaption>
 </figure>
 
-> We released the <a href="https://github.com/CityOfNewYork/working-nyc/releases/tag/v1.7.0" target="_blank">Inclusive Color Patterns on December 21st, 2021</a>. {.my-8}
+> We released the <a href="https://github.com/CityOfNewYork/working-nyc/releases/tag/v1.7.0" target="_blank">Inclusive Color Patterns on December 21st, 2021</a>. {.content__full}
 
 #### Final final
 

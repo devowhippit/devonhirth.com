@@ -5,9 +5,9 @@ classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'Development Contributions']
 ---
 
---- {.m-0}
+--- {.my-0}
 
-### Development contributions {.h1 .my-6}
+### Development contributions {.content__full .justify-around .h1 .my-6}
 
 Since joining the team in May 2017, I have contributed to front-end features, operations, and product management process enhancements to ACCESS NYC. Below is a summary of some of my primary development contributions.
 

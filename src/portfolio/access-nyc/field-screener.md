@@ -5,9 +5,9 @@ classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'Field Screener']
 ---
 
---- {.m-0}
+--- {.my-0}
 
-### Field screener {.h1 .my-6}
+### Field screener {.content__full .justify-around .h1 .my-6}
 
 <!-- <figure class="figure">
   ACCESS NYC Field Screener
@@ -15,7 +15,7 @@ breadcrumbs: ['ACCESS NYC', 'Field Screener']
 
 In the summer of 2018, our team partnered with the Mayor's Public Engagement Unit to develop a version of the <a href="https://access.nyc.gov/eligibility/" target="_blank" rel="noopener nofollow noreferrer">ACCESS NYC Eligibility Screener</a> that their Outreach Specialists would use to screen New York City residents in person. These specialists go door-to-door to help residents with tenant support issues, managing cases in the field using tablets.
 
-> This project's primary challenge was to **optimize the existing 10 step benefit screener** the specialists could use with their tablets in the short time they have with New York City residents in the field.
+> This project's primary challenge was to **optimize the existing 10 step benefit screener** the specialists could use with their tablets in the short time they have with New York City residents in the field. {.content__full}
 
 We started the research process by shadowing the Outreach Specialists to understand the challenges they encounter supporting tenants in the field. We discovered that the specialists usually have very little time to engage with tenants during this research. Once we had finished our research and synthesis, we began designing and developing a minimum viable product throughout 4 development sprints.
 
@@ -23,7 +23,7 @@ My role on this project was as the lead developer. A design fellow would create 
 
 I chose to build the screener using Vue.js to take advantage of the state, reactivity, and form validation Vue.js brings to front-end applications. I also introduced CSS utilities for rapid development by adding <a href="https://tailwindcss.com/" target="_blank" rel="noopener nofollow">Tailwindcss</a>, customized using design tokens from the ACCESS NYC stylesheet source code. The final design was a two-page screener with the original 10 steps compressed into collapsable sections. The specialists could more easily jump back and forth to fill these in through a more natural flow of conversation with tenants.
 
-<section class="grid tablet:grid-cols-2 gap-3 mb-3">
+<section class="content__full grid tablet:grid-cols-2 gap-3 mb-3">
   <figure class="figure bg-t1 m-0">
     <div class="figure__matte flex items-center justify-center h-auto aspect-ratio-auto" style="height: auto;">
       <img class="mx-auto" src="/img/anyc-field-screener-a-landing.png" width="1024" height="1366" loading="lazy" decoding="async" alt="Screenshot of the landing view for the Field Screener" />

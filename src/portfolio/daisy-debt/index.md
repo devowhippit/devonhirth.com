@@ -21,9 +21,7 @@ breadcrumbs: ['Daisy Debt']
 
 I contributed to and advised on the engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org" target="_blank" rel="noopener nofollow noreferrer">daisydebt.org</a>, which helps financial counselors assert their client's rights against unlawful debt collection agencies. The site hosts a web application that allows financial counselors to write and send debt verification letters for their clients. It uses a 10-step form to generate a letter that takes less than 5 minutes to complete. The application mails the letter upon completion via U.S. certified mail. Financial counselors and their clients can track the letter to ensure it arrives at its destination using certified mail. The application also sends reminder emails to counselors and their clients to help them remain mutually accountable until the letter-sending process resolves the client's debt collection issue.
 
-> The primary challenge with Daisy Debt was conducting research and building a **minimum viable product** within 2 months.
-
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="mb-4 font-normal tablet:mb-0 h4"><a href="#research-sprint">Sprint 1</a></h6>
   </div>
@@ -33,7 +31,7 @@ I contributed to and advised on the engineering and product design of a non-prof
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="mb-4 font-normal tablet:mb-0 h4"><a href="#build-sprint">Sprint 2</a></h6>
   </div>
@@ -43,7 +41,7 @@ I contributed to and advised on the engineering and product design of a non-prof
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="mb-4 font-normal tablet:mb-0 h4"><a href="#advising">Advising</a></h6>
   </div>
@@ -61,7 +59,7 @@ This summary of research conducted during my fellowship at the Blue Ridge Labs f
 
 Clients are directed to or reach out for free appointments with FE Centers. Often the profile of clients is low-income persons in financial distress with a wide range of issues.
 
-> Financial Counselors are critical for helping clients navigate the landscape of consumer debt, which is full of pitfalls ranging from difficult-to-discern documentation, predatory practices, wrong information, and scams.
+> Financial Counselors are critical for helping clients navigate the landscape of consumer debt, which is full of pitfalls ranging from difficult-to-discern documentation, predatory practices, wrong information, and scams. {.content__full}
 
 Our team's lead user experience researcher reflected <a href="https://labs.robinhood.org/five-insights-about-designing-for-consumer-debt/" target="_blank" rel="nofollow noopener">on her experience working in the consumer debt area</a>. There are many excellent descriptions of some challenges.
 
@@ -97,7 +95,7 @@ Debt collection letters do three things; 1. **They make the debt collection agen
   <figcaption class="static">Debt verification letters are made of 3 parts that help the sender assert their rights against unlawful debt collection; demand proof to legally collect, stop harrassment, protect exempt income.</figcaption>
 </figure>
 
-> Our team realized we could automate creating and mailing these letters well within a single client session. We could also provide additional tools to help build mutual accountability via tracking, reminders, and follow-up surveys.
+> Our team realized we could automate creating and mailing these letters well within a single client session. We could also provide additional tools to help build mutual accountability via tracking, reminders, and follow-up surveys. {.content__full}
 
 ### <a class="flex mie-1 no-underline" id="build-sprint" href="#build-sprint"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folder"></use></svg></a> Build sprint
 
@@ -125,9 +123,11 @@ The prototype included 9 steps.
 1. Preview and send
 1. Collecting email for follow up
 
-<div class="tablet:flex justify-between items-center mb-4">
-  <h4 class="tablet:m-0">Application screenshots</h4>
+#### Application screenshots
 
+Below are a few screenshots of steps from the letter writing flow.
+
+<div class="tablet:flex justify-between items-center mb-4">
   <span class="flex items-center">
     <span class="mie-1">Scroll horizontally to view screens</span>
     <svg class="icon" aria-hidden="true">
@@ -135,8 +135,6 @@ The prototype included 9 steps.
     </svg>
   </span>
 </div>
-
-Below are a few screenshots of steps from the letter writing flow.
 
 <figure class="figure figure-scroll">
   <div class="figure__matte h-auto aspect-ratio-auto" style="background-color: #FFF">
@@ -310,7 +308,7 @@ The final feature I designed and engineered for the application was a notificati
   <figcaption class="static">Debt verification letters are made of 3 parts that help the sender assert their rights against unlawful debt collection.</figcaption>
 </figure> -->
 
-> After two months of product development, we had stood up an application that would help many people struggling with debt assert their rights against unlawful debt collection.
+> After two months of product development, we had stood up an application that would help many people struggling with debt assert their rights against unlawful debt collection. {.content__full}
 
 I presented at our project along with other fellows in the Blue Ridge Labs 2016 Fellowship showcase. You can view the presentation deck <a href="https://www.behance.net/gallery/44432005/DaisyDebt-Presentation" target="_blank" rel="noopener nofollow">here on Behance</a>.
 

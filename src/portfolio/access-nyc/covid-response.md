@@ -5,15 +5,15 @@ classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'COVID Response']
 ---
 
---- {.m-0}
+--- {.my-0}
 
-## COVID response {.h1 .my-6}
+## COVID response {.content__full .justify-around .h1 .my-6}
 
 When New York City became the epicenter of the COVID-19 pandemic, ACCESS NYC became a front-line digital resource for local, state, and federal aid information. The site saw an increase in traffic by 200% as a result of the pandemic.
 
-> I designed, implemented, and oversaw several functional and user interface enhancements to support ACCESS NYC's response to the pandemic over 3 release sprints. {.my-8}
+> I designed, implemented, and oversaw several functional and user interface enhancements to support ACCESS NYC's response to the pandemic over 3 release sprints. {.content__full}
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h6 class="mb-4 font-normal tablet:mb-0 h4">Sprint 1</h6>
   </div>
@@ -27,7 +27,7 @@ When New York City became the epicenter of the COVID-19 pandemic, ACCESS NYC bec
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h6 class="mb-4 font-normal tablet:mb-0 h4">Sprint 2</h6>
   </div>
@@ -40,7 +40,7 @@ When New York City became the epicenter of the COVID-19 pandemic, ACCESS NYC bec
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-8">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-8">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h6 class="mb-4 font-normal tablet:mb-0 h4">Sprint 3</h6>
   </div>
@@ -135,7 +135,7 @@ I created the redesigns in Figma, and after reviewing the new page updates with 
   <img src="/img/anyc-covid-programs.png">
 </figure> -->
 
-> We released the <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases/tag/v3.18.0" target="_blank" rel="noopener nofollow">COVID Response Patterns May 4th, 2020<svg class="icon mis-1 w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+> We released the <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases/tag/v3.18.0" target="_blank" rel="noopener nofollow">COVID Response Patterns May 4th, 2020<svg class="icon mis-1 w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a> {.content__full}
 
 ##### Special Announcement schema {#special-announcement-schema}
 
@@ -212,7 +212,7 @@ In addition to pandemic program guides, the main site alert banner that links to
   <figcaption class="static">The main COVID-19 banner marked up with the Special Announcement schema. The first screenshot is the ACCESS NYC homepage and the <b>COVID-19: NYC resource page</b> link in the nonmodal dialog at the bottom of the page. The second screenshot is a preview of the ACCESS NYC homepage in search results with the same <b>COVID-19: NYC resource page</b> link directly under the result.</figcaption>
 </figure>
 
-> We released the <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases/tag/v3.19.0" target="_blank" rel="noopener nofollow">Special Announcement schema on May 20th, 2020<svg class="icon mis-1 w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>. In the 14 months after its release has accounted for over **1.2 million <!-- 1,283,722 --> impressions** and over **53 <!-- 53,700 --> thousand clicks**.
+> We released the <a href="https://github.com/CityOfNewYork/ACCESS-NYC/releases/tag/v3.19.0" target="_blank" rel="noopener nofollow">Special Announcement schema on May 20th, 2020<svg class="icon mis-1 w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>. In the 14 months after its release has accounted for over **1.2 million <!-- 1,283,722 --> impressions** and over **53 <!-- 53,700 --> thousand clicks**. {.content__full}
 
 ### Next project
 

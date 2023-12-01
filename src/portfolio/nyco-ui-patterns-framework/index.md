@@ -173,9 +173,23 @@ npm notice 📦  patterns-demo@0.1.0<br>
   <figcaption class="static">Pattern libraries created with the CLI can generate static sites on <a href="https://pages.github.com/" target="_blank" rel="noopener nofollow">GitHub Pages</a> that include live demonstrations, markup examples, and special usage instructions for every UI pattern. This image showcases the ACCESS NYC Patterns documentation page for the accordion component.</figcaption>
 </figure>
 
-> This font-end developer tooling helped my team and I to design, develop, and maintain 4 additional product pattern libraries, including the **Working NYC Patterns**, **Growing Up NYC Patterns**, **Generation NYC Patterns**, and **NYC Opportunity Common Agency Patterns**.
+> This font-end developer tooling helped my team and I to design, develop, and maintain 4 additional product pattern libraries, including the **NYC Opportunity Standard**, **Working NYC Patterns**, **Growing Up NYC Patterns**, **Generation NYC Patterns**, and **NYC Opportunity Common Agency Patterns**. {.content__full}
 
-<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+<section class="content__full grid tablet:grid-cols-2 gap-3 mb-8">
+  <figure class="figure block m-0">
+    <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #fafdff; color: #0c264d;">
+      <div class="absolute flex items-center justify-center px-8 w-full h-full">
+        <div class="large:px-7">
+          <img class="mb-3" src="/img/std-logo.png" alt="The NYC Opportunity Standard Logo" width="826" height="194" loading="lazy" decoding="async" />
+          <h3 class="sr-only">NYC Opportunity Standard</h3>
+        </div>
+      </div>
+    </div>
+    <figcaption class="static">
+      <p>The <a href="https://nycopportunity.github.io/standard" target="_blank" rel="noopener nofollow noreferrer">NYC Opportunity Standard</a> was the last design system I created for NYC Opportunity's digital products. It combined design patterns from all of our digital products.</p>
+    </figcaption>
+  </figure>
+
   <figure class="figure block m-0">
     <div class="relative overflow-hidden h-30vh desktop:h-30vh min-h-xsmall w-full flex items-center justify-center" style="background-color: #F0F6FF; color: #112E51;">
       <div class="absolute flex items-center justify-center px-8 w-full h-full">
@@ -235,9 +249,9 @@ npm notice 📦  patterns-demo@0.1.0<br>
 
 Product managers, designers, and engineers have used the tools and libraries in multiple internal and external projects, greatly expanding our capacity for more complex design challenges.
 
-> I used the Patterns Framework tools and libraries to lead the design and and development of the **NYC Benefits Platform: Screening API** documentation and the **Mental Health for All** website.
+> I used the Patterns Framework tools and libraries to lead the design and and development of the **NYC Benefits Platform: Screening API** documentation and the **Mental Health for All** website. {.content__full}
 
-<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+<section class="content__full grid tablet:grid-cols-2 gap-3 mb-8">
   <figure class="figure block m-0">
     <img class="block" src="/img/benefits-platform-api-landing-page.png" alt="The NYC Benefits Platform Screening API landing page" width="1440" height="821" loading="lazy" decoding="async" />
     <figcaption class="static">

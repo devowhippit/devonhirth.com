@@ -5,13 +5,13 @@ classes: ['working-nyc']
 breadcrumbs: ['Working NYC', 'Feature Development Framework']
 ---
 
---- {.m-0}
+--- {.my-0}
 
-### Feature development framework {.h1 .my-6}
+### Feature development framework {.content__full .justify-around .h1 .my-6}
 
 Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), we began to plan for the next round of development. As the lead product designer, I wanted to continue to understand and build empathy for our audience and ensure feature development for the site was user-driven. To do this, I created a step-by-step framework to validate and guide ideas to maturity using data and user experience (UX) design.
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="my-4 font-normal tablet:my-0 h4">Step 1</h4>
   </div>
@@ -21,7 +21,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="my-4 font-normal tablet:my-0 h4">Step 2</h4>
   </div>
@@ -35,7 +35,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="my-4 font-normal tablet:my-0 h4">Step 3</h4>
   </div>
@@ -45,7 +45,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="my-4 font-normal tablet:my-0 h4">Step 4</h4>
   </div>
@@ -61,7 +61,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="my-4 font-normal tablet:my-0 h4">Step 5</h4>
   </div>
@@ -71,7 +71,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="my-4 font-normal tablet:my-0 h4">Step 6</h4>
   </div>
@@ -81,7 +81,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
   </div>
 </div>
 
-<div class="tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
+<div class="content__full tablet:grid grid-cols-8 tablet:border-4 border-t1 mb-4">
   <div class="col-span-2 tablet:border-r-4 border-t1 tablet:flex items-center justify-center">
     <h4 class="my-4 font-normal tablet:my-0 h4">Step 7</h4>
   </div>
@@ -95,7 +95,7 @@ Once the [Working NYC website launched](/portfolio/working-nyc/product-launch), 
 
 Using this process would require additional tools and expanding our team's capacity.
 
-<section class="grid tablet:grid-cols-2 gap-3 mb-8">
+<section class="content__full grid tablet:grid-cols-2 gap-3 mb-8">
   <figure class="figure block m-0 bg-t1">
     <div style="background-color: #031837">
       <img class="block" src="/img/wnyc-component-feedback.svg" alt="The website Feedback component." width="1440" height="821" loading="lazy" decoding="async" />
@@ -133,15 +133,15 @@ Using this process would require additional tools and expanding our team's capac
   </figure>
 </section>
 
-> Over time, the framework has become more refined with additional tools that facilitate better UX research. I oversaw the addition of **usability heuristics** and **framework for prioritizing research and methodologies** by fellows on our team. We applied this framework to work such as our [inclusive design pattern iteration](/portfolio/working-nyc/inclusive-design-pattern-iteration).
+> Over time, the framework has become more refined with additional tools that facilitate better UX research. I oversaw the addition of **usability heuristics** and **framework for prioritizing research and methodologies** by fellows on our team. We applied this framework to work such as our [inclusive design pattern iteration](/portfolio/working-nyc/inclusive-design-pattern-iteration). {.content__full}
 
 ### Next project
 
-<p><a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/working-nyc/inclusive-design-pattern-iteration">
+<p><a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/working-nyc/jobs-and-opportunities-content-design">
   <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
     <use xlink:href="#tabler-folder"></use>
   </svg>
-  <span class="h3 primary font-normal m-0 my-1 text-center">Inclusive design pattern iteration</span>
+  <span class="h3 primary font-normal m-0 my-1 text-center">Jobs and opportunities content design</span>
 </a></p>
 
 [View all Working NYC projects](/portfolio/working-nyc#featured-projects)

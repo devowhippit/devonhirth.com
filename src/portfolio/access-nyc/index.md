@@ -42,9 +42,9 @@ ACCESS NYC has won several Government design and technology awards since its lau
 * 2018 Adobe Government Creativity Awards
 * 2017 Best Application Serving the Public: Center for Digital Government, Best of New York
 
-### <a class="flex mie-1 no-underline" id="featured-projects" href="#featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured projects
+### <a class="flex mie-1 no-underline" id="featured-projects" href="#featured-projects"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured projects {.content__full}
 
-<nav class="grid grid-cols-1 tablet:grid-cols-2 gap-3 mb-8" aria-label="Project Navigation">
+<nav class="content__full grid grid-cols-1 tablet:grid-cols-2 gap-3 mb-8" aria-label="Project Navigation">
   <a class="btn border-4 m-0 h-30vh desktop:h-30vh min-h-xsmall w-full flex-col items-center justify-center" href="/portfolio/access-nyc/covid-response">
     <svg class="icon w-5 h-5 mie-1" aria-hidden="true">
       <use xlink:href="#tabler-folder"></use>
