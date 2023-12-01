@@ -184,7 +184,7 @@
    * Color
    */
 
-  --dh-color-green: #31CB31;
+  --dh-color-green: #37dc90;
   --dh-color-green-s1: #1E7C1E;
 
   --dh-color-purple: #8F4FF8;
@@ -210,8 +210,8 @@
    * Typography
    */
 
-   --dh-font-webkit-smoothing: antialiased;
-   --dh-font-moz-smoothing: grayscale;
+   --dh-font-webkit-smoothing: auto;
+   --dh-font-moz-smoothing: auto;
 
   --dh-font-family-primary: 'Inter var', sans-serif;
   --dh-font-weight-primary-normal: 400;
