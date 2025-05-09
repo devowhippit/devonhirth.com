@@ -10,19 +10,13 @@ type: 'normal'
 
 ### Code for America, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Staff User Experience (UX) Designer, January 2023** – **Present**. As a Staff UX designer on the Platform team, I support teams in the Safety Net Innovation Lab by leading the UX design of 2 internal tools used to deploy human-centered digital form services for state governments nationwide, as well as integrate process improvements to the organization's design practice in accessibility and creating public digital forms.
-
-**Platform responsibilities**
-
-* **Design System** – I lead internal collaboration efforts to develop the design system for new state government digital products and services.
-
-* **Form Flow Builder** – I maintain our core platform's user interface (UI) and experience design, enabling other designers to replicate human-centered digital forms.
+**Staff User Experience (UX) Designer, January 2023** – **Present**. As a Staff User Experience (UX) Designer in the Safety Net Innovation Lab, I work with colleagues to improve the UX of government digital services using human-centered service design principles, creating end-to-end application user interface (UI) designs, wireframes, prototypes, contributing to design operations, and participating in and facilitating stakeholder and user research.
 
 **Contributions**
 
-* **Adoption assessment for the U.S. Web Design System** – I led the investigation, planning, and migration of our core platform, the Form Flow Builder, to the U.S. Web Design System.
+* **Adoption assessment for the U.S. Web Design System** – I led the investigation, planning, and migration of our core Safety Net platform, the Form Flow Builder, to the U.S. Web Design System. Creating the Code for America USWDS theme to enable adoption <a href="https://codeforamerica.github.io/uswds" target="_blank" rel="noopener nofollow noreferrer">codeforamerica.github.io/uswds</a>
 
-* **Accessibility initiatives** – I review and mentor junior staff contributions to ensure design and engineering comply with and exceed Web Content Accessibility Guidelines 2.1 AA standards.
+* **Design discipline initiatives** – I mentor staff through up-skilling initiatives on design systems, Figma, design operations, and ensuring accessibility through design.
 
 ### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 

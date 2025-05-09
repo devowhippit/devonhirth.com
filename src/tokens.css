@@ -1,8 +1,8 @@
-@import url('../../pm/styles/font-face-cormorant.css');
-@import url('../../pm/styles/font-face-inter.css');
-@import url('../../pm/styles/font-face-jetbrains-mono.css');
+@import url('styles/font-face-cormorant.css');
+@import url('styles/font-face-inter.css');
+@import url('styles/font-face-jetbrains-mono.css');
 
-@import url('../../pm/tokens.css');
+@import url('_includes/tokens.css');
 
 :root {
   /**

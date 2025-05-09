@@ -5,7 +5,6 @@ site.copy('working-nyc-patterns-0.0.1-55');
 site.copy('working-nyc-jobs-and-opportunities-2021');
 
 site.data('site', {
-  'shared': './../../../../_includes',
   'name': 'Devon Hirth',
   'author': 'Devon Hirth',
   'twitter': '@devonhirth',

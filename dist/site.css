@@ -580,9 +580,9 @@ input, button, select, textarea {
   border-radius: var(--dh-input-border-radius);
 
   cursor: pointer;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 /**
  * Options
@@ -736,8 +736,7 @@ input:focus + .opt__base {
   overflow-x: auto;
   display: flex;
   gap: calc(var(--dh-grid) * 2);
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 .figure-scroll > * {
   scroll-snap-align: start;
