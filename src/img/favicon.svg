@@ -7,12 +7,12 @@
 <path d="M218.425 0.0025835L0.00317383 218.424V236.424H16.9959L253.417 0.0025835H218.425Z" class="favicon"/>
 <style>
 .favicon {
-  fill: #31CB31;
+  fill: #37DC90;
 }
 
 @media (prefers-color-scheme: light) {
   .favicon {
-    fill: #1E7C1E;
+    fill: #1E7C64;
   }
 }
 </style>

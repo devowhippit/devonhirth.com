@@ -9,19 +9,19 @@
    * Color
    */
 
-  --dh-color-green: #37dc90;
-  --dh-color-green-s1: #1E7C1E;
+  --dh-color-green: #37DC90;
+  --dh-color-green-s1: #1E7C37;
 
   --dh-color-purple: #8F4FF8;
 
   --dh-color-black: #1E1E25;
   --dh-color-black-t1: #292932;
 
-  --dh-color-white: #EEEEFF;
-  --dh-color-white-s1: #E7E7FF;
+  --dh-color-white: #EEFBFF;
+  --dh-color-white-s1: #E7F8FF;
 
-  --dh-color-forest: #071C07;
-  --dh-color-forest-t1: #0b2C0B;
+  --dh-color-forest: #071C17;
+  --dh-color-forest-t1: #0B2C26;
 
   --dh-color-primary: var(--dh-color-green-s1);
 
