@@ -88,8 +88,6 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
     </div>
   </div>
 
-  <!-- <img class="block" src="/img/benefits-platform-api-landing-page.png" alt="The NYC Benefits Platform Screening API landing page" width="1440" height="821" loading="lazy" decoding="async" /> -->
-
   <figcaption>
     <h4 class="h5 mb-3">Role: Digital Product Designer</h4>
     <p><a href="https://screeningapidocs.cityofnewyork.us" target="_blank" rel="noopener nofollow noreferrer"><b>NYC Benefits Platform: Screening API</b></a> – This open API enables community-based organizations and civic technologists to build tools to screen their clients for benefit program eligibility using the same rules that govern the screening tool featured on ACCESS NYC. My responsibilities for this product included vendor review and selection for building the API, content UX strategy of the technical documentation, and contributions to the UI design and management of documentation components.</p> <a class="btn btn-primary justify-center figure__cta" href="https://screeningapidocs.cityofnewyork.us"  target="_blank" rel="noopener nofollow noreferrer">View the Screening API documentation<svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
@@ -124,29 +122,6 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
     </figcaption>
   </figure> -->
 </section>
-
-<!-- ### Internal Open-source Projects
-
----
-
-**Role**: Lead Front-end Developer
-
-* Patterns CLI
-* ACCESS UI Pattern Library
-* NYCO UI Pattern Library
-* Working UI Pattern Library
-* NYCO WordPress Archive Vue
-* NYCO WordPress Boilerplate
-* NYCO WordPress Plugins
-  * NYCO WordPress Config
-  * NYCO WordPress Send Me NYC
-  * NYCO WordPress Assets
-  * NYCO WordPress Open Data Transients
-  * NYCO WordPress Stat Collector
-  * NYCO WordPress S3 All Import Compatibility
-  * NYCO WordPress GTFS Import
-
-&nbsp; -->
 
 ## Products from previous roles
 

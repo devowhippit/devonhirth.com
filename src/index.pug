@@ -7,33 +7,35 @@ section(id='introduction' class='px-3 tablet:px-8 max-w-xlarge mx-auto pb-8 mb-8
   blockquote
     p Hello! 👋
 
-    p I'm a designer from Saint Louis living in Brooklyn. My personal practice is named <a href='https://expdesign.io'>exp. design</a>. Currently, I'm working for <a href='https://codeforamerica.org/people/devon-hirth/' target='_blank' rel='nofollow noopener'>Code for America</a> in the <a href='https://codeforamerica.org/programs/social-safety-net/' target='_blank' rel='nofollow noopener'>Safety Net Innovation Lab</a>.
+    p I'm a designer from Saint Louis living in Brooklyn. My personal design practice is named <a href='https://expdesign.io'>exp. design</a>. Currently, I'm working for <a href='https://codeforamerica.org/people/devon-hirth/' target='_blank' rel='nofollow noopener'>Code for America</a> in the <a href='https://codeforamerica.org/programs/social-safety-net/' target='_blank' rel='nofollow noopener'>Safety Net Innovation Lab</a>.
 
-section(id='professional-references' class='px-3 grid tablet:grid-cols-2 gap-3 tablet:px-8 max-w-xlarge mx-auto pb-8 mb-8')
-  a(class='btn w-full m-0 py-8 justify-center border-4 flex-col tablet:flex-row' href='/resume')
-    svg(class='icon w-5 h-5 mie-1' aria-hidden='true')
-      use(xlink:href='#tabler-file-text')
+section(id='professional-references' class='px-3 grid tablet:grid-cols-3 gap-3 tablet:px-8 max-w-xlarge mx-auto pb-8 mb-8')
+  figure(class='figure block m-0')
+    div(class='figure__matte aspect-4/3 bg-white bg-size-[80%]' style='background-image: url("/img/index-resume.png"); background-position: bottom center')
+      img(src='/img/index-resume.png' class='sr-only' alt='Screenshot of a the first page of a resume')
 
-    span(class='h3 primary font-normal m-0 my-1')
-      | View my resume
+    figcaption(class='static')
+      a(class='no-underline block text-center' href='/resume')
+        span(class='h3 secondary inline font-[400] m-0')
+          | Resume
 
-  a(class='btn w-full m-0 py-8 justify-center border-4 flex-col tablet:flex-row' href='/portfolio')
-    svg(class='icon w-5 h-5 mie-1' aria-hidden='true')
-      use(xlink:href='#tabler-folders')
+  figure(class='figure block m-0')
+    div(class='figure__matte aspect-4/3 bg-white bg-size-[40%]' style='background-image: url("/img/index-portfolio.png"); background-position: bottom center')
+      img(src='/img/index-portfolio.png' class='sr-only' alt='An image of a mobile device with a the working.nyc website on the screen')
 
-    span(class='h3 primary font-normal m-0 my-1')
-      | Browse my portfolio
+    figcaption(class='static')
+      a(class='no-underline block text-center' href='/portfolio')
+        span(class="h3 secondary inline font-[400] m-0")
+          | Portfolio
 
-  a(class='btn w-full py-8 justify-center border-4 flex-col col-span-full' href='https://expdesign.io')
-    span(class='h3 primary font-normal m-0 justify-center') Go to
+  figure(class='figure block m-0')
+    div(class='figure__matte aspect-4/3 bg-white bg-contain bg-center' style='background-image: url("/img/index-projects.png")')
+      img(src='/img/index-projects.png' class='sr-only' alt='Black and white image of a cathedral mirrored vertically and suspended in space')
 
-    br
-
-    span(class='sr-only')
-      | exp. design
-
-    svg(aria-hidden='true' class='block' style="width: 220px; height: 41px;")
-      use(xlink:href='#logo-exp-design')
+    figcaption(class='static')
+      a(class='no-underline block text-center' href='/projects')
+        span(class='h3 secondary inline font-[400] m-0')
+          | Projects
 
 block footer
   include ./_includes/partials/footer.pug

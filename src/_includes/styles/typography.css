@@ -101,3 +101,9 @@ li > ul, li > ul:first-child {
 p {
   font-family: var(--dh-font-family-body);
 }
+
+h1 a:not(.btn), h2 a:not(.btn), h3 a:not(.btn), h4 a:not(.btn), h5 a:not(.btn), h6 a:not(.btn),
+.h1 a:not(.btn), .h2 a:not(.btn), .h3 a:not(.btn), .h4 a:not(.btn), .h5 a:not(.btn), .h6 a:not(.btn),
+blockquote a:not(.btn), .blockquote a:not(.btn) {
+  font-weight: initial;
+}

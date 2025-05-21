@@ -1,0 +1,18 @@
+.details {
+  margin-bottom: var(--dh-type-margin);
+}
+
+.details summary {
+  color: var(--dh-color-hyperlinks);
+  font-weight: var(--dh-font-weight-hyperlinks);
+  text-decoration-color: var(--dh-color-hyperlinks-underline);
+
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: from-font;
+
+  cursor: pointer;
+}
+
+.details summary::marker {
+  color: var(--dh-color-primary)
+}

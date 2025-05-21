@@ -10,6 +10,7 @@
 @import url('styles/typography.css');
 @import url('styles/code.css');
 @import url('styles/description-lists.css');
+@import url('styles/details.css');
 @import url('styles/hyperlinks.css');
 @import url('styles/highlights.css');
 @import url('styles/dividers.css');
@@ -33,4 +34,8 @@
 
 .content__full {
   width: 100%;
+}
+
+* {
+  background-repeat: no-repeat;
 }

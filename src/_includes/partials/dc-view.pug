@@ -4,7 +4,7 @@ script.
   const previewFile = (pdf, title) => {
     let adobeDCView = new AdobeDC.View({
       clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
-        '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+        '15ffdbf463dc4f6cae4ff56b47ec30e8': '0ae2aed590c0475cb8dde8ebf2d2a290'
     });
 
     adobeDCView.previewFile({
@@ -20,7 +20,8 @@ script.
       embedMode: 'LIGHT_BOX',
       showDownloadPDF: false,
       showPrintPDF: false,
-      enableFormFilling: false
+      enableFormFilling: false,
+      enableSearchAPIs: false
     });
   };
 
@@ -29,4 +30,4 @@ script.
       return;
 
     previewFile(event.target.dataset.pdfView, event.target.dataset.pdfTitle);
-  })
+  });

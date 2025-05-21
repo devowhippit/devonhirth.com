@@ -2,10 +2,13 @@
  * Hyperlinks
  */
 
- a:not(.btn) {
+a:not(.btn) {
   color: var(--dh-color-hyperlinks);
   font-weight: var(--dh-font-weight-hyperlinks);
-  text-decoration-color: var(--dh-color-hyperlinks);
+  text-decoration-color: var(--dh-color-hyperlinks-underline);
+
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: from-font;
 }
 
 a:not(.btn):hover {

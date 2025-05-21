@@ -275,7 +275,7 @@ if (domains.indexOf(document.domain) > -1) {
 <p>The end of the 2016 summer fellowship concluded my full-time contributions to the project. I continued to advise on the project overseeing and reviewing pull-requests of other engineering contributions to the application, including an authentication system and dashboard to enable financial counselors to track and manage letters they send for their clients.</p>
 <p><a class="btn btn-primary m-0 justify-center w-full" href="https://www.behance.net/collection/184398201/Daisy-Debt" target="_blank" rel="noopener nofollow">View additional Daisy Debt design on Behance <svg class="icon mis-half" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a></p>
 <p><a href="/portfolio">Back to portfolio</a></p>
-</main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><svg class="hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+</main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/resume">Resume</a>&nbsp;<a href="/portfolio">Portfolio</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><svg class="hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
 <symbol id="select-graphic" viewBox="0 0 24 24">
 <path d="M5 9L12 2L19 9" fill="none" stroke="currentColor" />
 <path d="M19 15L12 22L5 15" fill="none" stroke="currentColor" />
@@ -425,7 +425,7 @@ if (domains.indexOf(document.domain) > -1) {
 </svg><script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script><script>const previewFile = (pdf, title) => {
   let adobeDCView = new AdobeDC.View({
     clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
-      '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+      '15ffdbf463dc4f6cae4ff56b47ec30e8': '0ae2aed590c0475cb8dde8ebf2d2a290'
   });
 
   adobeDCView.previewFile({
@@ -441,7 +441,8 @@ if (domains.indexOf(document.domain) > -1) {
     embedMode: 'LIGHT_BOX',
     showDownloadPDF: false,
     showPrintPDF: false,
-    enableFormFilling: false
+    enableFormFilling: false,
+    enableSearchAPIs: false
   });
 };
 
@@ -450,4 +451,4 @@ document.querySelector('body').addEventListener('click', (event) => {
     return;
 
   previewFile(event.target.dataset.pdfView, event.target.dataset.pdfTitle);
-})</script></body></html>
+});</script></body></html>
