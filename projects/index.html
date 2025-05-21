@@ -17,23 +17,24 @@ if (domains.indexOf(document.domain) > -1) {
 
     hljs.highlightBlock(pre);
   });
-});</script></head><body><main class="px-2 tablet:px-8 max-w-xlarge mx-auto py-8 mb-8" id="main"><nav class="mb-2" aria-label="Breadcrumb"><a href="/">Home</a><span class="px-1">/</span><a href="#" aria-current="page">Portfolio</a></nav><h2 class="sr-only">Projects</h2>
-<!-- <figure class="figure -mx-3 tablet:mx-0 mt-0" style="background-color: #031553; color: #FFF">
-  <div class="figure__matte p-3 flex items-center justify-center">
-    <svg width="500" height="96" role="img">
-      <title>Office Logo</title>
-      <use xlink:href="#logo-nyco-secondary"></use>
-    </svg>
-  </div>
-</figure> -->
-<h4><a class="flex mie-1 no-underline" id="featured-products" href="#featured-products"><svg class="icon" aria-hidden="true"><use xlink:href="#tabler-folders"></use></svg></a> Featured Products</h4>
+});</script></head><body><main class="content px-2 tablet:px-8 max-w-xlarge mx-auto py-8 mb-8" id="main"><nav class="content__full text-center mb-2" aria-label="Breadcrumb"><a href="/">Home</a><span class="px-1">/</span><a href="#" aria-current="page">Projects</a></nav><hr class="my-0">
+<h3 class="content__full justify-around h1 my-6">Projects</h3>
 <figure class="figure">
-  <div class="figure__matte bg-cover" style="background-image: url('/img/projects/catskills-map-preview.png')"></div>
-  <figcaption>
-    <p>Map design and illustration.</p>
-    <button class="btn btn-primary figure__cta" data-js="pdf-view" data-pdf-view="/img/projects/catskills-map.pdf" data-pdf-title="Map">View Full Map</button>
+  <div class="figure__matte" >
+    <img src="/img/projects/diffusion/diffusion-3.png" alt="Image of the art piece titled 'Diffusion'">
+  </div>
+  <figcaption class="static m-0 grid grid-cols-2">
+    <div>
+      <h3 class="secondary font-[400] m-0">Diffusion</h3>
+      <p>Suminagashi marbling, water color, mixed media illustration. 22" x 30"</p>
+    </div><div class="text-end flex items-center">
+      <div class="flex-1">
+        <a href="/projects/diffusion">View "Diffusion"</a>
+      </div>
+    </div>
   </figcaption>
-</figure></main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><svg class="hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+</figure>
+</main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/resume">Resume</a>&nbsp;<a href="/portfolio">Portfolio</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><svg class="hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
 <symbol id="select-graphic" viewBox="0 0 24 24">
 <path d="M5 9L12 2L19 9" fill="none" stroke="currentColor" />
 <path d="M19 15L12 22L5 15" fill="none" stroke="currentColor" />
@@ -183,7 +184,7 @@ if (domains.indexOf(document.domain) > -1) {
 </svg><script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script><script>const previewFile = (pdf, title) => {
   let adobeDCView = new AdobeDC.View({
     clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
-      '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+      '15ffdbf463dc4f6cae4ff56b47ec30e8': '0ae2aed590c0475cb8dde8ebf2d2a290'
   });
 
   adobeDCView.previewFile({
@@ -199,7 +200,8 @@ if (domains.indexOf(document.domain) > -1) {
     embedMode: 'LIGHT_BOX',
     showDownloadPDF: false,
     showPrintPDF: false,
-    enableFormFilling: false
+    enableFormFilling: false,
+    enableSearchAPIs: false
   });
 };
 
@@ -208,4 +210,4 @@ document.querySelector('body').addEventListener('click', (event) => {
     return;
 
   previewFile(event.target.dataset.pdfView, event.target.dataset.pdfTitle);
-})</script></body></html>
+});</script></body></html>

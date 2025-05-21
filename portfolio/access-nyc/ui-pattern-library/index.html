@@ -92,7 +92,7 @@ if (domains.indexOf(document.domain) > -1) {
   <span class="h3 primary font-normal m-0 my-1 text-center">Field screener</span>
 </a></p>
 <p><a href="/portfolio/access-nyc/#featured-projects">View all ACCESS NYC projects</a></p>
-</main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/portfolio">Portfolio</a>&nbsp;<a href="/resume">Resume</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><svg class="hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+</main><footer class="py-8"><div class="px-3 max-w-desktop mx-auto"><nav class="text-center pb-2"><a href="/">Home</a>&nbsp;<a href="/resume">Resume</a>&nbsp;<a href="/portfolio">Portfolio</a></nav><nav class="text-center"><a class="inline-block mx-1" href="https://expdesign.io" title="exp. design"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#exp-design"></use></svg><span class="sr-only">exp. design</span></a>&nbsp;<a class="inline-block mx-1" href="https://linkedin.com/in/devonhirth/" title="LinkedIn"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#linkedin"></use></svg><span class="sr-only">LinkedIn</span></a>&nbsp;<a class="inline-block mx-1" href="https://github.com/devowhippit" title="GitHub"><svg class="block w-4 h-4" aria-hidden="true"><use xlink:href="#github"></use></svg><span class="sr-only">GitHub</span></a></nav></div></footer><svg class="hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
 <symbol id="select-graphic" viewBox="0 0 24 24">
 <path d="M5 9L12 2L19 9" fill="none" stroke="currentColor" />
 <path d="M19 15L12 22L5 15" fill="none" stroke="currentColor" />
@@ -242,7 +242,7 @@ if (domains.indexOf(document.domain) > -1) {
 </svg><script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script><script>const previewFile = (pdf, title) => {
   let adobeDCView = new AdobeDC.View({
     clientId: (window.location.href.indexOf('devonhirth.com') > -1) ?
-      '15ffdbf463dc4f6cae4ff56b47ec30e8' : '0ae2aed590c0475cb8dde8ebf2d2a290'
+      '15ffdbf463dc4f6cae4ff56b47ec30e8': '0ae2aed590c0475cb8dde8ebf2d2a290'
   });
 
   adobeDCView.previewFile({
@@ -258,7 +258,8 @@ if (domains.indexOf(document.domain) > -1) {
     embedMode: 'LIGHT_BOX',
     showDownloadPDF: false,
     showPrintPDF: false,
-    enableFormFilling: false
+    enableFormFilling: false,
+    enableSearchAPIs: false
   });
 };
 
@@ -267,4 +268,4 @@ document.querySelector('body').addEventListener('click', (event) => {
     return;
 
   previewFile(event.target.dataset.pdfView, event.target.dataset.pdfTitle);
-})</script></body></html>
+});</script></body></html>

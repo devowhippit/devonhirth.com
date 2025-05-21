@@ -185,7 +185,7 @@
    */
 
   --dh-color-green: #37DC90;
-  --dh-color-green-s1: #1E7C37;
+  --dh-color-green-s1: #30724D;
 
   --dh-color-purple: #8F4FF8;
 
@@ -193,7 +193,7 @@
   --dh-color-black-t1: #292932;
 
   --dh-color-white: #EEFBFF;
-  --dh-color-white-s1: #E7F8FF;
+  --dh-color-white-s1: #D9F7F8;
 
   --dh-color-forest: #071C17;
   --dh-color-forest-t1: #0B2C26;
@@ -201,9 +201,10 @@
   --dh-color-primary: var(--dh-color-green-s1);
 
   --dh-color-text: var(--dh-color-forest);
-  --dh-color-background: var(--dh-color-white);
-  --dh-color-background-t1: var(--dh-color-white-s1);
+  --dh-color-background: var(--dh-color-white-s1);
+  --dh-color-background-t1: var(--dh-color-white);
   --dh-color-hyperlinks: var(--dh-color-primary);
+  --dh-color-hyperlinks-underline: var(--dh-color-primary);
   --dh-color-focus: var(--dh-color-primary);
 
   /**
@@ -270,7 +271,7 @@
  */
 @media (prefers-color-scheme: dark) {
   :root {
-    --dh-color-white: var(--dh-color-white-t1);
+    --dh-color-white: var(--dh-color-white-s1);
     --dh-color-primary: var(--dh-color-green);
 
     --dh-color-background: var(--dh-color-forest);
@@ -352,7 +353,7 @@ body {
 /**
  * Animate
  */
-a, input, textarea, select, .btn, [class*='hover:'], .opt__base {
+a, input, textarea, select, .btn, [class*='hover'], .opt__base {
   transition-property: opacity, background, color, text-decoration-color, border, box-shadow, outline, transform, stroke, stroke-dashoffset, fill;
   transition-duration: 0.25s;
   backface-visibility: hidden;
@@ -444,6 +445,11 @@ li > ul, li > ul:first-child {
 p {
   font-family: var(--dh-font-family-body);
 }
+h1 a:not(.btn), h2 a:not(.btn), h3 a:not(.btn), h4 a:not(.btn), h5 a:not(.btn), h6 a:not(.btn),
+.h1 a:not(.btn), .h2 a:not(.btn), .h3 a:not(.btn), .h4 a:not(.btn), .h5 a:not(.btn), .h6 a:not(.btn),
+blockquote a:not(.btn), .blockquote a:not(.btn) {
+  font-weight: initial;
+}
 /**
  * Code
  */
@@ -501,13 +507,36 @@ pre, .hljs {
 .dl dt, .dl dd {
   border-bottom: var(--dh-border-default) solid var(--dh-color-background-t1);
 }
+.details {
+  margin-bottom: var(--dh-type-margin);
+}
+.details summary {
+  color: var(--dh-color-hyperlinks);
+  font-weight: var(--dh-font-weight-hyperlinks);
+  text-decoration-color: var(--dh-color-hyperlinks-underline);
+
+  -webkit-text-decoration-skip: ink;
+
+          text-decoration-skip-ink: auto;
+  text-decoration-thickness: from-font;
+
+  cursor: pointer;
+}
+.details summary::marker {
+  color: var(--dh-color-primary)
+}
 /**
  * Hyperlinks
  */
 a:not(.btn) {
   color: var(--dh-color-hyperlinks);
   font-weight: var(--dh-font-weight-hyperlinks);
-  text-decoration-color: var(--dh-color-hyperlinks);
+  text-decoration-color: var(--dh-color-hyperlinks-underline);
+
+  -webkit-text-decoration-skip: ink;
+
+          text-decoration-skip-ink: auto;
+  text-decoration-thickness: from-font;
 }
 a:not(.btn):hover {
   color: var(--dh-color-text);
@@ -1025,4 +1054,7 @@ th, td {
 }
 .content__full {
   width: 100%;
+}
+* {
+  background-repeat: no-repeat;
 }
