@@ -1,5 +1,5 @@
 ---
-title: 'Development Contributions / ACCESS NYC / Portfolio / Devon Hirth'
+title: 'Development Contributions / ACCESS NYC / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'Development Contributions']

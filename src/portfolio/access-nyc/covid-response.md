@@ -1,5 +1,5 @@
 ---
-title: 'COVID Response / ACCESS NYC / Portfolio / Devon Hirth'
+title: 'COVID Response / ACCESS NYC / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'COVID Response']

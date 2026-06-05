@@ -1,5 +1,5 @@
 ---
-title: 'Field Screener / ACCESS NYC / Portfolio / Devon Hirth'
+title: 'Field Screener / ACCESS NYC / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'Field Screener']

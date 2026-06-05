@@ -5,15 +5,14 @@ site.copy('working-nyc-patterns-0.0.1-55');
 site.copy('working-nyc-jobs-and-opportunities-2021');
 
 site.data('site', {
-  'name': 'Devon Hirth',
-  'author': 'Devon Hirth',
-  'twitter': '@devonhirth',
+  'name': 'Ellie Hirth',
+  'author': 'Ellie Hirth',
   'description': 'Designer from Saint Louis living in Brooklyn.',
   'card': false,
   'alt': false,
-  'host': 'https://devonhirth.com',
+  'host': 'https://elliehirth.com',
   'favicon': true,
-  'domain': 'devonhirth.com',
+  'domain': 'elliehirth.com',
   'color': '#DD3335',
   'gtag': 'G-KQ3LZE9J74',
   'verification': false

@@ -1,5 +1,5 @@
 ---
-title: 'Daisy Debt / Portfolio / Devon Hirth'
+title: 'Daisy Debt / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['daisy-debt']
 breadcrumbs: ['Daisy Debt']

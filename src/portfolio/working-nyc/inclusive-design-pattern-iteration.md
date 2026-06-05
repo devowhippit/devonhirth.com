@@ -1,5 +1,5 @@
 ---
-title: 'Inclusive Design Pattern Iteration / Working NYC / Portfolio / Devon Hirth'
+title: 'Inclusive Design Pattern Iteration / Working NYC / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['working-nyc']
 breadcrumbs: ['Working NYC', 'Inclusive Design Pattern Iteration']

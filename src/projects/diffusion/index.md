@@ -1,5 +1,5 @@
 ---
-title: 'Diffusion / Projects / Devon Hirth'
+title: 'Diffusion / Projects / Ellie Hirth'
 layout: 'layouts/projects.pug'
 classes: []
 breadcrumbs: ['Diffusion']

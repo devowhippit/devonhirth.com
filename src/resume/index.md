@@ -1,5 +1,5 @@
 ---
-title: 'Resume / Devon Hirth'
+title: 'Resume / Ellie Hirth'
 layout: 'layouts/resume.pug'
 type: 'normal'
 ---
@@ -8,23 +8,37 @@ type: 'normal'
 
 ---
 
+### Code for America — Staff UX Designer, Safety Net Innovation Lab {.h5 .primary .mb-1 .mt-4}
+
+**Jan 2023** – **Present** | **Remote**
+
+* Lead UX design for digital tools improving public benefits access across multiple states.
+* Mentor design staff in Figma, accessibility, and system adoption to strengthen organization-wide design maturity.
+* Facilitate user research and stakeholder sessions to inform service delivery for government partners.
+* Planned the migration of the Safety Net Innovation Lab's design system to U.S. Web Design System, creating Code’s first USWDS-compatible theme (codeforamerica.github.io/uswds) for interoperable, trustworthy, and accessible interfaces.
+
+
 ### Code for America, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Staff User Experience (UX) Designer, January 2023** – **Present**. As a Staff User Experience (UX) Designer in the Safety Net Innovation Lab, I work with colleagues to improve the UX of government digital services using human-centered service design principles, creating end-to-end application user interface (UI) designs, wireframes, prototypes, contributing to design operations, and participating in and facilitating stakeholder and user research.
+**Staff User Experience (UX) Designer, January 2023** – **Present**
+
+As a Staff User Experience (UX) Designer in the Safety Net Innovation Lab, I work with colleagues to improve the UX of government digital services using human-centered service design principles, creating end-to-end application user interface (UI) designs, wireframes, prototypes, contributing to design operations, and participating in and facilitating stakeholder and user research.
 
 **Contributions**
 
-* **Adoption assessment for the U.S. Web Design System** – I led the investigation, planning, and migration of our core Safety Net platform, the Form Flow Builder, to the U.S. Web Design System. Creating the Code for America USWDS theme to enable adoption <a href="https://codeforamerica.github.io/uswds" target="_blank" rel="noopener nofollow noreferrer">codeforamerica.github.io/uswds</a>
+* **Adoption assessment for the U.S. Web Design System** – Led the investigation, planning, and migration of our core Safety Net platform, the Form Flow Builder, to the U.S. Web Design System. Creating the Code for America USWDS theme to enable adoption <a href="https://codeforamerica.github.io/uswds" target="_blank" rel="noopener nofollow noreferrer">codeforamerica.github.io/uswds</a>
 
-* **Design discipline initiatives** – I mentor staff through up-skilling initiatives on design systems, Figma, design operations, and ensuring accessibility through design.
+* **Design discipline initiatives** – Mentor staff through up-skilling initiatives on design systems, Figma, design operations, and ensuring accessibility through design.
 
 ### New York City Mayor’s Office for Economic Opportunity, Greater New York City Area {.h5 .primary .mb-1 .mt-4}
 
-**Digital Product Designer, January 2020** – **December 2022 (3 years)**. I contributed to the management and strategy of 11 products in our portfolio throughout their lifecycle. Beginning with identifying the needs of our product audiences and stakeholders, then market delivery, engagement measurement, and finally, maintenance and iteration on features to ensure impact, scale, and client satisfaction.
+**5 years 8 months**
+
+**Digital Product Designer, January 2020** – **December 2022 (3 years)**.  Contributed to the management and strategy of 11 products in our portfolio throughout their lifecycle. Beginning with identifying the needs of our product audiences and stakeholders, then market delivery, engagement measurement, and finally, maintenance and iteration on features to ensure impact, scale, and client satisfaction.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
-* **Brand Identity Accomplishments** – I audited and created guidelines for our product brand identities to help our team contextualize how residents interact with our products as well as illustrate how to create new brands using the New York City brand identity.
+* **Brand Identity Accomplishments** – Audited and created guidelines for our product brand identities to help our team contextualize how residents interact with our products as well as illustrate how to create new brands using the New York City brand identity.
 
 * **UX Accomplishments** – Led the assessment of team UX maturity using Nielson Norman Group's UX Maturity model and worked towards more effective practices. Organized our research materials, collection, and archival practices to facilitate regular in-person testing to inform our project decisions. Piloted the use of Airtable as a User Relationship Manager tool for outreach and research archiving. Mentored our first UX Design fellow, overseeing her work on several core initiatives such as heuristics for our products.
 
@@ -32,7 +46,7 @@ type: 'normal'
 
 * **ACCESS NYC COVID-19 Response** – Redesigned homepage and introduced COVID iconography of <a href="https://access.nyc.gov" target="_blank" rel="noopener nofollow noreferrer">access.nyc.gov</a>, a benefit program guide aggregator and eligibility screener, to funnel the traffic surge due to the pandemic. I scoped and oversaw the implementation of the Special Announcement structured data schema for COVID-related information through the management of junior staff. As a result or our efforts, our team was awarded for excellence in customer service by the City of New York Mayor's Office.
 
-**Lead Front-end Developer, May 2017** – **January 2020 (2 years 9 months)**. As a lead front-end developer on the product and technology team, I work with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using UI design and full-stack development.
+**Lead Front-end Developer, May 2017** – **January 2020 (2 years 9 months)**. As a lead front-end developer on the product and technology team, I worked with colleagues through direct input and the mentorship of junior staff and fellows to support our portfolio using UI design and full-stack development.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
@@ -42,11 +56,13 @@ type: 'normal'
 
 * **Released and maintained 13+ open-source projects** – <a href="https://nycopportunity.github.io/loves-open-source/" target="_blank" rel="noopener nofollow noreferrer">Published code used by our products</a> and for the City of New York’s civic technology community.
 
-**Mentor**. I mentored 4 engineering fellows and 1 user experience fellow in a program for emerging designers, product managers, and engineers to gain experience working in local government.
+**Mentor**. Mentored 4 engineering fellows and 1 user experience fellow in a program for emerging designers, product managers, and engineers to gain experience working in local government.
 
 ### Principle, Digital Product Designer, exp. design {.h5 .primary .mb-1}
 
-**May 2009 – May 2017 (8 years 1 month), Greater New York City Area**. I provide <a href="https://expdesign.io" target="_blank" rel="noopener nofollow noreferrer">digital product design and web development services</a> using design research, brand identity, UX design, UI design, data visualization, and full-stack engineering through my freelance practice.
+**May 2009 – May 2017 (8 years 1 month)**
+
+Provided <a href="https://expdesign.io" target="_blank" rel="noopener nofollow noreferrer">digital product design and web development services</a> using design research, brand identity, UX design, UI design, data visualization, and full-stack engineering through my freelance practice.
 
 ##### Projects {.h6 .primary .mt-0 .mb-1}
 
@@ -56,11 +72,15 @@ type: 'normal'
 
 ### 2016 Design Fellow at the Blue Ridge Labs @ Robin Hood Foundation {.h5 .primary .mb-1}
 
-**June 2016 – October 2016 (5 months), Greater New York City Area**. I participated in agile-based research, prototyping, and development sprints to create technology solutions for low-income New Yorkers that address access-to-justice issues in the areas of juvenile justice, foster care, and consumer debt. Led engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org/" target="_blank" rel="noopener nofollow noreferrer">daisydebt.org</a>, that helps financial counselors assert their client’s rights against unlawful debt collection agencies.
+**June 2016 – October 2016 (5 months)**
+
+I participated in agile-based research, prototyping, and development sprints to create technology solutions for low-income New Yorkers that address access-to-justice issues in the areas of juvenile justice, foster care, and consumer debt. Led engineering and product design of a non-profit SAAS product, <a href="https://daisydebt.org/" target="_blank" rel="noopener nofollow noreferrer">daisydebt.org</a>, that helps financial counselors assert their client’s rights against unlawful debt collection agencies.
 
 ### Co-founder, Chief Design Technologist at Quadrant.io {.h5 .primary .mb-1}
 
-**May 2014 - December 2015 (1 year 8 months), Greater New York City Area**. Lead front-end developer and designer of the core product and marketing site for Quadrant.io, a macro-economic data platform. I designed and developed the brand identity and UI, including macro-economic data visualizations, dashboards, and chart-building tools.
+**May 2014 - December 2015 (1 year 8 months)**
+
+Lead front-end developer and designer of the core product and marketing site for Quadrant.io, a macro-economic data platform. I designed and developed the brand identity and UI, including macro-economic data visualizations, dashboards, and chart-building tools.
 
 ### Previous Experience {.primary}
 

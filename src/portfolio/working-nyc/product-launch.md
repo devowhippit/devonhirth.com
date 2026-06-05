@@ -1,5 +1,5 @@
 ---
-title: 'Product Launch / Working NYC / Portfolio / Devon Hirth'
+title: 'Product Launch / Working NYC / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['working-nyc']
 breadcrumbs: ['Working NYC', 'Product Lunch']

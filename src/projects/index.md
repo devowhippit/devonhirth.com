@@ -1,5 +1,5 @@
 ---
-title: 'Projects / Devon Hirth'
+title: 'Projects / Ellie Hirth'
 layout: 'layouts/projects.pug'
 classes: []
 breadcrumbs: []
@@ -7,7 +7,7 @@ breadcrumbs: []
 
 --- {.my-0}
 
-### Projects {.content__full .justify-around .h1 .my-6}
+# Art Projects {.content__full .justify-around .h1 .my-6}
 
 <figure class="figure">
   <div class="figure__matte" >
@@ -25,3 +25,7 @@ breadcrumbs: []
     </div>
   </figcaption>
 </figure>
+
+--- {.mt-8}
+
+> Follow me on <a href="https://instagram.com/heyelliehirth" target="_blank" rel="noopener nofollow"> Instagram<svg class="icon mis-half w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a> to see more

@@ -1,5 +1,5 @@
 ---
-title: 'UI Patterns Library / ACCESS NYC / Portfolio / Devon Hirth'
+title: 'UI Patterns Library / ACCESS NYC / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['access-nyc']
 breadcrumbs: ['ACCESS NYC', 'UI Patterns Library']

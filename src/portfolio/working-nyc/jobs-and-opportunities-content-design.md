@@ -1,5 +1,5 @@
 ---
-title: 'Jobs and Opportunities Content Research / Working NYC / Portfolio / Devon Hirth'
+title: 'Jobs and Opportunities Content Research / Working NYC / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['working-nyc']
 breadcrumbs: ['Working NYC', 'Jobs and Opportunities Content Design']

@@ -1,5 +1,5 @@
 ---
-title: 'NYCO UI Patterns Framework / Portfolio / Devon Hirth'
+title: 'NYCO UI Patterns Framework / Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: ['ui-patterns-framework']
 breadcrumbs: ['NYCO UI Patterns Framework']

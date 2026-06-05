@@ -1,9 +1,13 @@
 ---
-title: 'Portfolio / Devon Hirth'
+title: 'Portfolio / Ellie Hirth'
 layout: 'layouts/portfolio.pug'
 classes: []
 breadcrumbs: []
 ---
+
+--- {.my-0}
+
+# Design Portfolio {.content__full .justify-around .h1 .my-6}
 
 ## The Mayor's Office for Economic Opportunity {.sr-only}
 
@@ -162,4 +166,4 @@ The Mayor's Office for Economic Opportunity works to reduce poverty and increase
 
 --- {.mt-8}
 
-> View additional work on <a href="https://www.behance.net/devonhirth" target="_blank" rel="noopener nofollow"> Behance<svg class="icon mis-half w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
+> View additional work on <a href="https://www.behance.net/elliehirth" target="_blank" rel="noopener nofollow"> Behance<svg class="icon mis-half w-4 h-4" aria-hidden="true"><use xlink:href="#tabler-external-link"></use></svg></a>
