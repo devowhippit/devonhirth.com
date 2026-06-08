@@ -12,18 +12,19 @@
   --dh-color-green: #37DC90;
   --dh-color-green-s1: #30724D;
 
-  --dh-color-purple: #8F4FF8;
+  --dh-color-purple: #ad7aff;
+  --dh-color-purple-s1: #6c46aa;
 
   --dh-color-black: #1E1E25;
   --dh-color-black-t1: #292932;
 
-  --dh-color-white: #EEFBFF;
-  --dh-color-white-s1: #D9F7F8;
+  --dh-color-white: #f5efff;
+  --dh-color-white-s1: #ece0ff;
 
   --dh-color-forest: #071C17;
   --dh-color-forest-t1: #0B2C26;
 
-  --dh-color-primary: var(--dh-color-green-s1);
+  --dh-color-primary: var(--dh-color-purple-s1);
 
   --dh-color-text: var(--dh-color-forest);
   --dh-color-background: var(--dh-color-white-s1);
@@ -99,7 +100,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --dh-color-white: var(--dh-color-white-s1);
-    --dh-color-primary: var(--dh-color-green);
+    --dh-color-primary: var(--dh-color-purple);
 
     --dh-color-background: var(--dh-color-forest);
     --dh-color-background-t1: var(--dh-color-forest-t1);
